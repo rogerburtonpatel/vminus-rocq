@@ -1,0 +1,1100 @@
+DIGEST 305f254b301540b40b8d6c69d10c5980
+Fvminus.stlc.bigsafety
+R27:35 Stdlib.ssr.ssreflect <> <> lib
+R65:80 Stdlib.Program.Equality <> <> lib
+R98:111 vminus.common.fintype <> <> lib
+R129:139 vminus.common.core <> <> lib
+R284:294 vminus.stlc.syntax <> <> lib
+R490:494 Stdlib.micromega.Psatz <> <> lib
+R589:603 vminus.common.fintype ScopedNotations <> mod
+mod 614:628 <> SyntaxNotations
+R665:668 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R653:655 vminus.stlc.syntax Core var constr
+R657:664 vminus.common.fintype <> var_zero def
+R671:674 vminus.common.fintype CombineNotations ::fscope:x_'>>'_x not
+R675:680 vminus.stlc.syntax Core ren_Tm def
+R682:684 vminus.common.fintype ScopedNotations ::subst_scope:'↑' not
+not 640:640 SyntaxNotations ::subst_scope:'⇑'_x
+R720:734 vminus.stlc.bigsafety SyntaxNotations <> mod
+R744:758 vminus.stlc.bigsafety SyntaxNotations <> mod
+def 804:809 <> is_abs
+R816:817 vminus.stlc.syntax Core Tm ind
+binder 812:812 <> e:1
+R834:834 vminus.stlc.bigsafety <> e:1 var
+R846:848 vminus.stlc.syntax Core abs constr
+R855:858 Corelib.Init.Datatypes <> true constr
+R869:873 Corelib.Init.Datatypes <> false constr
+def 894:899 <> is_lit
+R906:907 vminus.stlc.syntax Core Tm ind
+binder 902:902 <> e:3
+R924:924 vminus.stlc.bigsafety <> e:3 var
+R936:938 vminus.stlc.syntax Core lit constr
+R945:948 Corelib.Init.Datatypes <> true constr
+R959:963 Corelib.Init.Datatypes <> false constr
+def 1024:1031 <> is_value
+binder 1034:1034 <> n:5
+R1042:1043 vminus.stlc.syntax Core Tm ind
+R1045:1045 vminus.stlc.bigsafety <> n:5 var
+binder 1038:1038 <> e:6
+R1050:1053 Corelib.Init.Datatypes <> bool ind
+R1067:1067 vminus.stlc.bigsafety <> e:6 var
+R1079:1081 vminus.stlc.syntax Core abs constr
+R1088:1091 Corelib.Init.Datatypes <> true constr
+R1097:1099 vminus.stlc.syntax Core lit constr
+R1106:1109 Corelib.Init.Datatypes <> true constr
+R1120:1124 Corelib.Init.Datatypes <> false constr
+def 1169:1171 <> Ctx
+R1178:1180 Corelib.Init.Datatypes <> nat ind
+binder 1174:1174 <> n:8
+R1191:1194 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1186:1188 vminus.common.fintype <> fin def
+R1190:1190 vminus.stlc.bigsafety <> n:8 var
+R1195:1196 vminus.stlc.syntax Core Ty ind
+ind 1210:1215 <> typing
+constr 1263:1267 <> t_var
+constr 1308:1312 <> t_abs
+constr 1401:1405 <> t_app
+constr 1519:1523 <> t_lit
+binder 1218:1218 <> n:9
+R1227:1229 vminus.stlc.bigsafety <> Ctx def
+R1231:1231 vminus.stlc.bigsafety <> n:9 var
+binder 1222:1223 <> Γ:10
+R1240:1243 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1236:1237 vminus.stlc.syntax Core Tm ind
+R1246:1249 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1244:1245 vminus.stlc.syntax Core Ty ind
+binder 1269:1269 <> x:13
+R1278:1283 vminus.stlc.bigsafety <> typing:11 ind
+R1297:1298 vminus.stlc.bigsafety <> Γ:10 var
+R1300:1300 vminus.stlc.bigsafety <> x:13 var
+R1289:1291 vminus.stlc.syntax Core var constr
+R1293:1293 vminus.stlc.bigsafety <> x:13 var
+R1285:1286 vminus.stlc.bigsafety <> Γ:10 var
+binder 1314:1314 <> e:14
+binder 1316:1318 <> τ1:15
+binder 1320:1322 <> τ2:16
+R1355:1363 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1331:1336 vminus.stlc.bigsafety <> typing:11 ind
+R1352:1354 vminus.stlc.bigsafety <> τ2:16 var
+R1350:1350 vminus.stlc.bigsafety <> e:14 var
+R1342:1345 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R1339:1341 vminus.stlc.bigsafety <> τ1:15 var
+R1346:1347 vminus.stlc.bigsafety <> Γ:10 var
+R1364:1369 vminus.stlc.bigsafety <> typing:11 ind
+R1383:1385 vminus.stlc.syntax Core Arr constr
+R1387:1389 vminus.stlc.bigsafety <> τ1:15 var
+R1391:1393 vminus.stlc.bigsafety <> τ2:16 var
+R1375:1377 vminus.stlc.syntax Core abs constr
+R1379:1379 vminus.stlc.bigsafety <> e:14 var
+R1371:1372 vminus.stlc.bigsafety <> Γ:10 var
+binder 1407:1408 <> e1:17
+binder 1410:1411 <> e2:18
+binder 1413:1415 <> τ1:19
+binder 1417:1419 <> τ2:20
+R1454:1462 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1428:1433 vminus.stlc.bigsafety <> typing:11 ind
+R1442:1444 vminus.stlc.syntax Core Arr constr
+R1446:1448 vminus.stlc.bigsafety <> τ1:19 var
+R1450:1452 vminus.stlc.bigsafety <> τ2:20 var
+R1438:1439 vminus.stlc.bigsafety <> e1:17 var
+R1435:1436 vminus.stlc.bigsafety <> Γ:10 var
+R1479:1487 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1463:1468 vminus.stlc.bigsafety <> typing:11 ind
+R1476:1478 vminus.stlc.bigsafety <> τ1:19 var
+R1473:1474 vminus.stlc.bigsafety <> e2:18 var
+R1470:1471 vminus.stlc.bigsafety <> Γ:10 var
+R1488:1493 vminus.stlc.bigsafety <> typing:11 ind
+R1510:1512 vminus.stlc.bigsafety <> τ2:20 var
+R1499:1501 vminus.stlc.syntax Core app constr
+R1506:1507 vminus.stlc.bigsafety <> e2:18 var
+R1503:1504 vminus.stlc.bigsafety <> e1:17 var
+R1495:1496 vminus.stlc.bigsafety <> Γ:10 var
+binder 1525:1525 <> k:21
+R1534:1539 vminus.stlc.bigsafety <> typing:11 ind
+R1552:1554 vminus.stlc.syntax Core Nat constr
+R1545:1547 vminus.stlc.syntax Core lit constr
+R1549:1549 vminus.stlc.bigsafety <> k:21 var
+R1541:1542 vminus.stlc.bigsafety <> Γ:10 var
+scheme 1210:1215 <> typing_ind
+scheme 1210:1215 <> typing_sind
+mod 1566:1580 <> TypingNotations
+R1590:1604 vminus.common.fintype ScopedNotations <> mod
+R1614:1628 vminus.stlc.bigsafety SyntaxNotations <> mod
+R1661:1666 vminus.stlc.bigsafety <> typing ind
+not 1640:1640 TypingNotations :::x_'|-'_x_'∈'_x
+R1696:1710 vminus.stlc.bigsafety TypingNotations <> mod
+R1720:1734 vminus.stlc.bigsafety TypingNotations <> mod
+def 1749:1763 <> typing_renaming
+binder 1766:1766 <> A:22
+binder 1769:1769 <> n:23
+R1783:1786 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1778:1780 vminus.common.fintype <> fin def
+R1782:1782 vminus.stlc.bigsafety <> n:23 var
+R1787:1787 vminus.stlc.bigsafety <> A:22 var
+binder 1773:1774 <> Δ:24
+binder 1791:1791 <> m:25
+R1805:1808 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1800:1802 vminus.common.fintype <> fin def
+R1804:1804 vminus.stlc.bigsafety <> m:25 var
+R1809:1811 vminus.common.fintype <> fin def
+R1813:1813 vminus.stlc.bigsafety <> n:23 var
+binder 1795:1796 <> δ:26
+R1829:1832 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1824:1826 vminus.common.fintype <> fin def
+R1828:1828 vminus.stlc.bigsafety <> m:25 var
+R1833:1833 vminus.stlc.bigsafety <> A:22 var
+binder 1819:1820 <> Γ:27
+binder 1856:1856 <> x:28
+R1863:1865 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1859:1860 vminus.stlc.bigsafety <> Γ:27 var
+R1862:1862 vminus.stlc.bigsafety <> x:28 var
+R1866:1867 vminus.stlc.bigsafety <> Δ:24 var
+R1870:1871 vminus.stlc.bigsafety <> δ:26 var
+R1873:1873 vminus.stlc.bigsafety <> x:28 var
+prf 1935:1952 <> typing_renaming_id
+binder 1955:1955 <> A:29
+binder 1958:1958 <> n:30
+R1972:1975 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1967:1969 vminus.common.fintype <> fin def
+R1971:1971 vminus.stlc.bigsafety <> n:30 var
+R1976:1976 vminus.stlc.bigsafety <> A:29 var
+binder 1962:1963 <> Δ:31
+R1983:1997 vminus.stlc.bigsafety <> typing_renaming def
+R2005:2006 vminus.stlc.bigsafety <> Δ:31 var
+R2002:2003 vminus.common.fintype <> id def
+R1999:2000 vminus.stlc.bigsafety <> Δ:31 var
+R2023:2037 vminus.stlc.bigsafety <> typing_renaming def
+prf 2115:2134 <> typing_renaming_cons
+binder 2137:2137 <> A:32
+binder 2140:2140 <> n:33
+R2154:2157 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2149:2151 vminus.common.fintype <> fin def
+R2153:2153 vminus.stlc.bigsafety <> n:33 var
+R2158:2158 vminus.stlc.bigsafety <> A:32 var
+binder 2144:2145 <> Δ:34
+binder 2165:2165 <> m:35
+R2179:2182 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2174:2176 vminus.common.fintype <> fin def
+R2178:2178 vminus.stlc.bigsafety <> m:35 var
+R2183:2183 vminus.stlc.bigsafety <> A:32 var
+binder 2169:2170 <> Γ:36
+R2197:2200 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2192:2194 vminus.common.fintype <> fin def
+R2196:2196 vminus.stlc.bigsafety <> m:35 var
+R2201:2203 vminus.common.fintype <> fin def
+R2205:2205 vminus.stlc.bigsafety <> n:33 var
+binder 2187:2188 <> δ:37
+R2214:2214 vminus.stlc.bigsafety <> A:32 var
+binder 2209:2210 <> τ:38
+R2222:2224 vminus.common.fintype <> fin def
+R2226:2226 vminus.stlc.bigsafety <> n:33 var
+binder 2218:2218 <> x:39
+R2257:2262 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2233:2247 vminus.stlc.bigsafety <> typing_renaming def
+R2255:2256 vminus.stlc.bigsafety <> Γ:36 var
+R2252:2253 vminus.stlc.bigsafety <> δ:37 var
+R2249:2250 vminus.stlc.bigsafety <> Δ:34 var
+R2263:2277 vminus.stlc.bigsafety <> typing_renaming def
+R2297:2300 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R2293:2294 vminus.stlc.bigsafety <> Δ:34 var
+R2296:2296 vminus.stlc.bigsafety <> x:39 var
+R2301:2302 vminus.stlc.bigsafety <> Γ:36 var
+R2284:2287 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R2283:2283 vminus.stlc.bigsafety <> x:39 var
+R2288:2289 vminus.stlc.bigsafety <> δ:37 var
+R2279:2280 vminus.stlc.bigsafety <> Δ:34 var
+R2329:2343 vminus.stlc.bigsafety <> typing_renaming def
+prf 2412:2431 <> typing_renaming_lift
+binder 2434:2434 <> A:40
+binder 2437:2437 <> n:41
+R2451:2454 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2446:2448 vminus.common.fintype <> fin def
+R2450:2450 vminus.stlc.bigsafety <> n:41 var
+R2455:2455 vminus.stlc.bigsafety <> A:40 var
+binder 2441:2442 <> Δ:42
+binder 2462:2462 <> m:43
+R2476:2479 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2471:2473 vminus.common.fintype <> fin def
+R2475:2475 vminus.stlc.bigsafety <> m:43 var
+R2480:2480 vminus.stlc.bigsafety <> A:40 var
+binder 2466:2467 <> Γ:44
+R2494:2497 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2489:2491 vminus.common.fintype <> fin def
+R2493:2493 vminus.stlc.bigsafety <> m:43 var
+R2498:2500 vminus.common.fintype <> fin def
+R2502:2502 vminus.stlc.bigsafety <> n:41 var
+binder 2484:2485 <> δ:45
+R2511:2511 vminus.stlc.bigsafety <> A:40 var
+binder 2506:2507 <> τ:46
+R2542:2547 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2518:2532 vminus.stlc.bigsafety <> typing_renaming def
+R2540:2541 vminus.stlc.bigsafety <> Γ:44 var
+R2537:2538 vminus.stlc.bigsafety <> δ:45 var
+R2534:2535 vminus.stlc.bigsafety <> Δ:42 var
+R2548:2562 vminus.stlc.bigsafety <> typing_renaming def
+R2590:2593 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R2588:2589 vminus.stlc.bigsafety <> τ:46 var
+R2594:2595 vminus.stlc.bigsafety <> Γ:44 var
+R2576:2581 vminus.common.fintype <> up_ren def
+R2583:2584 vminus.stlc.bigsafety <> δ:45 var
+R2567:2570 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R2565:2566 vminus.stlc.bigsafety <> τ:46 var
+R2571:2572 vminus.stlc.bigsafety <> Δ:42 var
+R2622:2636 vminus.stlc.bigsafety <> typing_renaming def
+prf 2720:2727 <> renaming
+binder 2730:2730 <> n:47
+R2739:2741 vminus.stlc.bigsafety <> Ctx def
+R2743:2743 vminus.stlc.bigsafety <> n:47 var
+binder 2734:2735 <> Γ:48
+binder 2746:2746 <> e:49
+binder 2748:2749 <> τ:50
+binder 2752:2752 <> m:51
+R2759:2761 vminus.stlc.bigsafety <> Ctx def
+R2763:2763 vminus.stlc.bigsafety <> m:51 var
+binder 2756:2757 <> Δ:52
+binder 2766:2767 <> δ:53
+R2788:2791 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2776:2779 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R2781:2785 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R2774:2775 vminus.stlc.bigsafety <> Γ:48 var
+R2780:2780 vminus.stlc.bigsafety <> e:49 var
+R2786:2787 vminus.stlc.bigsafety <> τ:50 var
+R2816:2819 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2792:2806 vminus.stlc.bigsafety <> typing_renaming def
+R2814:2815 vminus.stlc.bigsafety <> Γ:48 var
+R2811:2812 vminus.stlc.bigsafety <> δ:53 var
+R2808:2809 vminus.stlc.bigsafety <> Δ:52 var
+R2822:2825 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R2835:2839 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R2820:2821 vminus.stlc.bigsafety <> Δ:52 var
+R2827:2829 vminus.common.fintype RenNotations ::subst_scope:x_'⟨'_x_'⟩' not
+R2832:2834 vminus.common.fintype RenNotations ::subst_scope:x_'⟨'_x_'⟩' not
+R2830:2831 vminus.stlc.bigsafety <> δ:53 var
+R2826:2826 vminus.stlc.bigsafety <> e:49 var
+R2840:2841 vminus.stlc.bigsafety <> τ:50 var
+R3013:3027 vminus.stlc.bigsafety <> typing_renaming def
+R3063:3067 vminus.stlc.bigsafety <> t_var constr
+R3063:3067 vminus.stlc.bigsafety <> t_var constr
+R3088:3092 vminus.stlc.bigsafety <> t_abs constr
+R3088:3092 vminus.stlc.bigsafety <> t_abs constr
+R3129:3148 vminus.stlc.bigsafety <> typing_renaming_lift thm
+R3129:3148 vminus.stlc.bigsafety <> typing_renaming_lift thm
+R3168:3172 vminus.stlc.bigsafety <> t_app constr
+R3168:3172 vminus.stlc.bigsafety <> t_app constr
+R3193:3197 vminus.stlc.bigsafety <> t_lit constr
+R3193:3197 vminus.stlc.bigsafety <> t_lit constr
+def 3281:3289 <> renaming'
+binder 3292:3292 <> n:54
+R3301:3303 vminus.stlc.bigsafety <> Ctx def
+R3305:3305 vminus.stlc.bigsafety <> n:54 var
+binder 3296:3297 <> Γ:55
+binder 3308:3308 <> e:56
+binder 3310:3311 <> τ:57
+binder 3314:3314 <> m:58
+R3321:3323 vminus.stlc.bigsafety <> Ctx def
+R3325:3325 vminus.stlc.bigsafety <> m:58 var
+binder 3318:3319 <> Δ:59
+binder 3328:3329 <> δ:60
+R3350:3353 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3338:3341 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R3343:3347 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R3336:3337 vminus.stlc.bigsafety <> Γ:55 var
+R3342:3342 vminus.stlc.bigsafety <> e:56 var
+R3348:3349 vminus.stlc.bigsafety <> τ:57 var
+R3378:3381 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3354:3368 vminus.stlc.bigsafety <> typing_renaming def
+R3376:3377 vminus.stlc.bigsafety <> Γ:55 var
+R3373:3374 vminus.stlc.bigsafety <> δ:60 var
+R3370:3371 vminus.stlc.bigsafety <> Δ:59 var
+R3384:3387 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R3397:3401 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R3382:3383 vminus.stlc.bigsafety <> Δ:59 var
+R3389:3391 vminus.common.fintype RenNotations ::subst_scope:x_'⟨'_x_'⟩' not
+R3394:3396 vminus.common.fintype RenNotations ::subst_scope:x_'⟨'_x_'⟩' not
+R3392:3393 vminus.stlc.bigsafety <> δ:60 var
+R3388:3388 vminus.stlc.bigsafety <> e:56 var
+R3402:3403 vminus.stlc.bigsafety <> τ:57 var
+R3537:3556 vminus.stlc.bigsafety <> typing_renaming_lift thm
+R3537:3556 vminus.stlc.bigsafety <> typing_renaming_lift thm
+R3537:3556 vminus.stlc.bigsafety <> typing_renaming_lift thm
+R3537:3556 vminus.stlc.bigsafety <> typing_renaming_lift thm
+R3537:3556 vminus.stlc.bigsafety <> typing_renaming_lift thm
+R3585:3599 vminus.stlc.bigsafety <> typing_renaming def
+def 3796:3807 <> typing_subst
+binder 3810:3810 <> n:61
+R3819:3821 vminus.stlc.bigsafety <> Ctx def
+R3823:3823 vminus.stlc.bigsafety <> n:61 var
+binder 3814:3815 <> Δ:62
+binder 3827:3827 <> m:63
+R3841:3844 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3836:3838 vminus.common.fintype <> fin def
+R3840:3840 vminus.stlc.bigsafety <> m:63 var
+R3845:3846 vminus.stlc.syntax Core Tm ind
+R3848:3848 vminus.stlc.bigsafety <> n:61 var
+binder 3831:3832 <> σ:64
+R3859:3861 vminus.stlc.bigsafety <> Ctx def
+R3863:3863 vminus.stlc.bigsafety <> m:63 var
+binder 3854:3855 <> Γ:65
+binder 3886:3886 <> x:66
+R3889:3894 vminus.stlc.bigsafety <> typing ind
+R3907:3908 vminus.stlc.bigsafety <> Γ:65 var
+R3910:3910 vminus.stlc.bigsafety <> x:66 var
+R3900:3901 vminus.stlc.bigsafety <> σ:64 var
+R3903:3903 vminus.stlc.bigsafety <> x:66 var
+R3896:3897 vminus.stlc.bigsafety <> Δ:62 var
+prf 3967:3983 <> typing_subst_null
+binder 3986:3986 <> n:67
+R3995:3997 vminus.stlc.bigsafety <> Ctx def
+R3999:3999 vminus.stlc.bigsafety <> n:67 var
+binder 3990:3991 <> Δ:68
+R4006:4017 vminus.stlc.bigsafety <> typing_subst def
+R4027:4030 vminus.common.fintype <> null def
+R4022:4025 vminus.common.fintype <> null def
+R4019:4020 vminus.stlc.bigsafety <> Δ:68 var
+R4047:4058 vminus.stlc.bigsafety <> typing_subst def
+prf 4139:4153 <> typing_subst_id
+binder 4156:4156 <> n:69
+R4165:4167 vminus.stlc.bigsafety <> Ctx def
+R4169:4169 vminus.stlc.bigsafety <> n:69 var
+binder 4160:4161 <> Δ:70
+R4176:4187 vminus.stlc.bigsafety <> typing_subst def
+R4196:4197 vminus.stlc.bigsafety <> Δ:70 var
+R4192:4194 vminus.stlc.syntax Core var constr
+R4189:4190 vminus.stlc.bigsafety <> Δ:70 var
+R4214:4225 vminus.stlc.bigsafety <> typing_subst def
+prf 4263:4279 <> typing_subst_cons
+binder 4282:4282 <> n:71
+R4291:4293 vminus.stlc.bigsafety <> Ctx def
+R4295:4295 vminus.stlc.bigsafety <> n:71 var
+binder 4286:4287 <> Δ:72
+binder 4299:4299 <> m:73
+R4313:4316 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4308:4310 vminus.common.fintype <> fin def
+R4312:4312 vminus.stlc.bigsafety <> m:73 var
+R4317:4318 vminus.stlc.syntax Core Tm ind
+R4320:4320 vminus.stlc.bigsafety <> n:71 var
+binder 4303:4304 <> σ:74
+R4331:4333 vminus.stlc.bigsafety <> Ctx def
+R4335:4335 vminus.stlc.bigsafety <> m:73 var
+binder 4326:4327 <> Γ:75
+binder 4338:4338 <> e:76
+binder 4340:4341 <> τ:77
+R4361:4365 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4347:4352 vminus.stlc.bigsafety <> typing ind
+R4359:4360 vminus.stlc.bigsafety <> τ:77 var
+R4357:4357 vminus.stlc.bigsafety <> e:76 var
+R4354:4355 vminus.stlc.bigsafety <> Δ:72 var
+R4387:4391 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4366:4377 vminus.stlc.bigsafety <> typing_subst def
+R4385:4386 vminus.stlc.bigsafety <> Γ:75 var
+R4382:4383 vminus.stlc.bigsafety <> σ:74 var
+R4379:4380 vminus.stlc.bigsafety <> Δ:72 var
+R4392:4403 vminus.stlc.bigsafety <> typing_subst def
+R4421:4424 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R4419:4420 vminus.stlc.bigsafety <> τ:77 var
+R4425:4426 vminus.stlc.bigsafety <> Γ:75 var
+R4410:4413 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R4409:4409 vminus.stlc.bigsafety <> e:76 var
+R4414:4415 vminus.stlc.bigsafety <> σ:74 var
+R4405:4406 vminus.stlc.bigsafety <> Δ:72 var
+R4462:4473 vminus.stlc.bigsafety <> typing_subst def
+prf 4558:4574 <> typing_subst_lift
+binder 4577:4577 <> n:78
+R4586:4588 vminus.stlc.bigsafety <> Ctx def
+R4590:4590 vminus.stlc.bigsafety <> n:78 var
+binder 4581:4582 <> Δ:79
+binder 4594:4594 <> m:80
+R4608:4611 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4603:4605 vminus.common.fintype <> fin def
+R4607:4607 vminus.stlc.bigsafety <> m:80 var
+R4612:4613 vminus.stlc.syntax Core Tm ind
+R4615:4615 vminus.stlc.bigsafety <> n:78 var
+binder 4598:4599 <> σ:81
+R4626:4628 vminus.stlc.bigsafety <> Ctx def
+R4630:4630 vminus.stlc.bigsafety <> m:80 var
+binder 4621:4622 <> Γ:82
+binder 4633:4634 <> τ:83
+R4662:4667 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4641:4652 vminus.stlc.bigsafety <> typing_subst def
+R4660:4661 vminus.stlc.bigsafety <> Γ:82 var
+R4657:4658 vminus.stlc.bigsafety <> σ:81 var
+R4654:4655 vminus.stlc.bigsafety <> Δ:79 var
+R4668:4679 vminus.stlc.bigsafety <> typing_subst def
+R4704:4707 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R4702:4703 vminus.stlc.bigsafety <> τ:83 var
+R4708:4709 vminus.stlc.bigsafety <> Γ:82 var
+R4693:4696 vminus.stlc.bigsafety SyntaxNotations ::subst_scope:'⇑'_x not
+R4697:4698 vminus.stlc.bigsafety <> σ:81 var
+R4684:4687 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R4682:4683 vminus.stlc.bigsafety <> τ:83 var
+R4688:4689 vminus.stlc.bigsafety <> Δ:79 var
+R4729:4740 vminus.stlc.bigsafety <> typing_subst def
+R4804:4811 vminus.stlc.bigsafety <> renaming thm
+R4804:4811 vminus.stlc.bigsafety <> renaming thm
+R4833:4847 vminus.stlc.bigsafety <> typing_renaming def
+R4883:4887 vminus.stlc.bigsafety <> t_var constr
+R4883:4887 vminus.stlc.bigsafety <> t_var constr
+prf 4902:4913 <> substitution
+binder 4916:4916 <> n:84
+R4925:4927 vminus.stlc.bigsafety <> Ctx def
+R4929:4929 vminus.stlc.bigsafety <> n:84 var
+binder 4920:4921 <> Γ:85
+binder 4932:4932 <> e:86
+binder 4934:4935 <> τ:87
+binder 4938:4938 <> m:88
+R4945:4947 vminus.stlc.bigsafety <> Ctx def
+R4949:4949 vminus.stlc.bigsafety <> m:88 var
+binder 4942:4943 <> Δ:89
+binder 4952:4953 <> σ:90
+R4974:4977 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4960:4965 vminus.stlc.bigsafety <> typing ind
+R4972:4973 vminus.stlc.bigsafety <> τ:87 var
+R4970:4970 vminus.stlc.bigsafety <> e:86 var
+R4967:4968 vminus.stlc.bigsafety <> Γ:85 var
+R4999:5002 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4978:4989 vminus.stlc.bigsafety <> typing_subst def
+R4997:4998 vminus.stlc.bigsafety <> Γ:85 var
+R4994:4995 vminus.stlc.bigsafety <> σ:90 var
+R4991:4992 vminus.stlc.bigsafety <> Δ:89 var
+R5003:5008 vminus.stlc.bigsafety <> typing ind
+R5019:5020 vminus.stlc.bigsafety <> τ:87 var
+R5014:5014 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R5017:5017 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R5015:5016 vminus.stlc.bigsafety <> σ:90 var
+R5013:5013 vminus.stlc.bigsafety <> e:86 var
+R5010:5011 vminus.stlc.bigsafety <> Δ:89 var
+R5138:5142 vminus.stlc.bigsafety <> t_abs constr
+R5138:5142 vminus.stlc.bigsafety <> t_abs constr
+R5172:5188 vminus.stlc.bigsafety <> typing_subst_lift thm
+R5172:5188 vminus.stlc.bigsafety <> typing_subst_lift thm
+R5208:5212 vminus.stlc.bigsafety <> t_app constr
+R5208:5212 vminus.stlc.bigsafety <> t_app constr
+R5233:5237 vminus.stlc.bigsafety <> t_lit constr
+R5233:5237 vminus.stlc.bigsafety <> t_lit constr
+prf 5263:5281 <> single_substitution
+binder 5284:5284 <> n:91
+R5292:5294 vminus.stlc.bigsafety <> Ctx def
+R5296:5296 vminus.stlc.bigsafety <> n:91 var
+binder 5287:5288 <> Γ:92
+binder 5299:5299 <> e:93
+binder 5301:5301 <> v:94
+binder 5303:5304 <> τ:95
+binder 5306:5308 <> τ1:96
+R5337:5340 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5314:5319 vminus.stlc.bigsafety <> typing ind
+R5335:5336 vminus.stlc.bigsafety <> τ:95 var
+R5333:5333 vminus.stlc.bigsafety <> e:93 var
+R5325:5328 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R5322:5324 vminus.stlc.bigsafety <> τ1:96 var
+R5329:5330 vminus.stlc.bigsafety <> Γ:92 var
+R5356:5362 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5341:5346 vminus.stlc.bigsafety <> typing ind
+R5353:5355 vminus.stlc.bigsafety <> τ1:96 var
+R5351:5351 vminus.stlc.bigsafety <> v:94 var
+R5348:5349 vminus.stlc.bigsafety <> Γ:92 var
+R5363:5368 vminus.stlc.bigsafety <> typing ind
+R5380:5381 vminus.stlc.bigsafety <> τ:95 var
+R5374:5374 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R5378:5378 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R5376:5377 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R5375:5375 vminus.stlc.bigsafety <> v:94 var
+R5373:5373 vminus.stlc.bigsafety <> e:93 var
+R5370:5371 vminus.stlc.bigsafety <> Γ:92 var
+R5417:5428 vminus.stlc.bigsafety <> substitution thm
+R5417:5428 vminus.stlc.bigsafety <> substitution thm
+R5447:5463 vminus.stlc.bigsafety <> typing_subst_cons thm
+R5447:5463 vminus.stlc.bigsafety <> typing_subst_cons thm
+R5482:5496 vminus.stlc.bigsafety <> typing_subst_id thm
+R5482:5496 vminus.stlc.bigsafety <> typing_subst_id thm
+prf 5522:5537 <> single_weakening
+binder 5540:5540 <> n:97
+R5548:5550 vminus.stlc.bigsafety <> Ctx def
+R5552:5552 vminus.stlc.bigsafety <> n:97 var
+binder 5543:5544 <> Γ:98
+binder 5556:5556 <> e:99
+binder 5558:5559 <> τ:100
+binder 5561:5563 <> τ1:101
+R5586:5589 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5572:5577 vminus.stlc.bigsafety <> typing ind
+R5584:5585 vminus.stlc.bigsafety <> τ:100 var
+R5582:5582 vminus.stlc.bigsafety <> e:99 var
+R5579:5580 vminus.stlc.bigsafety <> Γ:98 var
+R5590:5595 vminus.stlc.bigsafety <> typing ind
+R5620:5621 vminus.stlc.bigsafety <> τ:100 var
+R5610:5612 vminus.common.fintype RenNotations ::subst_scope:x_'⟨'_x_'⟩' not
+R5616:5618 vminus.common.fintype RenNotations ::subst_scope:x_'⟨'_x_'⟩' not
+R5613:5615 vminus.common.fintype ScopedNotations ::subst_scope:'↑' not
+R5609:5609 vminus.stlc.bigsafety <> e:99 var
+R5601:5604 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R5598:5600 vminus.stlc.bigsafety <> τ1:101 var
+R5605:5606 vminus.stlc.bigsafety <> Γ:98 var
+R5654:5661 vminus.stlc.bigsafety <> renaming thm
+R5654:5661 vminus.stlc.bigsafety <> renaming thm
+R5680:5694 vminus.stlc.bigsafety <> typing_renaming def
+prf 5736:5754 <> canonical_forms_Arr
+binder 5756:5756 <> e:102
+binder 5758:5760 <> τ1:103
+binder 5762:5764 <> τ2:104
+R5796:5801 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5775:5778 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R5780:5784 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R5771:5774 vminus.common.fintype <> null def
+R5779:5779 vminus.stlc.bigsafety <> e:102 var
+R5785:5787 vminus.stlc.syntax Core Arr constr
+R5789:5791 vminus.stlc.bigsafety <> τ1:103 var
+R5793:5795 vminus.stlc.bigsafety <> τ2:104 var
+R5819:5824 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5812:5814 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5802:5809 vminus.stlc.bigsafety <> is_value def
+R5811:5811 vminus.stlc.bigsafety <> e:102 var
+R5815:5818 Corelib.Init.Datatypes <> true constr
+R5825:5831 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5834:5835 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5832:5833 <> e':105
+R5837:5839 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5836:5836 vminus.stlc.bigsafety <> e:102 var
+R5840:5842 vminus.stlc.syntax Core abs constr
+R5844:5845 vminus.stlc.bigsafety <> e':105 var
+mod 6303:6310 <> NotStuck
+ind 6322:6327 NotStuck Result
+constr 6332:6336 NotStuck Stuck
+constr 6340:6344 NotStuck Value
+R6349:6350 vminus.stlc.syntax Core Tm ind
+ind 6366:6369 NotStuck step
+constr 6438:6443 NotStuck ts_val
+constr 6502:6507 NotStuck ts_app
+constr 6728:6739 NotStuck ts_app_stuck
+constr 6932:6938 NotStuck ts_app1
+constr 7309:7315 NotStuck ts_app2
+R6377:6380 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6373:6374 vminus.stlc.syntax Core Tm ind
+R6387:6390 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6381:6386 vminus.stlc.bigsafety NotStuck Result variant
+binder 6445:6445 <> e:110
+R6471:6479 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6464:6466 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6454:6461 vminus.stlc.bigsafety <> is_value def
+R6463:6463 vminus.stlc.bigsafety <> e:110 var
+R6467:6470 Corelib.Init.Datatypes <> true constr
+R6480:6483 vminus.stlc.bigsafety <> step:108 ind
+R6488:6492 vminus.stlc.bigsafety NotStuck Value constr
+R6494:6494 vminus.stlc.bigsafety <> e:110 var
+R6485:6485 vminus.stlc.bigsafety <> e:110 var
+binder 6509:6510 <> e1:111
+binder 6512:6514 <> e1':112
+binder 6516:6517 <> e2:113
+binder 6519:6520 <> v1:114
+binder 6522:6522 <> r:115
+R6555:6563 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6530:6533 vminus.stlc.bigsafety <> step:108 ind
+R6539:6543 vminus.stlc.bigsafety NotStuck Value constr
+R6546:6548 vminus.stlc.syntax Core abs constr
+R6550:6552 vminus.stlc.bigsafety <> e1':112 var
+R6535:6536 vminus.stlc.bigsafety <> e1:111 var
+R6582:6590 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6564:6567 vminus.stlc.bigsafety <> step:108 ind
+R6573:6577 vminus.stlc.bigsafety NotStuck Value constr
+R6579:6580 vminus.stlc.bigsafety <> v1:114 var
+R6569:6570 vminus.stlc.bigsafety <> e2:113 var
+R6609:6617 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6591:6594 vminus.stlc.bigsafety <> step:108 ind
+R6608:6608 vminus.stlc.bigsafety <> r:115 var
+R6600:6600 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R6605:6605 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R6603:6604 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R6601:6602 vminus.stlc.bigsafety <> v1:114 var
+R6597:6599 vminus.stlc.bigsafety <> e1':112 var
+R6618:6621 vminus.stlc.bigsafety <> step:108 ind
+R6635:6635 vminus.stlc.bigsafety <> r:115 var
+R6624:6626 vminus.stlc.syntax Core app constr
+R6631:6632 vminus.stlc.bigsafety <> e2:113 var
+R6628:6629 vminus.stlc.bigsafety <> e1:111 var
+binder 6741:6742 <> e1:116
+binder 6744:6744 <> v:117
+binder 6746:6747 <> e2:118
+R6773:6781 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6756:6759 vminus.stlc.bigsafety <> step:108 ind
+R6765:6769 vminus.stlc.bigsafety NotStuck Value constr
+R6771:6771 vminus.stlc.bigsafety <> v:117 var
+R6761:6762 vminus.stlc.bigsafety <> e1:116 var
+R6804:6811 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6797:6799 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6782:6785 Corelib.Init.Datatypes <> negb def
+R6788:6793 vminus.stlc.bigsafety <> is_abs def
+R6795:6795 vminus.stlc.bigsafety <> v:117 var
+R6800:6803 Corelib.Init.Datatypes <> true constr
+R6812:6815 vminus.stlc.bigsafety <> step:108 ind
+R6829:6833 vminus.stlc.bigsafety NotStuck Stuck constr
+R6818:6820 vminus.stlc.syntax Core app constr
+R6825:6826 vminus.stlc.bigsafety <> e2:118 var
+R6822:6823 vminus.stlc.bigsafety <> e1:116 var
+binder 6940:6941 <> e1:119
+binder 6943:6944 <> e2:120
+R6965:6973 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6952:6955 vminus.stlc.bigsafety <> step:108 ind
+R6960:6964 vminus.stlc.bigsafety NotStuck Stuck constr
+R6957:6958 vminus.stlc.bigsafety <> e1:119 var
+R6974:6977 vminus.stlc.bigsafety <> step:108 ind
+R6991:6995 vminus.stlc.bigsafety NotStuck Stuck constr
+R6980:6982 vminus.stlc.syntax Core app constr
+R6987:6988 vminus.stlc.bigsafety <> e2:120 var
+R6984:6985 vminus.stlc.bigsafety <> e1:119 var
+binder 7317:7318 <> e1:121
+binder 7320:7321 <> e2:122
+binder 7323:7323 <> v:123
+R7348:7356 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7331:7334 vminus.stlc.bigsafety <> step:108 ind
+R7340:7344 vminus.stlc.bigsafety NotStuck Value constr
+R7346:7346 vminus.stlc.bigsafety <> v:123 var
+R7336:7337 vminus.stlc.bigsafety <> e1:121 var
+R7370:7378 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7357:7360 vminus.stlc.bigsafety <> step:108 ind
+R7365:7369 vminus.stlc.bigsafety NotStuck Stuck constr
+R7362:7363 vminus.stlc.bigsafety <> e2:122 var
+R7379:7382 vminus.stlc.bigsafety <> step:108 ind
+R7396:7400 vminus.stlc.bigsafety NotStuck Stuck constr
+R7385:7387 vminus.stlc.syntax Core app constr
+R7392:7393 vminus.stlc.bigsafety <> e2:122 var
+R7389:7390 vminus.stlc.bigsafety <> e1:121 var
+scheme 6366:6369 NotStuck step_ind
+scheme 6366:6369 NotStuck step_sind
+R7429:7432 vminus.stlc.bigsafety <> step ind
+prf 8129:8139 NotStuck Value_value
+binder 8150:8150 <> e:124
+binder 8152:8152 <> v:125
+R8176:8179 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8160:8163 vminus.stlc.bigsafety NotStuck step ind
+R8165:8165 vminus.stlc.bigsafety <> e:124 var
+R8168:8172 vminus.stlc.bigsafety NotStuck Value constr
+R8174:8174 vminus.stlc.bigsafety <> v:125 var
+R8190:8192 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8180:8187 vminus.stlc.bigsafety <> is_value def
+R8189:8189 vminus.stlc.bigsafety <> v:125 var
+R8193:8196 Corelib.Init.Datatypes <> true constr
+prf 8260:8273 NotStuck NotStuckTyping
+binder 8284:8284 <> e:126
+binder 8286:8287 <> τ:127
+binder 8289:8289 <> r:128
+R8323:8326 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8311:8314 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8299:8302 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R8304:8308 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R8295:8298 vminus.common.fintype <> null def
+R8303:8303 vminus.stlc.bigsafety <> e:126 var
+R8309:8310 vminus.stlc.bigsafety <> τ:127 var
+R8315:8318 vminus.stlc.bigsafety NotStuck step ind
+R8320:8320 vminus.stlc.bigsafety <> e:126 var
+R8322:8322 vminus.stlc.bigsafety <> r:128 var
+R8327:8333 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8335:8336 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8334:8334 <> v:129
+R8348:8351 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R8338:8340 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8337:8337 vminus.stlc.bigsafety <> r:128 var
+R8341:8345 vminus.stlc.bigsafety NotStuck Value constr
+R8347:8347 vminus.stlc.bigsafety <> v:129 var
+R8356:8359 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R8361:8365 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R8352:8355 vminus.common.fintype <> null def
+R8360:8360 vminus.stlc.bigsafety <> v:129 var
+R8366:8367 vminus.stlc.bigsafety <> τ:127 var
+R8569:8580 vminus.stlc.bigsafety <> substitution thm
+R8569:8580 vminus.stlc.bigsafety <> substitution thm
+R8693:8709 vminus.stlc.bigsafety <> typing_subst_cons thm
+R8693:8709 vminus.stlc.bigsafety <> typing_subst_cons thm
+R8801:8815 vminus.stlc.bigsafety <> typing_subst_id thm
+R8801:8815 vminus.stlc.bigsafety <> typing_subst_id thm
+R8913:8931 vminus.stlc.bigsafety <> canonical_forms_Arr thm
+R8913:8931 vminus.stlc.bigsafety <> canonical_forms_Arr thm
+R8993:9003 vminus.stlc.bigsafety NotStuck Value_value thm
+R8993:9003 vminus.stlc.bigsafety NotStuck Value_value thm
+R9065:9067 vminus.stlc.syntax Core Arr constr
+R9065:9067 vminus.stlc.syntax Core Arr constr
+prf 9261:9268 NotStuck NotStuck
+binder 9279:9279 <> e:130
+binder 9281:9282 <> τ:131
+binder 9284:9284 <> r:132
+R9318:9321 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9306:9309 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R9294:9297 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R9299:9303 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R9290:9293 vminus.common.fintype <> null def
+R9298:9298 vminus.stlc.bigsafety <> e:130 var
+R9304:9305 vminus.stlc.bigsafety <> τ:131 var
+R9310:9313 vminus.stlc.bigsafety NotStuck step ind
+R9315:9315 vminus.stlc.bigsafety <> e:130 var
+R9317:9317 vminus.stlc.bigsafety <> r:132 var
+R9323:9326 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R9322:9322 vminus.stlc.bigsafety <> r:132 var
+R9327:9331 vminus.stlc.bigsafety NotStuck Stuck constr
+R9373:9386 vminus.stlc.bigsafety NotStuck NotStuckTyping thm
+R9373:9386 vminus.stlc.bigsafety NotStuck NotStuckTyping thm
+R9428:9430 Corelib.Init.Logic <> not def
+ind 9613:9620 NotStuck diverges
+constr 9645:9651 NotStuck d_app_1
+constr 9737:9743 NotStuck d_app_2
+constr 9848:9854 NotStuck d_app_3
+R9628:9631 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9624:9625 vminus.stlc.syntax Core Tm ind
+R9668:9669 vminus.stlc.syntax Core Tm ind
+binder 9663:9664 <> e1:135
+R9681:9682 vminus.stlc.syntax Core Tm ind
+binder 9675:9676 <> e2:136
+R9704:9711 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9693:9700 vminus.stlc.bigsafety <> diverges:133 ind
+R9702:9703 vminus.stlc.bigsafety <> e1:135 var
+R9712:9719 vminus.stlc.bigsafety <> diverges:133 ind
+R9722:9724 vminus.stlc.syntax Core app constr
+R9729:9730 vminus.stlc.bigsafety <> e2:136 var
+R9726:9727 vminus.stlc.bigsafety <> e1:135 var
+binder 9754:9755 <> e1:137
+binder 9757:9758 <> e2:138
+binder 9760:9762 <> e1':139
+R9795:9803 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9770:9773 vminus.stlc.bigsafety NotStuck step ind
+R9775:9776 vminus.stlc.bigsafety <> e1:137 var
+R9779:9783 vminus.stlc.bigsafety NotStuck Value constr
+R9786:9788 vminus.stlc.syntax Core abs constr
+R9790:9792 vminus.stlc.bigsafety <> e1':139 var
+R9815:9822 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9804:9811 vminus.stlc.bigsafety <> diverges:133 ind
+R9813:9814 vminus.stlc.bigsafety <> e2:138 var
+R9823:9830 vminus.stlc.bigsafety <> diverges:133 ind
+R9833:9835 vminus.stlc.syntax Core app constr
+R9840:9841 vminus.stlc.bigsafety <> e2:138 var
+R9837:9838 vminus.stlc.bigsafety <> e1:137 var
+binder 9865:9866 <> e1:140
+binder 9868:9869 <> e2:141
+binder 9871:9873 <> e1':142
+binder 9875:9876 <> v1:143
+R9909:9917 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9884:9887 vminus.stlc.bigsafety NotStuck step ind
+R9889:9890 vminus.stlc.bigsafety <> e1:140 var
+R9893:9897 vminus.stlc.bigsafety NotStuck Value constr
+R9900:9902 vminus.stlc.syntax Core abs constr
+R9904:9906 vminus.stlc.bigsafety <> e1':142 var
+R9936:9944 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9918:9921 vminus.stlc.bigsafety NotStuck step ind
+R9923:9924 vminus.stlc.bigsafety <> e2:141 var
+R9927:9931 vminus.stlc.bigsafety NotStuck Value constr
+R9933:9934 vminus.stlc.bigsafety <> v1:143 var
+R9965:9972 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9945:9952 vminus.stlc.bigsafety <> diverges:133 ind
+R9958:9958 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R9963:9963 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R9961:9962 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R9959:9960 vminus.stlc.bigsafety <> v1:143 var
+R9955:9957 vminus.stlc.bigsafety <> e1':142 var
+R9973:9980 vminus.stlc.bigsafety <> diverges:133 ind
+R9983:9985 vminus.stlc.syntax Core app constr
+R9990:9991 vminus.stlc.bigsafety <> e2:141 var
+R9987:9988 vminus.stlc.bigsafety <> e1:140 var
+prf 10002:10014 NotStuck deterministic
+binder 10025:10025 <> e:144
+binder 10027:10028 <> r1:145
+R10045:10048 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10036:10039 vminus.stlc.bigsafety NotStuck step ind
+R10041:10041 vminus.stlc.bigsafety <> e:144 var
+R10043:10044 vminus.stlc.bigsafety <> r1:145 var
+binder 10056:10057 <> r2:146
+R10069:10072 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10060:10063 vminus.stlc.bigsafety NotStuck step ind
+R10065:10065 vminus.stlc.bigsafety <> e:144 var
+R10067:10068 vminus.stlc.bigsafety <> r2:146 var
+R10075:10077 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10073:10074 vminus.stlc.bigsafety <> r1:145 var
+R10078:10079 vminus.stlc.bigsafety <> r2:146 var
+prf 11047:11061 NotStuck diverges_nostep
+binder 11075:11075 <> e:147
+R11088:11091 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11078:11085 vminus.stlc.bigsafety NotStuck diverges coind
+R11087:11087 vminus.stlc.bigsafety <> e:147 var
+binder 11099:11099 <> r:148
+R11102:11104 Corelib.Init.Logic <> not def
+R11107:11110 vminus.stlc.bigsafety NotStuck step ind
+R11112:11112 vminus.stlc.bigsafety <> e:147 var
+R11114:11114 vminus.stlc.bigsafety <> r:148 var
+R11251:11263 vminus.stlc.bigsafety NotStuck deterministic thm
+R11251:11263 vminus.stlc.bigsafety NotStuck deterministic thm
+R11251:11263 vminus.stlc.bigsafety NotStuck deterministic thm
+R11329:11341 vminus.stlc.bigsafety NotStuck deterministic thm
+R11329:11341 vminus.stlc.bigsafety NotStuck deterministic thm
+R11329:11341 vminus.stlc.bigsafety NotStuck deterministic thm
+R11520:11532 vminus.stlc.bigsafety NotStuck deterministic thm
+R11520:11532 vminus.stlc.bigsafety NotStuck deterministic thm
+R11520:11532 vminus.stlc.bigsafety NotStuck deterministic thm
+R11609:11621 vminus.stlc.bigsafety NotStuck deterministic thm
+R11609:11621 vminus.stlc.bigsafety NotStuck deterministic thm
+R11609:11621 vminus.stlc.bigsafety NotStuck deterministic thm
+R11757:11769 vminus.stlc.bigsafety NotStuck deterministic thm
+R11757:11769 vminus.stlc.bigsafety NotStuck deterministic thm
+R11757:11769 vminus.stlc.bigsafety NotStuck deterministic thm
+R11818:11830 vminus.stlc.bigsafety NotStuck deterministic thm
+R11818:11830 vminus.stlc.bigsafety NotStuck deterministic thm
+R11818:11830 vminus.stlc.bigsafety NotStuck deterministic thm
+R11952:11964 vminus.stlc.bigsafety NotStuck deterministic thm
+R11952:11964 vminus.stlc.bigsafety NotStuck deterministic thm
+R11952:11964 vminus.stlc.bigsafety NotStuck deterministic thm
+prf 12125:12138 NotStuck nostep_diverge
+binder 12149:12149 <> e:149
+R12152:12152 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12177:12181 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+binder 12160:12160 <> r:150
+R12163:12165 Corelib.Init.Logic <> not def
+R12168:12171 vminus.stlc.bigsafety NotStuck step ind
+R12173:12173 vminus.stlc.bigsafety <> e:149 var
+R12175:12175 vminus.stlc.bigsafety <> r:150 var
+R12182:12189 vminus.stlc.bigsafety NotStuck diverges coind
+R12191:12191 vminus.stlc.bigsafety <> e:149 var
+R12215:12222 vminus.stlc.bigsafety NotStuck <> mod
+mod 12301:12310 <> RunsSafely
+ind 12322:12327 RunsSafely Result
+constr 12332:12338 RunsSafely Timeout
+constr 12342:12346 RunsSafely Value
+R12351:12352 vminus.stlc.syntax Core Tm ind
+ind 12548:12553 RunsSafely step_k
+constr 12596:12605 RunsSafely ts_timeout
+constr 12689:12694 RunsSafely ts_val
+constr 12817:12822 RunsSafely ts_app
+constr 13052:13058 RunsSafely ts_app1
+constr 13202:13208 RunsSafely ts_app2
+R12560:12563 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12557:12559 Corelib.Init.Datatypes <> nat ind
+R12568:12571 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12564:12565 vminus.stlc.syntax Core Tm ind
+R12578:12581 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12572:12577 vminus.stlc.bigsafety RunsSafely Result variant
+binder 12607:12607 <> e:155
+R12665:12670 vminus.stlc.bigsafety <> step_k:153 ind
+R12676:12682 vminus.stlc.bigsafety RunsSafely Timeout constr
+R12674:12674 vminus.stlc.bigsafety <> e:155 var
+binder 12696:12696 <> e:156
+binder 12698:12698 <> n:157
+R12778:12786 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12771:12773 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12761:12768 vminus.stlc.bigsafety <> is_value def
+R12770:12770 vminus.stlc.bigsafety <> e:156 var
+R12774:12777 Corelib.Init.Datatypes <> true constr
+R12787:12792 vminus.stlc.bigsafety <> step_k:153 ind
+R12803:12807 vminus.stlc.bigsafety RunsSafely Value constr
+R12809:12809 vminus.stlc.bigsafety <> e:156 var
+R12800:12800 vminus.stlc.bigsafety <> e:156 var
+R12795:12795 Corelib.Init.Datatypes <> S constr
+R12797:12797 vminus.stlc.bigsafety <> n:157 var
+binder 12833:12833 <> n:158
+R12841:12842 vminus.stlc.syntax Core Tm ind
+binder 12836:12837 <> e1:159
+R12854:12855 vminus.stlc.syntax Core Tm ind
+binder 12848:12850 <> e1':160
+R12872:12873 vminus.stlc.syntax Core Tm ind
+binder 12861:12862 <> e2:161
+binder 12864:12865 <> v1:162
+binder 12867:12868 <> v2:163
+binder 12878:12878 <> r:164
+R12949:12957 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12920:12925 vminus.stlc.bigsafety <> step_k:153 ind
+R12933:12937 vminus.stlc.bigsafety RunsSafely Value constr
+R12940:12942 vminus.stlc.syntax Core abs constr
+R12944:12946 vminus.stlc.bigsafety <> e1':160 var
+R12929:12930 vminus.stlc.bigsafety <> e1:159 var
+R12927:12927 vminus.stlc.bigsafety <> n:158 var
+R12980:12988 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12958:12963 vminus.stlc.bigsafety <> step_k:153 ind
+R12971:12975 vminus.stlc.bigsafety RunsSafely Value constr
+R12977:12978 vminus.stlc.bigsafety <> v1:162 var
+R12967:12968 vminus.stlc.bigsafety <> e2:161 var
+R12965:12965 vminus.stlc.bigsafety <> n:158 var
+R13011:13019 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12989:12994 vminus.stlc.bigsafety <> step_k:153 ind
+R13010:13010 vminus.stlc.bigsafety <> r:164 var
+R13002:13002 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R13007:13007 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R13005:13006 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R13003:13004 vminus.stlc.bigsafety <> v1:162 var
+R12999:13001 vminus.stlc.bigsafety <> e1':160 var
+R12996:12996 vminus.stlc.bigsafety <> n:158 var
+R13020:13025 vminus.stlc.bigsafety <> step_k:153 ind
+R13045:13045 vminus.stlc.bigsafety <> r:164 var
+R13034:13036 vminus.stlc.syntax Core app constr
+R13041:13042 vminus.stlc.bigsafety <> e2:161 var
+R13038:13039 vminus.stlc.bigsafety <> e1:159 var
+R13028:13028 Corelib.Init.Datatypes <> S constr
+R13030:13030 vminus.stlc.bigsafety <> n:158 var
+binder 13069:13069 <> n:165
+R13077:13078 vminus.stlc.syntax Core Tm ind
+binder 13072:13073 <> e1:166
+R13090:13091 vminus.stlc.syntax Core Tm ind
+binder 13084:13085 <> e2:167
+R13155:13163 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13136:13141 vminus.stlc.bigsafety <> step_k:153 ind
+R13148:13154 vminus.stlc.bigsafety RunsSafely Timeout constr
+R13145:13146 vminus.stlc.bigsafety <> e1:166 var
+R13143:13143 vminus.stlc.bigsafety <> n:165 var
+R13164:13169 vminus.stlc.bigsafety <> step_k:153 ind
+R13189:13195 vminus.stlc.bigsafety RunsSafely Timeout constr
+R13178:13180 vminus.stlc.syntax Core app constr
+R13185:13186 vminus.stlc.bigsafety <> e2:167 var
+R13182:13183 vminus.stlc.bigsafety <> e1:166 var
+R13172:13172 Corelib.Init.Datatypes <> S constr
+R13174:13174 vminus.stlc.bigsafety <> n:165 var
+binder 13219:13219 <> n:168
+R13227:13228 vminus.stlc.syntax Core Tm ind
+binder 13222:13223 <> e1:169
+R13239:13240 vminus.stlc.syntax Core Tm ind
+binder 13234:13235 <> e2:170
+R13302:13310 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13283:13288 vminus.stlc.bigsafety <> step_k:153 ind
+R13295:13301 vminus.stlc.bigsafety RunsSafely Timeout constr
+R13292:13293 vminus.stlc.bigsafety <> e2:170 var
+R13290:13290 vminus.stlc.bigsafety <> n:168 var
+R13311:13316 vminus.stlc.bigsafety <> step_k:153 ind
+R13336:13342 vminus.stlc.bigsafety RunsSafely Timeout constr
+R13325:13327 vminus.stlc.syntax Core app constr
+R13332:13333 vminus.stlc.bigsafety <> e2:170 var
+R13329:13330 vminus.stlc.bigsafety <> e1:169 var
+R13319:13319 Corelib.Init.Datatypes <> S constr
+R13321:13321 vminus.stlc.bigsafety <> n:168 var
+scheme 12548:12553 RunsSafely step_k_ind
+scheme 12548:12553 RunsSafely step_k_sind
+prf 13559:13569 RunsSafely Value_value
+binder 13580:13580 <> e:171
+binder 13582:13582 <> v:172
+binder 13584:13584 <> k:173
+R13612:13615 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13592:13597 vminus.stlc.bigsafety RunsSafely step_k ind
+R13599:13599 vminus.stlc.bigsafety <> k:173 var
+R13601:13601 vminus.stlc.bigsafety <> e:171 var
+R13604:13608 vminus.stlc.bigsafety RunsSafely Value constr
+R13610:13610 vminus.stlc.bigsafety <> v:172 var
+R13626:13628 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13616:13623 vminus.stlc.bigsafety <> is_value def
+R13625:13625 vminus.stlc.bigsafety <> v:172 var
+R13629:13632 Corelib.Init.Datatypes <> true constr
+prf 13726:13739 RunsSafely steps_to_value
+R13757:13758 vminus.stlc.syntax Core Tm ind
+binder 13751:13751 <> e:174
+binder 13753:13753 <> v:175
+R13768:13770 Corelib.Init.Datatypes <> nat ind
+binder 13764:13764 <> k:176
+R13795:13798 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13775:13780 vminus.stlc.bigsafety RunsSafely step_k ind
+R13782:13782 vminus.stlc.bigsafety <> k:176 var
+R13784:13784 vminus.stlc.bigsafety <> e:174 var
+R13787:13791 vminus.stlc.bigsafety RunsSafely Value constr
+R13793:13793 vminus.stlc.bigsafety <> v:175 var
+R13809:13811 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13799:13806 vminus.stlc.bigsafety <> is_value def
+R13808:13808 vminus.stlc.bigsafety <> v:175 var
+R13812:13815 Corelib.Init.Datatypes <> true constr
+prf 14010:14021 RunsSafely preservation
+binder 14032:14032 <> e:177
+binder 14034:14034 <> v:178
+binder 14036:14036 <> k:179
+binder 14038:14039 <> τ:180
+R14058:14063 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14046:14049 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R14051:14055 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R14042:14045 vminus.common.fintype <> null def
+R14050:14050 vminus.stlc.bigsafety <> e:177 var
+R14056:14057 vminus.stlc.bigsafety <> τ:180 var
+R14084:14087 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14064:14069 vminus.stlc.bigsafety RunsSafely step_k ind
+R14071:14071 vminus.stlc.bigsafety <> k:179 var
+R14073:14073 vminus.stlc.bigsafety <> e:177 var
+R14076:14080 vminus.stlc.bigsafety RunsSafely Value constr
+R14082:14082 vminus.stlc.bigsafety <> v:178 var
+R14092:14095 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R14097:14101 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R14088:14091 vminus.common.fintype <> null def
+R14096:14096 vminus.stlc.bigsafety <> v:178 var
+R14102:14103 vminus.stlc.bigsafety <> τ:180 var
+R14308:14319 vminus.stlc.bigsafety <> substitution thm
+R14308:14319 vminus.stlc.bigsafety <> substitution thm
+R14394:14396 vminus.stlc.syntax Core abs constr
+R14403:14409 Corelib.Init.Logic <> eq_refl constr
+R14394:14396 vminus.stlc.syntax Core abs constr
+R14403:14409 Corelib.Init.Logic <> eq_refl constr
+R14471:14487 vminus.stlc.bigsafety <> typing_subst_cons thm
+R14471:14487 vminus.stlc.bigsafety <> typing_subst_cons thm
+R14563:14569 Corelib.Init.Logic <> eq_refl constr
+R14563:14569 Corelib.Init.Logic <> eq_refl constr
+R14611:14625 vminus.stlc.bigsafety <> typing_subst_id thm
+R14611:14625 vminus.stlc.bigsafety <> typing_subst_id thm
+prf 14653:14666 RunsSafely timeout_safety
+binder 14677:14677 <> k:181
+binder 14679:14679 <> e:182
+binder 14681:14682 <> τ:183
+R14701:14710 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14689:14692 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R14694:14698 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R14685:14688 vminus.common.fintype <> null def
+R14693:14693 vminus.stlc.bigsafety <> e:182 var
+R14699:14700 vminus.stlc.bigsafety <> τ:183 var
+R14711:14717 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14719:14720 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14718:14718 <> r:184
+R14721:14726 vminus.stlc.bigsafety RunsSafely step_k ind
+R14728:14728 vminus.stlc.bigsafety <> k:181 var
+R14730:14730 vminus.stlc.bigsafety <> e:182 var
+R14732:14732 vminus.stlc.bigsafety <> r:184 var
+R14818:14824 vminus.stlc.bigsafety RunsSafely Timeout constr
+R14818:14824 vminus.stlc.bigsafety RunsSafely Timeout constr
+R14833:14842 vminus.stlc.bigsafety RunsSafely ts_timeout constr
+R14833:14842 vminus.stlc.bigsafety RunsSafely ts_timeout constr
+R15272:15278 vminus.stlc.bigsafety RunsSafely Timeout constr
+R15272:15278 vminus.stlc.bigsafety RunsSafely Timeout constr
+R15272:15278 vminus.stlc.bigsafety RunsSafely Timeout constr
+R15346:15352 vminus.stlc.bigsafety RunsSafely Timeout constr
+R15346:15352 vminus.stlc.bigsafety RunsSafely Timeout constr
+R15346:15352 vminus.stlc.bigsafety RunsSafely Timeout constr
+R15444:15457 vminus.stlc.bigsafety RunsSafely steps_to_value thm
+R15444:15457 vminus.stlc.bigsafety RunsSafely steps_to_value thm
+R15512:15523 vminus.stlc.bigsafety RunsSafely preservation thm
+R15512:15523 vminus.stlc.bigsafety RunsSafely preservation thm
+R15573:15579 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15582:15583 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 15580:15581 <> e':185
+R15585:15587 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15588:15590 vminus.stlc.syntax Core abs constr
+R15592:15593 vminus.stlc.bigsafety <> e':185 var
+R15573:15579 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15582:15583 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 15580:15581 <> e':186
+R15585:15587 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15588:15590 vminus.stlc.syntax Core abs constr
+R15592:15593 vminus.stlc.bigsafety <> e':186 var
+R15611:15629 vminus.stlc.bigsafety <> canonical_forms_Arr thm
+R15611:15629 vminus.stlc.bigsafety <> canonical_forms_Arr thm
+R15698:15699 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R15704:15704 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R15702:15703 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R15698:15699 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R15704:15704 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R15702:15703 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R15742:15745 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R15755:15759 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R15738:15741 vminus.common.fintype <> null def
+R15748:15749 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R15754:15754 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R15752:15753 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R15742:15745 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R15755:15759 vminus.stlc.bigsafety TypingNotations :::x_'|-'_x_'∈'_x not
+R15738:15741 vminus.common.fintype <> null def
+R15748:15749 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R15754:15754 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R15752:15753 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R15784:15795 vminus.stlc.bigsafety <> substitution thm
+R15784:15795 vminus.stlc.bigsafety <> substitution thm
+R15843:15859 vminus.stlc.bigsafety <> typing_subst_cons thm
+R15843:15859 vminus.stlc.bigsafety <> typing_subst_cons thm
+R15876:15887 vminus.stlc.bigsafety RunsSafely preservation thm
+R15876:15887 vminus.stlc.bigsafety RunsSafely preservation thm
+R15909:15923 vminus.stlc.bigsafety <> typing_subst_id thm
+R15909:15923 vminus.stlc.bigsafety <> typing_subst_id thm
+R16011:16016 vminus.stlc.bigsafety RunsSafely ts_app constr
+R16011:16016 vminus.stlc.bigsafety RunsSafely ts_app constr
+R16091:16095 vminus.stlc.bigsafety RunsSafely Value constr
+R16098:16100 vminus.stlc.syntax Core lit constr
+R16091:16095 vminus.stlc.bigsafety RunsSafely Value constr
+R16098:16100 vminus.stlc.syntax Core lit constr
+R16220:16229 vminus.stlc.bigsafety RunsSafely <> mod

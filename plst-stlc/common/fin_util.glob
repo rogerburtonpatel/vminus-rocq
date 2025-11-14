@@ -1,0 +1,421 @@
+DIGEST b483f6c6866c9593edc220368cb364a7
+Fvminus.common.fin_util
+R15:28 vminus.common.fintype <> <> lib
+R39:53 vminus.common.fintype ScopedNotations <> mod
+mod 106:114 <> FinValues
+def 128:129 FinValues f0
+binder 132:132 <> n:1
+R137:139 vminus.common.fintype <> fin def
+R142:142 Corelib.Init.Datatypes <> S constr
+R144:144 vminus.common.fin_util <> n:1 var
+R150:157 vminus.common.fintype <> var_zero def
+def 171:172 FinValues f1
+binder 175:175 <> n:2
+R180:182 vminus.common.fintype <> fin def
+R185:185 Corelib.Init.Datatypes <> S constr
+R188:188 Corelib.Init.Datatypes <> S constr
+R190:190 vminus.common.fin_util <> n:2 var
+R197:200 Corelib.Init.Datatypes <> Some constr
+R202:203 vminus.common.fin_util FinValues f0 def
+def 217:218 FinValues f2
+binder 221:221 <> n:3
+R226:228 vminus.common.fintype <> fin def
+R231:231 Corelib.Init.Datatypes <> S constr
+R234:234 Corelib.Init.Datatypes <> S constr
+R237:237 Corelib.Init.Datatypes <> S constr
+R239:239 vminus.common.fin_util <> n:3 var
+R247:250 Corelib.Init.Datatypes <> Some constr
+R252:253 vminus.common.fin_util FinValues f1 def
+def 267:268 FinValues f3
+binder 271:271 <> n:4
+R276:278 vminus.common.fintype <> fin def
+R281:281 Corelib.Init.Datatypes <> S constr
+R284:284 Corelib.Init.Datatypes <> S constr
+R287:287 Corelib.Init.Datatypes <> S constr
+R290:290 Corelib.Init.Datatypes <> S constr
+R292:292 vminus.common.fin_util <> n:4 var
+R301:304 Corelib.Init.Datatypes <> Some constr
+R306:307 vminus.common.fin_util FinValues f2 def
+R314:322 vminus.common.fin_util FinValues <> mod
+def 374:380 <> fin_eqb
+binder 383:383 <> n:5
+R393:396 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R388:390 vminus.common.fintype <> fin def
+R392:392 vminus.common.fin_util <> n:5 var
+R402:405 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R397:399 vminus.common.fintype <> fin def
+R401:401 vminus.common.fin_util <> n:5 var
+R406:409 Corelib.Init.Datatypes <> bool ind
+R664:667 Corelib.Init.Datatypes <> true constr
+R664:667 Corelib.Init.Datatypes <> true constr
+R705:709 Corelib.Init.Datatypes <> false constr
+R705:709 Corelib.Init.Datatypes <> false constr
+R757:761 Corelib.Init.Datatypes <> false constr
+R757:761 Corelib.Init.Datatypes <> false constr
+R809:813 Corelib.Init.Datatypes <> false constr
+R809:813 Corelib.Init.Datatypes <> false constr
+R857:860 Corelib.Init.Datatypes <> true constr
+R857:860 Corelib.Init.Datatypes <> true constr
+prf 879:888 <> fin_eqb_eq
+binder 899:899 <> n:6
+R910:912 vminus.common.fintype <> fin def
+R914:914 vminus.common.fin_util <> n:6 var
+binder 902:903 <> i1:7
+binder 905:906 <> i2:8
+R942:946 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R935:937 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R922:928 vminus.common.fin_util <> fin_eqb def
+R933:934 vminus.common.fin_util <> i2:8 var
+R930:931 vminus.common.fin_util <> i1:7 var
+R938:941 Corelib.Init.Datatypes <> true constr
+R949:951 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R947:948 vminus.common.fin_util <> i1:7 var
+R952:953 vminus.common.fin_util <> i2:8 var
+R1156:1162 vminus.common.fin_util <> fin_eqb def
+R1156:1162 vminus.common.fin_util <> fin_eqb def
+R1331:1337 Corelib.Init.Logic <> eq_refl constr
+R1331:1337 Corelib.Init.Logic <> eq_refl constr
+prf 1403:1413 <> fin_eqb_neq
+binder 1424:1424 <> n:9
+R1435:1437 vminus.common.fintype <> fin def
+R1439:1439 vminus.common.fin_util <> n:9 var
+binder 1427:1428 <> i1:10
+binder 1430:1431 <> i2:11
+R1468:1472 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1460:1462 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1447:1453 vminus.common.fin_util <> fin_eqb def
+R1458:1459 vminus.common.fin_util <> i2:11 var
+R1455:1456 vminus.common.fin_util <> i1:10 var
+R1463:1467 Corelib.Init.Datatypes <> false constr
+R1475:1478 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1473:1474 vminus.common.fin_util <> i1:10 var
+R1479:1480 vminus.common.fin_util <> i2:11 var
+R1541:1550 vminus.common.fin_util <> fin_eqb_eq thm
+R1541:1550 vminus.common.fin_util <> fin_eqb_eq thm
+R1608:1614 vminus.common.fin_util <> fin_eqb def
+R1608:1614 vminus.common.fin_util <> fin_eqb def
+R1646:1655 vminus.common.fin_util <> fin_eqb_eq thm
+R1646:1655 vminus.common.fin_util <> fin_eqb_eq thm
+R1646:1655 vminus.common.fin_util <> fin_eqb_eq thm
+prf 1700:1711 <> fin_eqb_true
+binder 1714:1714 <> n:12
+R1719:1721 vminus.common.fintype <> fin def
+R1723:1723 vminus.common.fin_util <> n:12 var
+binder 1717:1717 <> i:13
+R1738:1740 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1727:1733 vminus.common.fin_util <> fin_eqb def
+R1737:1737 vminus.common.fin_util <> i:13 var
+R1735:1735 vminus.common.fin_util <> i:13 var
+R1741:1744 Corelib.Init.Datatypes <> true constr
+R1763:1765 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1763:1765 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1790:1799 vminus.common.fin_util <> fin_eqb_eq thm
+R1790:1799 vminus.common.fin_util <> fin_eqb_eq thm
+R1790:1799 vminus.common.fin_util <> fin_eqb_eq thm
+def 1839:1845 <> ren_inj
+binder 1848:1848 <> n:14
+binder 1850:1850 <> m:15
+R1864:1866 vminus.common.fintype <> ren def
+R1870:1870 vminus.common.fin_util <> m:15 var
+R1868:1868 vminus.common.fin_util <> n:14 var
+binder 1854:1860 <> renamer:16
+binder 1888:1889 <> i1:17
+binder 1891:1892 <> i2:18
+R1918:1921 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1905:1907 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1895:1901 vminus.common.fin_util <> renamer:16 var
+R1903:1904 vminus.common.fin_util <> i1:17 var
+R1908:1914 vminus.common.fin_util <> renamer:16 var
+R1916:1917 vminus.common.fin_util <> i2:18 var
+R1924:1926 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1922:1923 vminus.common.fin_util <> i1:17 var
+R1927:1928 vminus.common.fin_util <> i2:18 var
+def 1944:1952 <> ren_match
+binder 1955:1955 <> n:19
+binder 1957:1957 <> m:20
+binder 1959:1959 <> X:21
+R1973:1975 vminus.common.fintype <> ren def
+R1979:1979 vminus.common.fin_util <> m:20 var
+R1977:1977 vminus.common.fin_util <> n:19 var
+binder 1963:1969 <> renamer:22
+R1997:2000 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1992:1994 vminus.common.fintype <> fin def
+R1996:1996 vminus.common.fin_util <> n:19 var
+R2001:2001 vminus.common.fin_util <> X:21 var
+binder 1987:1988 <> fn:23
+R2015:2018 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2010:2012 vminus.common.fintype <> fin def
+R2014:2014 vminus.common.fin_util <> m:20 var
+R2019:2019 vminus.common.fin_util <> X:21 var
+binder 2005:2006 <> fm:24
+binder 2036:2036 <> i:25
+R2043:2045 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2039:2040 vminus.common.fin_util <> fn:23 var
+R2042:2042 vminus.common.fin_util <> i:25 var
+R2046:2047 vminus.common.fin_util <> fm:24 var
+R2050:2056 vminus.common.fin_util <> renamer:22 var
+R2058:2058 vminus.common.fin_util <> i:25 var
+def 2074:2092 <> default_or_preimage
+binder 2095:2095 <> n:26
+binder 2097:2097 <> m:27
+binder 2099:2099 <> X:28
+R2108:2108 vminus.common.fin_util <> X:28 var
+binder 2103:2104 <> id:29
+R2122:2125 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2117:2119 vminus.common.fintype <> fin def
+R2121:2121 vminus.common.fin_util <> m:27 var
+R2126:2126 vminus.common.fin_util <> X:28 var
+binder 2112:2113 <> fm:30
+R2140:2142 vminus.common.fintype <> ren def
+R2146:2146 vminus.common.fin_util <> m:27 var
+R2144:2144 vminus.common.fin_util <> n:26 var
+binder 2130:2136 <> renamer:31
+binder 2164:2164 <> j:32
+R2176:2179 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R2171:2173 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2167:2168 vminus.common.fin_util <> fm:30 var
+R2170:2170 vminus.common.fin_util <> j:32 var
+R2174:2175 vminus.common.fin_util <> id:29 var
+R2180:2186 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2188:2189 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2187:2187 <> i:33
+R2191:2193 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2190:2190 vminus.common.fin_util <> j:32 var
+R2194:2200 vminus.common.fin_util <> renamer:31 var
+R2202:2202 vminus.common.fin_util <> i:33 var
+ind 2217:2234 <> ren_preimage_cases
+constr 2290:2297 <> preimage
+constr 2368:2378 <> no_preimage
+binder 2237:2237 <> n:34
+binder 2239:2239 <> m:35
+R2253:2255 vminus.common.fintype <> ren def
+R2259:2259 vminus.common.fin_util <> m:35 var
+R2257:2257 vminus.common.fin_util <> n:34 var
+binder 2243:2249 <> renamer:36
+R2267:2269 vminus.common.fintype <> fin def
+R2271:2271 vminus.common.fin_util <> m:35 var
+binder 2263:2263 <> j:37
+R2304:2306 vminus.common.fintype <> fin def
+R2308:2308 vminus.common.fin_util <> n:34 var
+binder 2300:2300 <> i:40
+R2317:2319 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2316:2316 vminus.common.fin_util <> j:37 var
+R2320:2326 vminus.common.fin_util <> renamer:36 var
+R2328:2328 vminus.common.fin_util <> i:40 var
+binder 2312:2312 <> H:41
+R2333:2350 vminus.common.fin_util <> ren_preimage_cases:38 ind
+R2360:2360 vminus.common.fin_util <> j:37 var
+R2352:2358 vminus.common.fin_util <> renamer:36 var
+R2397:2399 vminus.common.fintype <> fin def
+R2401:2401 vminus.common.fin_util <> n:34 var
+binder 2393:2393 <> i:42
+R2414:2417 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2405:2411 vminus.common.fin_util <> renamer:36 var
+R2413:2413 vminus.common.fin_util <> i:42 var
+R2418:2418 vminus.common.fin_util <> j:37 var
+binder 2381:2381 <> H:43
+R2423:2440 vminus.common.fin_util <> ren_preimage_cases:38 ind
+R2450:2450 vminus.common.fin_util <> j:37 var
+R2442:2448 vminus.common.fin_util <> renamer:36 var
+scheme 2217:2234 <> ren_preimage_cases_rect
+scheme 2217:2234 <> ren_preimage_cases_ind
+scheme 2217:2234 <> ren_preimage_cases_rec
+scheme 2217:2234 <> ren_preimage_cases_sind
+def 2470:2485 <> ren_preimage_dec
+binder 2488:2488 <> n:44
+binder 2490:2490 <> m:45
+R2517:2519 vminus.common.fintype <> ren def
+R2523:2523 vminus.common.fin_util <> m:45 var
+R2521:2521 vminus.common.fin_util <> n:44 var
+binder 2507:2513 <> renamer:46
+R2531:2533 vminus.common.fintype <> fin def
+R2535:2535 vminus.common.fin_util <> m:45 var
+binder 2527:2527 <> j:47
+R2539:2556 vminus.common.fin_util <> ren_preimage_cases ind
+R2566:2566 vminus.common.fin_util <> j:47 var
+R2558:2564 vminus.common.fin_util <> renamer:46 var
+R2614:2624 vminus.common.fin_util <> no_preimage constr
+R2614:2624 vminus.common.fin_util <> no_preimage constr
+R2663:2669 vminus.common.fin_util <> fin_eqb def
+R2680:2683 Corelib.Init.Datatypes <> None constr
+R2663:2669 vminus.common.fin_util <> fin_eqb def
+R2680:2683 Corelib.Init.Datatypes <> None constr
+R2737:2740 Corelib.Init.Datatypes <> None constr
+R2717:2724 vminus.common.fin_util <> preimage constr
+R2737:2740 Corelib.Init.Datatypes <> None constr
+R2717:2724 vminus.common.fin_util <> preimage constr
+R2752:2761 vminus.common.fin_util <> fin_eqb_eq thm
+R2752:2761 vminus.common.fin_util <> fin_eqb_eq thm
+R2752:2761 vminus.common.fin_util <> fin_eqb_eq thm
+binder 2803:2804 <> jn:48
+R2818:2822 vminus.common.fintype <> shift def
+R2824:2825 vminus.common.fin_util <> jn:48 var
+binder 2803:2804 <> jn:49
+R2818:2822 vminus.common.fintype <> shift def
+R2824:2825 vminus.common.fin_util <> jn:49 var
+R2923:2927 vminus.common.fintype <> shift def
+R2903:2910 vminus.common.fin_util <> preimage constr
+R2923:2927 vminus.common.fintype <> shift def
+R2903:2910 vminus.common.fin_util <> preimage constr
+R2973:2983 vminus.common.fin_util <> no_preimage constr
+R2973:2983 vminus.common.fin_util <> no_preimage constr
+R3117:3127 vminus.common.fin_util <> fin_eqb_neq thm
+R3117:3127 vminus.common.fin_util <> fin_eqb_neq thm
+R3117:3127 vminus.common.fin_util <> fin_eqb_neq thm
+def 3162:3173 <> match_pre_id
+binder 3176:3176 <> n:50
+binder 3178:3178 <> m:51
+binder 3180:3180 <> X:52
+R3194:3196 vminus.common.fintype <> ren def
+R3200:3200 vminus.common.fin_util <> m:51 var
+R3198:3198 vminus.common.fin_util <> n:50 var
+binder 3184:3190 <> renamer:53
+R3214:3217 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3209:3211 vminus.common.fintype <> fin def
+R3213:3213 vminus.common.fin_util <> n:50 var
+R3218:3218 vminus.common.fin_util <> X:52 var
+binder 3204:3205 <> fn:54
+R3236:3236 vminus.common.fin_util <> X:52 var
+binder 3226:3232 <> default:55
+R3246:3249 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3241:3243 vminus.common.fintype <> fin def
+R3245:3245 vminus.common.fin_util <> m:51 var
+R3250:3250 vminus.common.fin_util <> X:52 var
+binder 3259:3259 <> j:56
+R3274:3289 vminus.common.fin_util <> ren_preimage_dec def
+R3299:3299 vminus.common.fin_util <> j:56 var
+R3291:3297 vminus.common.fin_util <> renamer:53 var
+R3312:3319 vminus.common.fin_util <> preimage constr
+R3332:3333 vminus.common.fin_util <> fn:54 var
+R3343:3353 vminus.common.fin_util <> no_preimage constr
+R3364:3370 vminus.common.fin_util <> default:55 var
+prf 3388:3409 <> match_pre_id_inj_sound
+binder 3424:3424 <> n:57
+binder 3426:3426 <> m:58
+binder 3428:3428 <> X:59
+R3441:3443 vminus.common.fintype <> ren def
+R3447:3447 vminus.common.fin_util <> m:58 var
+R3445:3445 vminus.common.fin_util <> n:57 var
+binder 3431:3437 <> renamer:60
+R3461:3464 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3456:3458 vminus.common.fintype <> fin def
+R3460:3460 vminus.common.fin_util <> n:57 var
+R3465:3465 vminus.common.fin_util <> X:59 var
+binder 3451:3452 <> fn:61
+R3479:3479 vminus.common.fin_util <> X:59 var
+binder 3469:3475 <> default:62
+R3502:3509 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3487:3493 vminus.common.fin_util <> ren_inj def
+R3495:3501 vminus.common.fin_util <> renamer:60 var
+R3564:3571 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3510:3518 vminus.common.fin_util <> ren_match def
+R3532:3543 vminus.common.fin_util <> match_pre_id def
+R3556:3562 vminus.common.fin_util <> default:62 var
+R3553:3554 vminus.common.fin_util <> fn:61 var
+R3545:3551 vminus.common.fin_util <> renamer:60 var
+R3528:3529 vminus.common.fin_util <> fn:61 var
+R3520:3526 vminus.common.fin_util <> renamer:60 var
+R3572:3590 vminus.common.fin_util <> default_or_preimage def
+R3634:3640 vminus.common.fin_util <> renamer:60 var
+R3601:3612 vminus.common.fin_util <> match_pre_id def
+R3625:3631 vminus.common.fin_util <> default:62 var
+R3622:3623 vminus.common.fin_util <> fn:61 var
+R3614:3620 vminus.common.fin_util <> renamer:60 var
+R3592:3598 vminus.common.fin_util <> default:62 var
+R3682:3690 vminus.common.fin_util <> ren_match def
+R3708:3719 vminus.common.fin_util <> match_pre_id def
+R3740:3755 vminus.common.fin_util <> ren_preimage_dec def
+R3740:3755 vminus.common.fin_util <> ren_preimage_dec def
+R3897:3915 vminus.common.fin_util <> default_or_preimage def
+R3933:3944 vminus.common.fin_util <> match_pre_id def
+R3965:3980 vminus.common.fin_util <> ren_preimage_dec def
+R3965:3980 vminus.common.fin_util <> ren_preimage_dec def
+prf 4083:4097 <> ren_match_shift
+binder 4112:4112 <> n:63
+binder 4114:4114 <> X:64
+R4127:4130 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4122:4124 vminus.common.fintype <> fin def
+R4126:4126 vminus.common.fin_util <> n:63 var
+R4131:4131 vminus.common.fin_util <> X:64 var
+binder 4117:4118 <> fn:65
+binder 4134:4138 <> x_new:66
+R4145:4153 vminus.common.fin_util <> ren_match def
+R4170:4173 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R4165:4169 vminus.common.fin_util <> x_new:66 var
+R4174:4175 vminus.common.fin_util <> fn:65 var
+R4161:4162 vminus.common.fin_util <> fn:65 var
+R4155:4159 vminus.common.fintype <> shift def
+R4197:4205 vminus.common.fin_util <> ren_match def
+prf 4741:4747 <> x_equal
+binder 4764:4764 <> A:67
+binder 4766:4766 <> B:68
+R4784:4787 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4783:4783 vminus.common.fin_util <> A:67 var
+R4788:4788 vminus.common.fin_util <> B:68 var
+binder 4777:4777 <> f:69
+binder 4779:4779 <> g:70
+R4796:4796 vminus.common.fin_util <> A:67 var
+binder 4792:4792 <> x:71
+R4805:4808 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4801:4803 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4800:4800 vminus.common.fin_util <> f:69 var
+R4804:4804 vminus.common.fin_util <> g:70 var
+R4812:4814 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4809:4809 vminus.common.fin_util <> f:69 var
+R4811:4811 vminus.common.fin_util <> x:71 var
+R4815:4815 vminus.common.fin_util <> g:70 var
+R4817:4817 vminus.common.fin_util <> x:71 var
+def 4870:4876 <> env_map
+binder 4879:4879 <> n:72
+binder 4882:4882 <> A:73
+binder 4884:4884 <> B:74
+R4893:4896 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4892:4892 vminus.common.fin_util <> A:73 var
+R4897:4897 vminus.common.fin_util <> B:74 var
+binder 4888:4888 <> f:75
+R4911:4914 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4906:4908 vminus.common.fintype <> fin def
+R4910:4910 vminus.common.fin_util <> n:72 var
+R4915:4915 vminus.common.fin_util <> A:73 var
+binder 4901:4902 <> ρ:76
+R4925:4928 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4920:4922 vminus.common.fintype <> fin def
+R4924:4924 vminus.common.fin_util <> n:72 var
+R4929:4929 vminus.common.fin_util <> B:74 var
+binder 4940:4940 <> x:77
+R4945:4945 vminus.common.fin_util <> f:75 var
+R4948:4949 vminus.common.fin_util <> ρ:76 var
+R4952:4952 vminus.common.fin_util <> x:77 var
+prf 5203:5212 <> scons_inj1
+binder 5215:5215 <> n:78
+binder 5217:5217 <> A:79
+R5227:5227 vminus.common.fin_util <> A:79 var
+binder 5221:5221 <> a:80
+binder 5223:5223 <> c:81
+R5242:5245 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5237:5239 vminus.common.fintype <> fin def
+R5241:5241 vminus.common.fin_util <> n:78 var
+R5246:5246 vminus.common.fin_util <> A:79 var
+binder 5231:5231 <> b:82
+binder 5233:5233 <> d:83
+R5272:5275 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5251:5252 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5259:5264 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5271:5271 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5254:5257 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R5253:5253 vminus.common.fin_util <> a:80 var
+R5258:5258 vminus.common.fin_util <> b:82 var
+R5266:5269 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R5265:5265 vminus.common.fin_util <> c:81 var
+R5270:5270 vminus.common.fin_util <> d:83 var
+R5277:5279 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5276:5276 vminus.common.fin_util <> a:80 var
+R5280:5280 vminus.common.fin_util <> c:81 var
+R5316:5322 vminus.common.fin_util <> x_equal thm
+R5330:5333 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R5339:5342 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R5346:5353 vminus.common.fintype <> var_zero def
+R5316:5322 vminus.common.fin_util <> x_equal thm
+R5330:5333 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R5339:5342 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R5346:5353 vminus.common.fintype <> var_zero def

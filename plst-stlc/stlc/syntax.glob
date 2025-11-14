@@ -1,0 +1,3503 @@
+DIGEST 2b9263cb66b77e2b98c229e2f6a998f1
+Fvminus.stlc.syntax
+R15:18 vminus.common.core <> <> lib
+R20:26 vminus.common.fintype <> <> lib
+R45:50 Corelib.Setoids.Setoid <> <> lib
+R52:60 Corelib.Classes.Morphisms <> <> lib
+R62:81 Corelib.Relations.Relation_Definitions <> <> lib
+mod 93:96 <> Core
+ind 110:111 Core Tm
+constr 140:142 Core var
+constr 170:172 Core abs
+constr 203:205 Core app
+constr 243:245 Core lit
+constr 268:271 Core succ
+constr 298:301 Core nrec
+constr 354:357 Core let_
+R121:123 Corelib.Init.Datatypes <> nat ind
+binder 114:117 <> n_Tm:1
+R154:157 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R146:148 vminus.common.fintype <> fin def
+R150:153 vminus.stlc.syntax <> n_Tm:1 var
+R158:159 vminus.stlc.syntax <> Tm:2 ind
+R161:164 vminus.stlc.syntax <> n_Tm:1 var
+R187:190 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R176:177 vminus.stlc.syntax <> Tm:2 ind
+R180:180 Corelib.Init.Datatypes <> S constr
+R182:185 vminus.stlc.syntax <> n_Tm:1 var
+R191:192 vminus.stlc.syntax <> Tm:2 ind
+R194:197 vminus.stlc.syntax <> n_Tm:1 var
+R216:219 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R209:210 vminus.stlc.syntax <> Tm:2 ind
+R212:215 vminus.stlc.syntax <> n_Tm:1 var
+R227:230 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R220:221 vminus.stlc.syntax <> Tm:2 ind
+R223:226 vminus.stlc.syntax <> n_Tm:1 var
+R231:232 vminus.stlc.syntax <> Tm:2 ind
+R234:237 vminus.stlc.syntax <> n_Tm:1 var
+R252:255 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R249:251 Corelib.Init.Datatypes <> nat ind
+R256:257 vminus.stlc.syntax <> Tm:2 ind
+R259:262 vminus.stlc.syntax <> n_Tm:1 var
+R282:285 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R275:276 vminus.stlc.syntax <> Tm:2 ind
+R278:281 vminus.stlc.syntax <> n_Tm:1 var
+R286:287 vminus.stlc.syntax <> Tm:2 ind
+R289:292 vminus.stlc.syntax <> n_Tm:1 var
+R312:315 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R305:306 vminus.stlc.syntax <> Tm:2 ind
+R308:311 vminus.stlc.syntax <> n_Tm:1 var
+R323:326 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R316:317 vminus.stlc.syntax <> Tm:2 ind
+R319:322 vminus.stlc.syntax <> n_Tm:1 var
+R338:341 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R327:328 vminus.stlc.syntax <> Tm:2 ind
+R331:331 Corelib.Init.Datatypes <> S constr
+R333:336 vminus.stlc.syntax <> n_Tm:1 var
+R342:343 vminus.stlc.syntax <> Tm:2 ind
+R345:348 vminus.stlc.syntax <> n_Tm:1 var
+R368:371 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R361:362 vminus.stlc.syntax <> Tm:2 ind
+R364:367 vminus.stlc.syntax <> n_Tm:1 var
+R383:386 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R372:373 vminus.stlc.syntax <> Tm:2 ind
+R376:376 Corelib.Init.Datatypes <> S constr
+R378:381 vminus.stlc.syntax <> n_Tm:1 var
+R387:388 vminus.stlc.syntax <> Tm:2 ind
+R390:393 vminus.stlc.syntax <> n_Tm:1 var
+scheme 110:111 Core Tm_rect
+scheme 110:111 Core Tm_ind
+scheme 110:111 Core Tm_rec
+scheme 110:111 Core Tm_sind
+prf 403:411 Core congr_abs
+R421:423 Corelib.Init.Datatypes <> nat ind
+binder 414:417 <> m_Tm:4
+R432:433 vminus.stlc.syntax Core Tm ind
+R436:436 Corelib.Init.Datatypes <> S constr
+R438:441 vminus.stlc.syntax <> m_Tm:4 var
+binder 427:428 <> s0:5
+R451:452 vminus.stlc.syntax Core Tm ind
+R455:455 Corelib.Init.Datatypes <> S constr
+R457:460 vminus.stlc.syntax <> m_Tm:4 var
+binder 446:447 <> t0:6
+R474:476 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R472:473 vminus.stlc.syntax <> s0:5 var
+R477:478 vminus.stlc.syntax <> t0:6 var
+binder 467:468 <> H0:7
+R494:496 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R483:485 vminus.stlc.syntax Core abs constr
+R487:490 vminus.stlc.syntax <> m_Tm:4 var
+R492:493 vminus.stlc.syntax <> s0:5 var
+R497:499 vminus.stlc.syntax Core abs constr
+R501:504 vminus.stlc.syntax <> m_Tm:4 var
+R506:507 vminus.stlc.syntax <> t0:6 var
+R524:531 Corelib.Init.Logic <> eq_trans thm
+R542:543 vminus.common.fintype <> ap def
+binder 550:550 <> x:8
+R555:557 vminus.stlc.syntax Core abs constr
+R564:564 vminus.stlc.syntax <> x:8 var
+R533:539 Corelib.Init.Logic <> eq_refl constr
+R524:531 Corelib.Init.Logic <> eq_trans thm
+R542:543 vminus.common.fintype <> ap def
+binder 550:550 <> x:9
+R555:557 vminus.stlc.syntax Core abs constr
+R564:564 vminus.stlc.syntax <> x:9 var
+R533:539 Corelib.Init.Logic <> eq_refl constr
+prf 585:593 Core congr_app
+R603:605 Corelib.Init.Datatypes <> nat ind
+binder 596:599 <> m_Tm:10
+R614:615 vminus.stlc.syntax Core Tm ind
+R617:620 vminus.stlc.syntax <> m_Tm:10 var
+binder 609:610 <> s0:11
+R629:630 vminus.stlc.syntax Core Tm ind
+R632:635 vminus.stlc.syntax <> m_Tm:10 var
+binder 624:625 <> s1:12
+R644:645 vminus.stlc.syntax Core Tm ind
+R647:650 vminus.stlc.syntax <> m_Tm:10 var
+binder 639:640 <> t0:13
+R661:662 vminus.stlc.syntax Core Tm ind
+R664:667 vminus.stlc.syntax <> m_Tm:10 var
+binder 656:657 <> t1:14
+R678:680 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R676:677 vminus.stlc.syntax <> s0:11 var
+R681:682 vminus.stlc.syntax <> t0:13 var
+binder 671:672 <> H0:15
+R693:695 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R691:692 vminus.stlc.syntax <> s1:12 var
+R696:697 vminus.stlc.syntax <> t1:14 var
+binder 686:687 <> H1:16
+R718:720 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R704:706 vminus.stlc.syntax Core app constr
+R708:711 vminus.stlc.syntax <> m_Tm:10 var
+R713:714 vminus.stlc.syntax <> s0:11 var
+R716:717 vminus.stlc.syntax <> s1:12 var
+R721:723 vminus.stlc.syntax Core app constr
+R725:728 vminus.stlc.syntax <> m_Tm:10 var
+R730:731 vminus.stlc.syntax <> t0:13 var
+R733:734 vminus.stlc.syntax <> t1:14 var
+R751:758 Corelib.Init.Logic <> eq_trans thm
+R822:823 vminus.common.fintype <> ap def
+binder 830:830 <> x:17
+R835:837 vminus.stlc.syntax Core app constr
+R847:847 vminus.stlc.syntax <> x:17 var
+R761:768 Corelib.Init.Logic <> eq_trans thm
+R779:780 vminus.common.fintype <> ap def
+binder 787:787 <> x:18
+R792:794 vminus.stlc.syntax Core app constr
+R801:801 vminus.stlc.syntax <> x:18 var
+R770:776 Corelib.Init.Logic <> eq_refl constr
+R751:758 Corelib.Init.Logic <> eq_trans thm
+R822:823 vminus.common.fintype <> ap def
+binder 830:830 <> x:19
+R835:837 vminus.stlc.syntax Core app constr
+R847:847 vminus.stlc.syntax <> x:19 var
+R761:768 Corelib.Init.Logic <> eq_trans thm
+R779:780 vminus.common.fintype <> ap def
+binder 787:787 <> x:20
+R792:794 vminus.stlc.syntax Core app constr
+R801:801 vminus.stlc.syntax <> x:20 var
+R770:776 Corelib.Init.Logic <> eq_refl constr
+prf 868:876 Core congr_lit
+R886:888 Corelib.Init.Datatypes <> nat ind
+binder 879:882 <> m_Tm:21
+R897:899 Corelib.Init.Datatypes <> nat ind
+binder 892:893 <> s0:22
+R908:910 Corelib.Init.Datatypes <> nat ind
+binder 903:904 <> t0:23
+R921:923 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R919:920 vminus.stlc.syntax <> s0:22 var
+R924:925 vminus.stlc.syntax <> t0:23 var
+binder 914:915 <> H0:24
+R943:945 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R932:934 vminus.stlc.syntax Core lit constr
+R936:939 vminus.stlc.syntax <> m_Tm:21 var
+R941:942 vminus.stlc.syntax <> s0:22 var
+R946:948 vminus.stlc.syntax Core lit constr
+R950:953 vminus.stlc.syntax <> m_Tm:21 var
+R955:956 vminus.stlc.syntax <> t0:23 var
+R973:980 Corelib.Init.Logic <> eq_trans thm
+R991:992 vminus.common.fintype <> ap def
+binder 999:999 <> x:25
+R1004:1006 vminus.stlc.syntax Core lit constr
+R1013:1013 vminus.stlc.syntax <> x:25 var
+R982:988 Corelib.Init.Logic <> eq_refl constr
+R973:980 Corelib.Init.Logic <> eq_trans thm
+R991:992 vminus.common.fintype <> ap def
+binder 999:999 <> x:26
+R1004:1006 vminus.stlc.syntax Core lit constr
+R1013:1013 vminus.stlc.syntax <> x:26 var
+R982:988 Corelib.Init.Logic <> eq_refl constr
+prf 1034:1043 Core congr_succ
+R1053:1055 Corelib.Init.Datatypes <> nat ind
+binder 1046:1049 <> m_Tm:27
+R1064:1065 vminus.stlc.syntax Core Tm ind
+R1067:1070 vminus.stlc.syntax <> m_Tm:27 var
+binder 1059:1060 <> s0:28
+R1079:1080 vminus.stlc.syntax Core Tm ind
+R1082:1085 vminus.stlc.syntax <> m_Tm:27 var
+binder 1074:1075 <> t0:29
+R1096:1098 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1094:1095 vminus.stlc.syntax <> s0:28 var
+R1099:1100 vminus.stlc.syntax <> t0:29 var
+binder 1089:1090 <> H0:30
+R1119:1121 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1107:1110 vminus.stlc.syntax Core succ constr
+R1112:1115 vminus.stlc.syntax <> m_Tm:27 var
+R1117:1118 vminus.stlc.syntax <> s0:28 var
+R1122:1125 vminus.stlc.syntax Core succ constr
+R1127:1130 vminus.stlc.syntax <> m_Tm:27 var
+R1132:1133 vminus.stlc.syntax <> t0:29 var
+R1150:1157 Corelib.Init.Logic <> eq_trans thm
+R1168:1169 vminus.common.fintype <> ap def
+binder 1176:1176 <> x:31
+R1181:1184 vminus.stlc.syntax Core succ constr
+R1191:1191 vminus.stlc.syntax <> x:31 var
+R1159:1165 Corelib.Init.Logic <> eq_refl constr
+R1150:1157 Corelib.Init.Logic <> eq_trans thm
+R1168:1169 vminus.common.fintype <> ap def
+binder 1176:1176 <> x:32
+R1181:1184 vminus.stlc.syntax Core succ constr
+R1191:1191 vminus.stlc.syntax <> x:32 var
+R1159:1165 Corelib.Init.Logic <> eq_refl constr
+prf 1212:1221 Core congr_nrec
+R1231:1233 Corelib.Init.Datatypes <> nat ind
+binder 1224:1227 <> m_Tm:33
+R1242:1243 vminus.stlc.syntax Core Tm ind
+R1245:1248 vminus.stlc.syntax <> m_Tm:33 var
+binder 1237:1238 <> s0:34
+R1257:1258 vminus.stlc.syntax Core Tm ind
+R1260:1263 vminus.stlc.syntax <> m_Tm:33 var
+binder 1252:1253 <> s1:35
+R1274:1275 vminus.stlc.syntax Core Tm ind
+R1278:1278 Corelib.Init.Datatypes <> S constr
+R1280:1283 vminus.stlc.syntax <> m_Tm:33 var
+binder 1269:1270 <> s2:36
+R1293:1294 vminus.stlc.syntax Core Tm ind
+R1296:1299 vminus.stlc.syntax <> m_Tm:33 var
+binder 1288:1289 <> t0:37
+R1308:1309 vminus.stlc.syntax Core Tm ind
+R1311:1314 vminus.stlc.syntax <> m_Tm:33 var
+binder 1303:1304 <> t1:38
+R1323:1324 vminus.stlc.syntax Core Tm ind
+R1327:1327 Corelib.Init.Datatypes <> S constr
+R1329:1332 vminus.stlc.syntax <> m_Tm:33 var
+binder 1318:1319 <> t2:39
+R1346:1348 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1344:1345 vminus.stlc.syntax <> s0:34 var
+R1349:1350 vminus.stlc.syntax <> t0:37 var
+binder 1339:1340 <> H0:40
+R1361:1363 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1359:1360 vminus.stlc.syntax <> s1:35 var
+R1364:1365 vminus.stlc.syntax <> t1:38 var
+binder 1354:1355 <> H1:41
+R1376:1378 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1374:1375 vminus.stlc.syntax <> s2:36 var
+R1379:1380 vminus.stlc.syntax <> t2:39 var
+binder 1369:1370 <> H2:42
+R1405:1407 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1387:1390 vminus.stlc.syntax Core nrec constr
+R1392:1395 vminus.stlc.syntax <> m_Tm:33 var
+R1397:1398 vminus.stlc.syntax <> s0:34 var
+R1400:1401 vminus.stlc.syntax <> s1:35 var
+R1403:1404 vminus.stlc.syntax <> s2:36 var
+R1408:1411 vminus.stlc.syntax Core nrec constr
+R1413:1416 vminus.stlc.syntax <> m_Tm:33 var
+R1418:1419 vminus.stlc.syntax <> t0:37 var
+R1421:1422 vminus.stlc.syntax <> t1:38 var
+R1424:1425 vminus.stlc.syntax <> t2:39 var
+R1442:1449 Corelib.Init.Logic <> eq_trans thm
+R1586:1587 vminus.common.fintype <> ap def
+binder 1594:1594 <> x:43
+R1599:1602 vminus.stlc.syntax Core nrec constr
+R1615:1615 vminus.stlc.syntax <> x:43 var
+R1461:1468 Corelib.Init.Logic <> eq_trans thm
+R1539:1540 vminus.common.fintype <> ap def
+binder 1547:1547 <> x:44
+R1552:1555 vminus.stlc.syntax Core nrec constr
+R1565:1565 vminus.stlc.syntax <> x:44 var
+R1471:1478 Corelib.Init.Logic <> eq_trans thm
+R1489:1490 vminus.common.fintype <> ap def
+binder 1497:1497 <> x:45
+R1502:1505 vminus.stlc.syntax Core nrec constr
+R1512:1512 vminus.stlc.syntax <> x:45 var
+R1480:1486 Corelib.Init.Logic <> eq_refl constr
+R1442:1449 Corelib.Init.Logic <> eq_trans thm
+R1586:1587 vminus.common.fintype <> ap def
+binder 1594:1594 <> x:46
+R1599:1602 vminus.stlc.syntax Core nrec constr
+R1615:1615 vminus.stlc.syntax <> x:46 var
+R1461:1468 Corelib.Init.Logic <> eq_trans thm
+R1539:1540 vminus.common.fintype <> ap def
+binder 1547:1547 <> x:47
+R1552:1555 vminus.stlc.syntax Core nrec constr
+R1565:1565 vminus.stlc.syntax <> x:47 var
+R1471:1478 Corelib.Init.Logic <> eq_trans thm
+R1489:1490 vminus.common.fintype <> ap def
+binder 1497:1497 <> x:48
+R1502:1505 vminus.stlc.syntax Core nrec constr
+R1512:1512 vminus.stlc.syntax <> x:48 var
+R1480:1486 Corelib.Init.Logic <> eq_refl constr
+prf 1636:1645 Core congr_let_
+R1655:1657 Corelib.Init.Datatypes <> nat ind
+binder 1648:1651 <> m_Tm:49
+R1666:1667 vminus.stlc.syntax Core Tm ind
+R1669:1672 vminus.stlc.syntax <> m_Tm:49 var
+binder 1661:1662 <> s0:50
+R1681:1682 vminus.stlc.syntax Core Tm ind
+R1685:1685 Corelib.Init.Datatypes <> S constr
+R1687:1690 vminus.stlc.syntax <> m_Tm:49 var
+binder 1676:1677 <> s1:51
+R1702:1703 vminus.stlc.syntax Core Tm ind
+R1705:1708 vminus.stlc.syntax <> m_Tm:49 var
+binder 1697:1698 <> t0:52
+R1717:1718 vminus.stlc.syntax Core Tm ind
+R1721:1721 Corelib.Init.Datatypes <> S constr
+R1723:1726 vminus.stlc.syntax <> m_Tm:49 var
+binder 1712:1713 <> t1:53
+R1738:1740 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1736:1737 vminus.stlc.syntax <> s0:50 var
+R1741:1742 vminus.stlc.syntax <> t0:52 var
+binder 1731:1732 <> H0:54
+R1753:1755 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1751:1752 vminus.stlc.syntax <> s1:51 var
+R1756:1757 vminus.stlc.syntax <> t1:53 var
+binder 1746:1747 <> H1:55
+R1779:1781 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1764:1767 vminus.stlc.syntax Core let_ constr
+R1769:1772 vminus.stlc.syntax <> m_Tm:49 var
+R1774:1775 vminus.stlc.syntax <> s0:50 var
+R1777:1778 vminus.stlc.syntax <> s1:51 var
+R1782:1785 vminus.stlc.syntax Core let_ constr
+R1787:1790 vminus.stlc.syntax <> m_Tm:49 var
+R1792:1793 vminus.stlc.syntax <> t0:52 var
+R1795:1796 vminus.stlc.syntax <> t1:53 var
+R1813:1820 Corelib.Init.Logic <> eq_trans thm
+R1885:1886 vminus.common.fintype <> ap def
+binder 1893:1893 <> x:56
+R1898:1901 vminus.stlc.syntax Core let_ constr
+R1911:1911 vminus.stlc.syntax <> x:56 var
+R1823:1830 Corelib.Init.Logic <> eq_trans thm
+R1841:1842 vminus.common.fintype <> ap def
+binder 1849:1849 <> x:57
+R1854:1857 vminus.stlc.syntax Core let_ constr
+R1864:1864 vminus.stlc.syntax <> x:57 var
+R1832:1838 Corelib.Init.Logic <> eq_refl constr
+R1813:1820 Corelib.Init.Logic <> eq_trans thm
+R1885:1886 vminus.common.fintype <> ap def
+binder 1893:1893 <> x:58
+R1898:1901 vminus.stlc.syntax Core let_ constr
+R1911:1911 vminus.stlc.syntax <> x:58 var
+R1823:1830 Corelib.Init.Logic <> eq_trans thm
+R1841:1842 vminus.common.fintype <> ap def
+binder 1849:1849 <> x:59
+R1854:1857 vminus.stlc.syntax Core let_ constr
+R1864:1864 vminus.stlc.syntax <> x:59 var
+R1832:1838 Corelib.Init.Logic <> eq_refl constr
+prf 1932:1942 Core upRen_Tm_Tm
+R1949:1951 Corelib.Init.Datatypes <> nat ind
+binder 1945:1945 <> m:60
+R1959:1961 Corelib.Init.Datatypes <> nat ind
+binder 1955:1955 <> n:61
+R1975:1978 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1970:1972 vminus.common.fintype <> fin def
+R1974:1974 vminus.stlc.syntax <> m:60 var
+R1979:1981 vminus.common.fintype <> fin def
+R1983:1983 vminus.stlc.syntax <> n:61 var
+binder 1965:1966 <> xi:62
+R1999:2002 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1990:1992 vminus.common.fintype <> fin def
+R1995:1995 Corelib.Init.Datatypes <> S constr
+R1997:1997 vminus.stlc.syntax <> m:60 var
+R2003:2005 vminus.common.fintype <> fin def
+R2008:2008 Corelib.Init.Datatypes <> S constr
+R2010:2010 vminus.stlc.syntax <> n:61 var
+R2028:2033 vminus.common.fintype <> up_ren def
+R2028:2033 vminus.common.fintype <> up_ren def
+prf 2056:2071 Core upRen_list_Tm_Tm
+R2078:2080 Corelib.Init.Datatypes <> nat ind
+binder 2074:2074 <> p:63
+R2088:2090 Corelib.Init.Datatypes <> nat ind
+binder 2084:2084 <> m:64
+R2098:2100 Corelib.Init.Datatypes <> nat ind
+binder 2094:2094 <> n:65
+R2114:2117 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2109:2111 vminus.common.fintype <> fin def
+R2113:2113 vminus.stlc.syntax <> m:64 var
+R2118:2120 vminus.common.fintype <> fin def
+R2122:2122 vminus.stlc.syntax <> n:65 var
+binder 2104:2105 <> xi:66
+R2143:2146 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2129:2131 vminus.common.fintype <> fin def
+R2134:2137 Corelib.Init.Peano <> plus abbrev
+R2139:2139 vminus.stlc.syntax <> p:63 var
+R2141:2141 vminus.stlc.syntax <> m:64 var
+R2147:2149 vminus.common.fintype <> fin def
+R2152:2155 Corelib.Init.Peano <> plus abbrev
+R2157:2157 vminus.stlc.syntax <> p:63 var
+R2159:2159 vminus.stlc.syntax <> n:65 var
+R2177:2183 vminus.common.fintype <> upRen_p def
+R2177:2183 vminus.common.fintype <> upRen_p def
+def 2211:2216 Core ren_Tm
+R2226:2228 Corelib.Init.Datatypes <> nat ind
+binder 2219:2222 <> m_Tm:67
+R2239:2241 Corelib.Init.Datatypes <> nat ind
+binder 2232:2235 <> n_Tm:68
+R2261:2264 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2253:2255 vminus.common.fintype <> fin def
+R2257:2260 vminus.stlc.syntax <> m_Tm:67 var
+R2265:2267 vminus.common.fintype <> fin def
+R2269:2272 vminus.stlc.syntax <> n_Tm:68 var
+binder 2245:2249 <> xi_Tm:69
+R2280:2281 vminus.stlc.syntax Core Tm ind
+R2283:2286 vminus.stlc.syntax <> m_Tm:67 var
+binder 2276:2276 <> s:70
+R2302:2303 vminus.stlc.syntax Core Tm ind
+R2305:2308 vminus.stlc.syntax <> n_Tm:68 var
+R2321:2321 vminus.stlc.syntax <> s:70 var
+R2332:2334 vminus.stlc.syntax Core var constr
+R2344:2346 vminus.stlc.syntax Core var constr
+R2348:2351 vminus.stlc.syntax <> n_Tm:68 var
+R2354:2358 vminus.stlc.syntax <> xi_Tm:69 var
+R2368:2370 vminus.stlc.syntax Core abs constr
+R2380:2382 vminus.stlc.syntax Core abs constr
+R2384:2387 vminus.stlc.syntax <> n_Tm:68 var
+R2390:2395 vminus.stlc.syntax <> ren_Tm:71 def
+R2398:2408 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R2410:2414 vminus.stlc.syntax <> xi_Tm:69 var
+R2425:2427 vminus.stlc.syntax Core app constr
+R2440:2442 vminus.stlc.syntax Core app constr
+R2444:2447 vminus.stlc.syntax <> n_Tm:68 var
+R2450:2455 vminus.stlc.syntax <> ren_Tm:71 def
+R2457:2461 vminus.stlc.syntax <> xi_Tm:69 var
+R2468:2473 vminus.stlc.syntax <> ren_Tm:71 def
+R2475:2479 vminus.stlc.syntax <> xi_Tm:69 var
+R2489:2491 vminus.stlc.syntax Core lit constr
+R2501:2503 vminus.stlc.syntax Core lit constr
+R2505:2508 vminus.stlc.syntax <> n_Tm:68 var
+R2517:2520 vminus.stlc.syntax Core succ constr
+R2530:2533 vminus.stlc.syntax Core succ constr
+R2535:2538 vminus.stlc.syntax <> n_Tm:68 var
+R2541:2546 vminus.stlc.syntax <> ren_Tm:71 def
+R2548:2552 vminus.stlc.syntax <> xi_Tm:69 var
+R2562:2565 vminus.stlc.syntax Core nrec constr
+R2587:2590 vminus.stlc.syntax Core nrec constr
+R2592:2595 vminus.stlc.syntax <> n_Tm:68 var
+R2598:2603 vminus.stlc.syntax <> ren_Tm:71 def
+R2605:2609 vminus.stlc.syntax <> xi_Tm:69 var
+R2616:2621 vminus.stlc.syntax <> ren_Tm:71 def
+R2623:2627 vminus.stlc.syntax <> xi_Tm:69 var
+R2642:2647 vminus.stlc.syntax <> ren_Tm:71 def
+R2650:2660 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R2662:2666 vminus.stlc.syntax <> xi_Tm:69 var
+R2677:2680 vminus.stlc.syntax Core let_ constr
+R2699:2702 vminus.stlc.syntax Core let_ constr
+R2704:2707 vminus.stlc.syntax <> n_Tm:68 var
+R2710:2715 vminus.stlc.syntax <> ren_Tm:71 def
+R2717:2721 vminus.stlc.syntax <> xi_Tm:69 var
+R2728:2733 vminus.stlc.syntax <> ren_Tm:71 def
+R2736:2746 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R2748:2752 vminus.stlc.syntax <> xi_Tm:69 var
+prf 2773:2780 Core up_Tm_Tm
+R2787:2789 Corelib.Init.Datatypes <> nat ind
+binder 2783:2783 <> m:73
+R2800:2802 Corelib.Init.Datatypes <> nat ind
+binder 2793:2796 <> n_Tm:74
+R2819:2822 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2814:2816 vminus.common.fintype <> fin def
+R2818:2818 vminus.stlc.syntax <> m:73 var
+R2823:2824 vminus.stlc.syntax Core Tm ind
+R2826:2829 vminus.stlc.syntax <> n_Tm:74 var
+binder 2806:2810 <> sigma:75
+R2845:2848 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2836:2838 vminus.common.fintype <> fin def
+R2841:2841 Corelib.Init.Datatypes <> S constr
+R2843:2843 vminus.stlc.syntax <> m:73 var
+R2849:2850 vminus.stlc.syntax Core Tm ind
+R2853:2853 Corelib.Init.Datatypes <> S constr
+R2855:2858 vminus.stlc.syntax <> n_Tm:74 var
+R2876:2880 vminus.common.fintype <> scons def
+R2907:2913 vminus.common.core <> funcomp def
+R2916:2921 vminus.stlc.syntax Core ren_Tm def
+R2923:2927 vminus.common.fintype <> shift def
+R2883:2885 vminus.stlc.syntax Core var constr
+R2888:2888 Corelib.Init.Datatypes <> S constr
+R2896:2903 vminus.common.fintype <> var_zero def
+R2876:2880 vminus.common.fintype <> scons def
+R2907:2913 vminus.common.core <> funcomp def
+R2916:2921 vminus.stlc.syntax Core ren_Tm def
+R2923:2927 vminus.common.fintype <> shift def
+R2883:2885 vminus.stlc.syntax Core var constr
+R2888:2888 Corelib.Init.Datatypes <> S constr
+R2896:2903 vminus.common.fintype <> var_zero def
+prf 2955:2967 Core up_list_Tm_Tm
+R2974:2976 Corelib.Init.Datatypes <> nat ind
+binder 2970:2970 <> p:76
+R2984:2986 Corelib.Init.Datatypes <> nat ind
+binder 2980:2980 <> m:77
+R2997:2999 Corelib.Init.Datatypes <> nat ind
+binder 2990:2993 <> n_Tm:78
+R3018:3021 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3013:3015 vminus.common.fintype <> fin def
+R3017:3017 vminus.stlc.syntax <> m:77 var
+R3022:3023 vminus.stlc.syntax Core Tm ind
+R3025:3028 vminus.stlc.syntax <> n_Tm:78 var
+binder 3005:3009 <> sigma:79
+R3047:3050 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3033:3035 vminus.common.fintype <> fin def
+R3038:3041 Corelib.Init.Peano <> plus abbrev
+R3043:3043 vminus.stlc.syntax <> p:76 var
+R3045:3045 vminus.stlc.syntax <> m:77 var
+R3051:3052 vminus.stlc.syntax Core Tm ind
+R3055:3058 Corelib.Init.Peano <> plus abbrev
+R3060:3060 vminus.stlc.syntax <> p:76 var
+R3062:3065 vminus.stlc.syntax <> n_Tm:78 var
+R3083:3089 vminus.common.fintype <> scons_p def
+R3144:3150 vminus.common.core <> funcomp def
+R3153:3158 vminus.stlc.syntax Core ren_Tm def
+R3161:3167 vminus.common.fintype <> shift_p def
+R3094:3100 vminus.common.core <> funcomp def
+R3123:3128 vminus.common.fintype <> zero_p def
+R3103:3105 vminus.stlc.syntax Core var constr
+R3108:3111 Corelib.Init.Peano <> plus abbrev
+R3083:3089 vminus.common.fintype <> scons_p def
+R3144:3150 vminus.common.core <> funcomp def
+R3153:3158 vminus.stlc.syntax Core ren_Tm def
+R3161:3167 vminus.common.fintype <> shift_p def
+R3094:3100 vminus.common.core <> funcomp def
+R3123:3128 vminus.common.fintype <> zero_p def
+R3103:3105 vminus.stlc.syntax Core var constr
+R3108:3111 Corelib.Init.Peano <> plus abbrev
+def 3201:3208 Core subst_Tm
+R3218:3220 Corelib.Init.Datatypes <> nat ind
+binder 3211:3214 <> m_Tm:80
+R3231:3233 Corelib.Init.Datatypes <> nat ind
+binder 3224:3227 <> n_Tm:81
+R3256:3259 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3248:3250 vminus.common.fintype <> fin def
+R3252:3255 vminus.stlc.syntax <> m_Tm:80 var
+R3260:3261 vminus.stlc.syntax Core Tm ind
+R3263:3266 vminus.stlc.syntax <> n_Tm:81 var
+binder 3237:3244 <> sigma_Tm:82
+R3274:3275 vminus.stlc.syntax Core Tm ind
+R3277:3280 vminus.stlc.syntax <> m_Tm:80 var
+binder 3270:3270 <> s:83
+R3296:3297 vminus.stlc.syntax Core Tm ind
+R3299:3302 vminus.stlc.syntax <> n_Tm:81 var
+R3315:3315 vminus.stlc.syntax <> s:83 var
+R3326:3328 vminus.stlc.syntax Core var constr
+R3338:3345 vminus.stlc.syntax <> sigma_Tm:82 var
+R3354:3356 vminus.stlc.syntax Core abs constr
+R3366:3368 vminus.stlc.syntax Core abs constr
+R3370:3373 vminus.stlc.syntax <> n_Tm:81 var
+R3376:3383 vminus.stlc.syntax <> subst_Tm:84 def
+R3386:3393 vminus.stlc.syntax Core up_Tm_Tm thm
+R3395:3402 vminus.stlc.syntax <> sigma_Tm:82 var
+R3413:3415 vminus.stlc.syntax Core app constr
+R3428:3430 vminus.stlc.syntax Core app constr
+R3432:3435 vminus.stlc.syntax <> n_Tm:81 var
+R3438:3445 vminus.stlc.syntax <> subst_Tm:84 def
+R3447:3454 vminus.stlc.syntax <> sigma_Tm:82 var
+R3461:3468 vminus.stlc.syntax <> subst_Tm:84 def
+R3470:3477 vminus.stlc.syntax <> sigma_Tm:82 var
+R3487:3489 vminus.stlc.syntax Core lit constr
+R3499:3501 vminus.stlc.syntax Core lit constr
+R3503:3506 vminus.stlc.syntax <> n_Tm:81 var
+R3515:3518 vminus.stlc.syntax Core succ constr
+R3528:3531 vminus.stlc.syntax Core succ constr
+R3533:3536 vminus.stlc.syntax <> n_Tm:81 var
+R3539:3546 vminus.stlc.syntax <> subst_Tm:84 def
+R3548:3555 vminus.stlc.syntax <> sigma_Tm:82 var
+R3565:3568 vminus.stlc.syntax Core nrec constr
+R3590:3593 vminus.stlc.syntax Core nrec constr
+R3595:3598 vminus.stlc.syntax <> n_Tm:81 var
+R3601:3608 vminus.stlc.syntax <> subst_Tm:84 def
+R3610:3617 vminus.stlc.syntax <> sigma_Tm:82 var
+R3624:3631 vminus.stlc.syntax <> subst_Tm:84 def
+R3633:3640 vminus.stlc.syntax <> sigma_Tm:82 var
+R3655:3662 vminus.stlc.syntax <> subst_Tm:84 def
+R3665:3672 vminus.stlc.syntax Core up_Tm_Tm thm
+R3674:3681 vminus.stlc.syntax <> sigma_Tm:82 var
+R3692:3695 vminus.stlc.syntax Core let_ constr
+R3714:3717 vminus.stlc.syntax Core let_ constr
+R3719:3722 vminus.stlc.syntax <> n_Tm:81 var
+R3725:3732 vminus.stlc.syntax <> subst_Tm:84 def
+R3734:3741 vminus.stlc.syntax <> sigma_Tm:82 var
+R3748:3755 vminus.stlc.syntax <> subst_Tm:84 def
+R3758:3765 vminus.stlc.syntax Core up_Tm_Tm thm
+R3767:3774 vminus.stlc.syntax <> sigma_Tm:82 var
+prf 3795:3804 Core upId_Tm_Tm
+R3814:3816 Corelib.Init.Datatypes <> nat ind
+binder 3807:3810 <> m_Tm:86
+R3836:3839 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3828:3830 vminus.common.fintype <> fin def
+R3832:3835 vminus.stlc.syntax <> m_Tm:86 var
+R3840:3841 vminus.stlc.syntax Core Tm ind
+R3843:3846 vminus.stlc.syntax <> m_Tm:86 var
+binder 3820:3824 <> sigma:87
+binder 3864:3864 <> x:88
+R3874:3876 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3867:3871 vminus.stlc.syntax <> sigma:87 var
+R3873:3873 vminus.stlc.syntax <> x:88 var
+R3877:3879 vminus.stlc.syntax Core var constr
+R3881:3884 vminus.stlc.syntax <> m_Tm:86 var
+R3886:3886 vminus.stlc.syntax <> x:88 var
+binder 3852:3853 <> Eq:89
+binder 3900:3900 <> x:90
+R3919:3921 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3903:3910 vminus.stlc.syntax Core up_Tm_Tm thm
+R3918:3918 vminus.stlc.syntax <> x:90 var
+R3912:3916 vminus.stlc.syntax <> sigma:87 var
+R3922:3924 vminus.stlc.syntax Core var constr
+R3927:3927 Corelib.Init.Datatypes <> S constr
+R3929:3932 vminus.stlc.syntax <> m_Tm:86 var
+R3935:3935 vminus.stlc.syntax <> x:90 var
+binder 3956:3956 <> n:91
+R3974:3974 vminus.stlc.syntax <> n:91 var
+R3990:3993 Corelib.Init.Datatypes <> Some constr
+R4004:4005 vminus.common.fintype <> ap def
+R4008:4013 vminus.stlc.syntax Core ren_Tm def
+R4015:4019 vminus.common.fintype <> shift def
+R4042:4045 Corelib.Init.Datatypes <> None constr
+R4050:4056 Corelib.Init.Logic <> eq_refl constr
+binder 3956:3956 <> n:93
+R3974:3974 vminus.stlc.syntax <> n:93 var
+R3990:3993 Corelib.Init.Datatypes <> Some constr
+R4004:4005 vminus.common.fintype <> ap def
+R4008:4013 vminus.stlc.syntax Core ren_Tm def
+R4015:4019 vminus.common.fintype <> shift def
+R4042:4045 Corelib.Init.Datatypes <> None constr
+R4050:4056 Corelib.Init.Logic <> eq_refl constr
+prf 4083:4097 Core upId_list_Tm_Tm
+R4104:4106 Corelib.Init.Datatypes <> nat ind
+binder 4100:4100 <> p:95
+R4117:4119 Corelib.Init.Datatypes <> nat ind
+binder 4110:4113 <> m_Tm:96
+R4139:4142 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4131:4133 vminus.common.fintype <> fin def
+R4135:4138 vminus.stlc.syntax <> m_Tm:96 var
+R4143:4144 vminus.stlc.syntax Core Tm ind
+R4146:4149 vminus.stlc.syntax <> m_Tm:96 var
+binder 4123:4127 <> sigma:97
+binder 4167:4167 <> x:98
+R4177:4179 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4170:4174 vminus.stlc.syntax <> sigma:97 var
+R4176:4176 vminus.stlc.syntax <> x:98 var
+R4180:4182 vminus.stlc.syntax Core var constr
+R4184:4187 vminus.stlc.syntax <> m_Tm:96 var
+R4189:4189 vminus.stlc.syntax <> x:98 var
+binder 4155:4156 <> Eq:99
+binder 4203:4203 <> x:100
+R4229:4231 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4206:4218 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R4228:4228 vminus.stlc.syntax <> x:100 var
+R4222:4226 vminus.stlc.syntax <> sigma:97 var
+R4220:4220 vminus.stlc.syntax <> p:95 var
+R4232:4234 vminus.stlc.syntax Core var constr
+R4237:4240 Corelib.Init.Peano <> plus abbrev
+R4242:4242 vminus.stlc.syntax <> p:95 var
+R4244:4247 vminus.stlc.syntax <> m_Tm:96 var
+R4250:4250 vminus.stlc.syntax <> x:100 var
+binder 4271:4271 <> n:101
+R4283:4293 vminus.common.fintype <> scons_p_eta thm
+binder 4371:4371 <> n:102
+R4376:4382 Corelib.Init.Logic <> eq_refl constr
+binder 4329:4329 <> n:103
+R4334:4335 vminus.common.fintype <> ap def
+R4362:4362 vminus.stlc.syntax <> n:103 var
+R4338:4343 vminus.stlc.syntax Core ren_Tm def
+R4346:4352 vminus.common.fintype <> shift_p def
+R4296:4298 vminus.stlc.syntax Core var constr
+R4301:4304 Corelib.Init.Peano <> plus abbrev
+binder 4271:4271 <> n:104
+R4283:4293 vminus.common.fintype <> scons_p_eta thm
+binder 4371:4371 <> n:105
+R4376:4382 Corelib.Init.Logic <> eq_refl constr
+binder 4329:4329 <> n:106
+R4334:4335 vminus.common.fintype <> ap def
+R4362:4362 vminus.stlc.syntax <> n:106 var
+R4338:4343 vminus.stlc.syntax Core ren_Tm def
+R4346:4352 vminus.common.fintype <> shift_p def
+R4296:4298 vminus.stlc.syntax Core var constr
+R4301:4304 Corelib.Init.Peano <> plus abbrev
+def 4402:4411 Core idSubst_Tm
+R4421:4423 Corelib.Init.Datatypes <> nat ind
+binder 4414:4417 <> m_Tm:107
+R4446:4449 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4438:4440 vminus.common.fintype <> fin def
+R4442:4445 vminus.stlc.syntax <> m_Tm:107 var
+R4450:4451 vminus.stlc.syntax Core Tm ind
+R4453:4456 vminus.stlc.syntax <> m_Tm:107 var
+binder 4427:4434 <> sigma_Tm:108
+binder 4475:4475 <> x:109
+R4488:4490 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4478:4485 vminus.stlc.syntax <> sigma_Tm:108 var
+R4487:4487 vminus.stlc.syntax <> x:109 var
+R4491:4493 vminus.stlc.syntax Core var constr
+R4495:4498 vminus.stlc.syntax <> m_Tm:107 var
+R4500:4500 vminus.stlc.syntax <> x:109 var
+binder 4460:4464 <> Eq_Tm:110
+R4508:4509 vminus.stlc.syntax Core Tm ind
+R4511:4514 vminus.stlc.syntax <> m_Tm:107 var
+binder 4504:4504 <> s:111
+R4549:4551 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4530:4537 vminus.stlc.syntax Core subst_Tm def
+R4548:4548 vminus.stlc.syntax <> s:111 var
+R4539:4546 vminus.stlc.syntax <> sigma_Tm:108 var
+R4552:4552 vminus.stlc.syntax <> s:111 var
+R4565:4565 vminus.stlc.syntax <> s:111 var
+R4576:4578 vminus.stlc.syntax Core var constr
+R4588:4592 vminus.stlc.syntax <> Eq_Tm:110 var
+R4601:4603 vminus.stlc.syntax Core abs constr
+R4619:4627 vminus.stlc.syntax Core congr_abs thm
+R4630:4639 vminus.stlc.syntax <> idSubst_Tm:112 def
+R4662:4671 vminus.stlc.syntax Core upId_Tm_Tm thm
+R4675:4679 vminus.stlc.syntax <> Eq_Tm:110 var
+R4642:4649 vminus.stlc.syntax Core up_Tm_Tm thm
+R4651:4658 vminus.stlc.syntax <> sigma_Tm:108 var
+R4690:4692 vminus.stlc.syntax Core app constr
+R4711:4719 vminus.stlc.syntax Core congr_app thm
+R4753:4762 vminus.stlc.syntax <> idSubst_Tm:112 def
+R4773:4777 vminus.stlc.syntax <> Eq_Tm:110 var
+R4764:4771 vminus.stlc.syntax <> sigma_Tm:108 var
+R4722:4731 vminus.stlc.syntax <> idSubst_Tm:112 def
+R4742:4746 vminus.stlc.syntax <> Eq_Tm:110 var
+R4733:4740 vminus.stlc.syntax <> sigma_Tm:108 var
+R4787:4789 vminus.stlc.syntax Core lit constr
+R4799:4807 vminus.stlc.syntax Core congr_lit thm
+R4810:4816 Corelib.Init.Logic <> eq_refl constr
+R4826:4829 vminus.stlc.syntax Core succ constr
+R4839:4848 vminus.stlc.syntax Core congr_succ thm
+R4851:4860 vminus.stlc.syntax <> idSubst_Tm:112 def
+R4871:4875 vminus.stlc.syntax <> Eq_Tm:110 var
+R4862:4869 vminus.stlc.syntax <> sigma_Tm:108 var
+R4885:4888 vminus.stlc.syntax Core nrec constr
+R4910:4919 vminus.stlc.syntax Core congr_nrec thm
+R5000:5009 vminus.stlc.syntax <> idSubst_Tm:112 def
+R5032:5041 vminus.stlc.syntax Core upId_Tm_Tm thm
+R5045:5049 vminus.stlc.syntax <> Eq_Tm:110 var
+R5012:5019 vminus.stlc.syntax Core up_Tm_Tm thm
+R5021:5028 vminus.stlc.syntax <> sigma_Tm:108 var
+R4961:4970 vminus.stlc.syntax <> idSubst_Tm:112 def
+R4981:4985 vminus.stlc.syntax <> Eq_Tm:110 var
+R4972:4979 vminus.stlc.syntax <> sigma_Tm:108 var
+R4922:4931 vminus.stlc.syntax <> idSubst_Tm:112 def
+R4942:4946 vminus.stlc.syntax <> Eq_Tm:110 var
+R4933:4940 vminus.stlc.syntax <> sigma_Tm:108 var
+R5060:5063 vminus.stlc.syntax Core let_ constr
+R5082:5091 vminus.stlc.syntax Core congr_let_ thm
+R5133:5142 vminus.stlc.syntax <> idSubst_Tm:112 def
+R5165:5174 vminus.stlc.syntax Core upId_Tm_Tm thm
+R5178:5182 vminus.stlc.syntax <> Eq_Tm:110 var
+R5145:5152 vminus.stlc.syntax Core up_Tm_Tm thm
+R5154:5161 vminus.stlc.syntax <> sigma_Tm:108 var
+R5094:5103 vminus.stlc.syntax <> idSubst_Tm:112 def
+R5114:5118 vminus.stlc.syntax <> Eq_Tm:110 var
+R5105:5112 vminus.stlc.syntax <> sigma_Tm:108 var
+prf 5203:5216 Core upExtRen_Tm_Tm
+R5223:5225 Corelib.Init.Datatypes <> nat ind
+binder 5219:5219 <> m:114
+R5233:5235 Corelib.Init.Datatypes <> nat ind
+binder 5229:5229 <> n:115
+R5249:5252 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5244:5246 vminus.common.fintype <> fin def
+R5248:5248 vminus.stlc.syntax <> m:114 var
+R5253:5255 vminus.common.fintype <> fin def
+R5257:5257 vminus.stlc.syntax <> n:115 var
+binder 5239:5240 <> xi:116
+R5275:5278 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5270:5272 vminus.common.fintype <> fin def
+R5274:5274 vminus.stlc.syntax <> m:114 var
+R5279:5281 vminus.common.fintype <> fin def
+R5283:5283 vminus.stlc.syntax <> n:115 var
+binder 5263:5266 <> zeta:117
+binder 5299:5299 <> x:118
+R5306:5308 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5302:5303 vminus.stlc.syntax <> xi:116 var
+R5305:5305 vminus.stlc.syntax <> x:118 var
+R5309:5312 vminus.stlc.syntax <> zeta:117 var
+R5314:5314 vminus.stlc.syntax <> x:118 var
+binder 5287:5288 <> Eq:119
+binder 5328:5328 <> x:120
+R5347:5349 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5331:5341 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R5346:5346 vminus.stlc.syntax <> x:120 var
+R5343:5344 vminus.stlc.syntax <> xi:116 var
+R5350:5360 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R5367:5367 vminus.stlc.syntax <> x:120 var
+R5362:5365 vminus.stlc.syntax <> zeta:117 var
+binder 5388:5388 <> n:121
+R5406:5406 vminus.stlc.syntax <> n:121 var
+R5422:5425 Corelib.Init.Datatypes <> Some constr
+R5436:5437 vminus.common.fintype <> ap def
+R5439:5443 vminus.common.fintype <> shift def
+R5465:5468 Corelib.Init.Datatypes <> None constr
+R5473:5479 Corelib.Init.Logic <> eq_refl constr
+binder 5388:5388 <> n:123
+R5406:5406 vminus.stlc.syntax <> n:123 var
+R5422:5425 Corelib.Init.Datatypes <> Some constr
+R5436:5437 vminus.common.fintype <> ap def
+R5439:5443 vminus.common.fintype <> shift def
+R5465:5468 Corelib.Init.Datatypes <> None constr
+R5473:5479 Corelib.Init.Logic <> eq_refl constr
+prf 5506:5524 Core upExtRen_list_Tm_Tm
+R5531:5533 Corelib.Init.Datatypes <> nat ind
+binder 5527:5527 <> p:125
+R5541:5543 Corelib.Init.Datatypes <> nat ind
+binder 5537:5537 <> m:126
+R5551:5553 Corelib.Init.Datatypes <> nat ind
+binder 5547:5547 <> n:127
+R5567:5570 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5562:5564 vminus.common.fintype <> fin def
+R5566:5566 vminus.stlc.syntax <> m:126 var
+R5571:5573 vminus.common.fintype <> fin def
+R5575:5575 vminus.stlc.syntax <> n:127 var
+binder 5557:5558 <> xi:128
+R5593:5596 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5588:5590 vminus.common.fintype <> fin def
+R5592:5592 vminus.stlc.syntax <> m:126 var
+R5597:5599 vminus.common.fintype <> fin def
+R5601:5601 vminus.stlc.syntax <> n:127 var
+binder 5581:5584 <> zeta:129
+binder 5617:5617 <> x:130
+R5624:5626 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5620:5621 vminus.stlc.syntax <> xi:128 var
+R5623:5623 vminus.stlc.syntax <> x:130 var
+R5627:5630 vminus.stlc.syntax <> zeta:129 var
+R5632:5632 vminus.stlc.syntax <> x:130 var
+binder 5605:5606 <> Eq:131
+binder 5646:5646 <> x:132
+R5672:5674 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5649:5664 vminus.stlc.syntax Core upRen_list_Tm_Tm thm
+R5671:5671 vminus.stlc.syntax <> x:132 var
+R5668:5669 vminus.stlc.syntax <> xi:128 var
+R5666:5666 vminus.stlc.syntax <> p:125 var
+R5675:5690 vminus.stlc.syntax Core upRen_list_Tm_Tm thm
+R5699:5699 vminus.stlc.syntax <> x:132 var
+R5694:5697 vminus.stlc.syntax <> zeta:129 var
+R5692:5692 vminus.stlc.syntax <> p:125 var
+binder 5720:5720 <> n:133
+R5732:5744 vminus.common.fintype <> scons_p_congr thm
+binder 5770:5770 <> n:134
+R5775:5776 vminus.common.fintype <> ap def
+R5794:5794 vminus.stlc.syntax <> n:134 var
+R5779:5785 vminus.common.fintype <> shift_p def
+binder 5751:5751 <> n:135
+R5756:5762 Corelib.Init.Logic <> eq_refl constr
+binder 5720:5720 <> n:136
+R5732:5744 vminus.common.fintype <> scons_p_congr thm
+binder 5770:5770 <> n:137
+R5775:5776 vminus.common.fintype <> ap def
+R5794:5794 vminus.stlc.syntax <> n:137 var
+R5779:5785 vminus.common.fintype <> shift_p def
+binder 5751:5751 <> n:138
+R5756:5762 Corelib.Init.Logic <> eq_refl constr
+def 5815:5823 Core extRen_Tm
+R5833:5835 Corelib.Init.Datatypes <> nat ind
+binder 5826:5829 <> m_Tm:139
+R5846:5848 Corelib.Init.Datatypes <> nat ind
+binder 5839:5842 <> n_Tm:140
+R5868:5871 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5860:5862 vminus.common.fintype <> fin def
+R5864:5867 vminus.stlc.syntax <> m_Tm:139 var
+R5872:5874 vminus.common.fintype <> fin def
+R5876:5879 vminus.stlc.syntax <> n_Tm:140 var
+binder 5852:5856 <> xi_Tm:141
+R5901:5904 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5893:5895 vminus.common.fintype <> fin def
+R5897:5900 vminus.stlc.syntax <> m_Tm:139 var
+R5905:5907 vminus.common.fintype <> fin def
+R5909:5912 vminus.stlc.syntax <> n_Tm:140 var
+binder 5883:5889 <> zeta_Tm:142
+binder 5931:5931 <> x:143
+R5941:5943 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5934:5938 vminus.stlc.syntax <> xi_Tm:141 var
+R5940:5940 vminus.stlc.syntax <> x:143 var
+R5944:5950 vminus.stlc.syntax <> zeta_Tm:142 var
+R5952:5952 vminus.stlc.syntax <> x:143 var
+binder 5916:5920 <> Eq_Tm:144
+R5960:5961 vminus.stlc.syntax Core Tm ind
+R5963:5966 vminus.stlc.syntax <> m_Tm:139 var
+binder 5956:5956 <> s:145
+R5996:5998 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5982:5987 vminus.stlc.syntax Core ren_Tm def
+R5995:5995 vminus.stlc.syntax <> s:145 var
+R5989:5993 vminus.stlc.syntax <> xi_Tm:141 var
+R5999:6004 vminus.stlc.syntax Core ren_Tm def
+R6014:6014 vminus.stlc.syntax <> s:145 var
+R6006:6012 vminus.stlc.syntax <> zeta_Tm:142 var
+R6027:6027 vminus.stlc.syntax <> s:145 var
+R6038:6040 vminus.stlc.syntax Core var constr
+R6050:6051 vminus.common.fintype <> ap def
+R6065:6069 vminus.stlc.syntax <> Eq_Tm:144 var
+R6054:6056 vminus.stlc.syntax Core var constr
+R6058:6061 vminus.stlc.syntax <> n_Tm:140 var
+R6079:6081 vminus.stlc.syntax Core abs constr
+R6097:6105 vminus.stlc.syntax Core congr_abs thm
+R6116:6124 vminus.stlc.syntax <> extRen_Tm:146 def
+R6180:6193 vminus.stlc.syntax Core upExtRen_Tm_Tm thm
+R6199:6203 vminus.stlc.syntax <> Eq_Tm:144 var
+R6147:6157 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R6159:6165 vminus.stlc.syntax <> zeta_Tm:142 var
+R6127:6137 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R6139:6143 vminus.stlc.syntax <> xi_Tm:141 var
+R6214:6216 vminus.stlc.syntax Core app constr
+R6235:6243 vminus.stlc.syntax Core congr_app thm
+R6289:6297 vminus.stlc.syntax <> extRen_Tm:146 def
+R6313:6317 vminus.stlc.syntax <> Eq_Tm:144 var
+R6305:6311 vminus.stlc.syntax <> zeta_Tm:142 var
+R6299:6303 vminus.stlc.syntax <> xi_Tm:141 var
+R6246:6254 vminus.stlc.syntax <> extRen_Tm:146 def
+R6270:6274 vminus.stlc.syntax <> Eq_Tm:144 var
+R6262:6268 vminus.stlc.syntax <> zeta_Tm:142 var
+R6256:6260 vminus.stlc.syntax <> xi_Tm:141 var
+R6327:6329 vminus.stlc.syntax Core lit constr
+R6339:6347 vminus.stlc.syntax Core congr_lit thm
+R6350:6356 Corelib.Init.Logic <> eq_refl constr
+R6366:6369 vminus.stlc.syntax Core succ constr
+R6379:6388 vminus.stlc.syntax Core congr_succ thm
+R6391:6399 vminus.stlc.syntax <> extRen_Tm:146 def
+R6415:6419 vminus.stlc.syntax <> Eq_Tm:144 var
+R6407:6413 vminus.stlc.syntax <> zeta_Tm:142 var
+R6401:6405 vminus.stlc.syntax <> xi_Tm:141 var
+R6429:6432 vminus.stlc.syntax Core nrec constr
+R6454:6463 vminus.stlc.syntax Core congr_nrec thm
+R6552:6560 vminus.stlc.syntax <> extRen_Tm:146 def
+R6616:6629 vminus.stlc.syntax Core upExtRen_Tm_Tm thm
+R6635:6639 vminus.stlc.syntax <> Eq_Tm:144 var
+R6583:6593 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R6595:6601 vminus.stlc.syntax <> zeta_Tm:142 var
+R6563:6573 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R6575:6579 vminus.stlc.syntax <> xi_Tm:141 var
+R6509:6517 vminus.stlc.syntax <> extRen_Tm:146 def
+R6533:6537 vminus.stlc.syntax <> Eq_Tm:144 var
+R6525:6531 vminus.stlc.syntax <> zeta_Tm:142 var
+R6519:6523 vminus.stlc.syntax <> xi_Tm:141 var
+R6466:6474 vminus.stlc.syntax <> extRen_Tm:146 def
+R6490:6494 vminus.stlc.syntax <> Eq_Tm:144 var
+R6482:6488 vminus.stlc.syntax <> zeta_Tm:142 var
+R6476:6480 vminus.stlc.syntax <> xi_Tm:141 var
+R6650:6653 vminus.stlc.syntax Core let_ constr
+R6672:6681 vminus.stlc.syntax Core congr_let_ thm
+R6727:6735 vminus.stlc.syntax <> extRen_Tm:146 def
+R6791:6804 vminus.stlc.syntax Core upExtRen_Tm_Tm thm
+R6810:6814 vminus.stlc.syntax <> Eq_Tm:144 var
+R6758:6768 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R6770:6776 vminus.stlc.syntax <> zeta_Tm:142 var
+R6738:6748 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R6750:6754 vminus.stlc.syntax <> xi_Tm:141 var
+R6684:6692 vminus.stlc.syntax <> extRen_Tm:146 def
+R6708:6712 vminus.stlc.syntax <> Eq_Tm:144 var
+R6700:6706 vminus.stlc.syntax <> zeta_Tm:142 var
+R6694:6698 vminus.stlc.syntax <> xi_Tm:141 var
+prf 6835:6845 Core upExt_Tm_Tm
+R6852:6854 Corelib.Init.Datatypes <> nat ind
+binder 6848:6848 <> m:148
+R6865:6867 Corelib.Init.Datatypes <> nat ind
+binder 6858:6861 <> n_Tm:149
+R6884:6887 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6879:6881 vminus.common.fintype <> fin def
+R6883:6883 vminus.stlc.syntax <> m:148 var
+R6888:6889 vminus.stlc.syntax Core Tm ind
+R6891:6894 vminus.stlc.syntax <> n_Tm:149 var
+binder 6871:6875 <> sigma:150
+R6911:6914 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6906:6908 vminus.common.fintype <> fin def
+R6910:6910 vminus.stlc.syntax <> m:148 var
+R6915:6916 vminus.stlc.syntax Core Tm ind
+R6918:6921 vminus.stlc.syntax <> n_Tm:149 var
+binder 6900:6902 <> tau:151
+binder 6937:6937 <> x:152
+R6947:6949 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6940:6944 vminus.stlc.syntax <> sigma:150 var
+R6946:6946 vminus.stlc.syntax <> x:152 var
+R6950:6952 vminus.stlc.syntax <> tau:151 var
+R6954:6954 vminus.stlc.syntax <> x:152 var
+binder 6925:6926 <> Eq:153
+binder 6968:6968 <> x:154
+R6987:6989 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6971:6978 vminus.stlc.syntax Core up_Tm_Tm thm
+R6986:6986 vminus.stlc.syntax <> x:154 var
+R6980:6984 vminus.stlc.syntax <> sigma:150 var
+R6990:6997 vminus.stlc.syntax Core up_Tm_Tm thm
+R7003:7003 vminus.stlc.syntax <> x:154 var
+R6999:7001 vminus.stlc.syntax <> tau:151 var
+binder 7024:7024 <> n:155
+R7042:7042 vminus.stlc.syntax <> n:155 var
+R7058:7061 Corelib.Init.Datatypes <> Some constr
+R7072:7073 vminus.common.fintype <> ap def
+R7076:7081 vminus.stlc.syntax Core ren_Tm def
+R7083:7087 vminus.common.fintype <> shift def
+R7110:7113 Corelib.Init.Datatypes <> None constr
+R7118:7124 Corelib.Init.Logic <> eq_refl constr
+binder 7024:7024 <> n:157
+R7042:7042 vminus.stlc.syntax <> n:157 var
+R7058:7061 Corelib.Init.Datatypes <> Some constr
+R7072:7073 vminus.common.fintype <> ap def
+R7076:7081 vminus.stlc.syntax Core ren_Tm def
+R7083:7087 vminus.common.fintype <> shift def
+R7110:7113 Corelib.Init.Datatypes <> None constr
+R7118:7124 Corelib.Init.Logic <> eq_refl constr
+prf 7151:7166 Core upExt_list_Tm_Tm
+R7173:7175 Corelib.Init.Datatypes <> nat ind
+binder 7169:7169 <> p:159
+R7183:7185 Corelib.Init.Datatypes <> nat ind
+binder 7179:7179 <> m:160
+R7196:7198 Corelib.Init.Datatypes <> nat ind
+binder 7189:7192 <> n_Tm:161
+R7217:7220 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7212:7214 vminus.common.fintype <> fin def
+R7216:7216 vminus.stlc.syntax <> m:160 var
+R7221:7222 vminus.stlc.syntax Core Tm ind
+R7224:7227 vminus.stlc.syntax <> n_Tm:161 var
+binder 7204:7208 <> sigma:162
+R7242:7245 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7237:7239 vminus.common.fintype <> fin def
+R7241:7241 vminus.stlc.syntax <> m:160 var
+R7246:7247 vminus.stlc.syntax Core Tm ind
+R7249:7252 vminus.stlc.syntax <> n_Tm:161 var
+binder 7231:7233 <> tau:163
+binder 7270:7270 <> x:164
+R7280:7282 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7273:7277 vminus.stlc.syntax <> sigma:162 var
+R7279:7279 vminus.stlc.syntax <> x:164 var
+R7283:7285 vminus.stlc.syntax <> tau:163 var
+R7287:7287 vminus.stlc.syntax <> x:164 var
+binder 7258:7259 <> Eq:165
+binder 7301:7301 <> x:166
+R7327:7329 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7304:7316 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R7326:7326 vminus.stlc.syntax <> x:166 var
+R7320:7324 vminus.stlc.syntax <> sigma:162 var
+R7318:7318 vminus.stlc.syntax <> p:159 var
+R7330:7342 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R7350:7350 vminus.stlc.syntax <> x:166 var
+R7346:7348 vminus.stlc.syntax <> tau:163 var
+R7344:7344 vminus.stlc.syntax <> p:159 var
+binder 7371:7371 <> n:167
+R7383:7395 vminus.common.fintype <> scons_p_congr thm
+binder 7430:7430 <> n:168
+R7435:7436 vminus.common.fintype <> ap def
+R7463:7463 vminus.stlc.syntax <> n:168 var
+R7439:7444 vminus.stlc.syntax Core ren_Tm def
+R7447:7453 vminus.common.fintype <> shift_p def
+binder 7402:7402 <> n:169
+R7407:7413 Corelib.Init.Logic <> eq_refl constr
+binder 7371:7371 <> n:170
+R7383:7395 vminus.common.fintype <> scons_p_congr thm
+binder 7430:7430 <> n:171
+R7435:7436 vminus.common.fintype <> ap def
+R7463:7463 vminus.stlc.syntax <> n:171 var
+R7439:7444 vminus.stlc.syntax Core ren_Tm def
+R7447:7453 vminus.common.fintype <> shift_p def
+binder 7402:7402 <> n:172
+R7407:7413 Corelib.Init.Logic <> eq_refl constr
+def 7484:7489 Core ext_Tm
+R7499:7501 Corelib.Init.Datatypes <> nat ind
+binder 7492:7495 <> m_Tm:173
+R7512:7514 Corelib.Init.Datatypes <> nat ind
+binder 7505:7508 <> n_Tm:174
+R7537:7540 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7529:7531 vminus.common.fintype <> fin def
+R7533:7536 vminus.stlc.syntax <> m_Tm:173 var
+R7541:7542 vminus.stlc.syntax Core Tm ind
+R7544:7547 vminus.stlc.syntax <> n_Tm:174 var
+binder 7518:7525 <> sigma_Tm:175
+R7568:7571 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7560:7562 vminus.common.fintype <> fin def
+R7564:7567 vminus.stlc.syntax <> m_Tm:173 var
+R7572:7573 vminus.stlc.syntax Core Tm ind
+R7575:7578 vminus.stlc.syntax <> n_Tm:174 var
+binder 7551:7556 <> tau_Tm:176
+binder 7597:7597 <> x:177
+R7610:7612 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7600:7607 vminus.stlc.syntax <> sigma_Tm:175 var
+R7609:7609 vminus.stlc.syntax <> x:177 var
+R7613:7618 vminus.stlc.syntax <> tau_Tm:176 var
+R7620:7620 vminus.stlc.syntax <> x:177 var
+binder 7582:7586 <> Eq_Tm:178
+R7628:7629 vminus.stlc.syntax Core Tm ind
+R7631:7634 vminus.stlc.syntax <> m_Tm:173 var
+binder 7624:7624 <> s:179
+R7669:7671 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7650:7657 vminus.stlc.syntax Core subst_Tm def
+R7668:7668 vminus.stlc.syntax <> s:179 var
+R7659:7666 vminus.stlc.syntax <> sigma_Tm:175 var
+R7672:7679 vminus.stlc.syntax Core subst_Tm def
+R7688:7688 vminus.stlc.syntax <> s:179 var
+R7681:7686 vminus.stlc.syntax <> tau_Tm:176 var
+R7701:7701 vminus.stlc.syntax <> s:179 var
+R7712:7714 vminus.stlc.syntax Core var constr
+R7724:7728 vminus.stlc.syntax <> Eq_Tm:178 var
+R7737:7739 vminus.stlc.syntax Core abs constr
+R7755:7763 vminus.stlc.syntax Core congr_abs thm
+R7774:7779 vminus.stlc.syntax <> ext_Tm:180 def
+R7820:7830 vminus.stlc.syntax Core upExt_Tm_Tm thm
+R7836:7840 vminus.stlc.syntax <> Eq_Tm:178 var
+R7802:7809 vminus.stlc.syntax Core up_Tm_Tm thm
+R7811:7816 vminus.stlc.syntax <> tau_Tm:176 var
+R7782:7789 vminus.stlc.syntax Core up_Tm_Tm thm
+R7791:7798 vminus.stlc.syntax <> sigma_Tm:175 var
+R7862:7864 vminus.stlc.syntax Core app constr
+R7883:7891 vminus.stlc.syntax Core congr_app thm
+R7936:7941 vminus.stlc.syntax <> ext_Tm:180 def
+R7959:7963 vminus.stlc.syntax <> Eq_Tm:178 var
+R7952:7957 vminus.stlc.syntax <> tau_Tm:176 var
+R7943:7950 vminus.stlc.syntax <> sigma_Tm:175 var
+R7894:7899 vminus.stlc.syntax <> ext_Tm:180 def
+R7917:7921 vminus.stlc.syntax <> Eq_Tm:178 var
+R7910:7915 vminus.stlc.syntax <> tau_Tm:176 var
+R7901:7908 vminus.stlc.syntax <> sigma_Tm:175 var
+R7973:7975 vminus.stlc.syntax Core lit constr
+R7985:7993 vminus.stlc.syntax Core congr_lit thm
+R7996:8002 Corelib.Init.Logic <> eq_refl constr
+R8012:8015 vminus.stlc.syntax Core succ constr
+R8025:8034 vminus.stlc.syntax Core congr_succ thm
+R8037:8042 vminus.stlc.syntax <> ext_Tm:180 def
+R8060:8064 vminus.stlc.syntax <> Eq_Tm:178 var
+R8053:8058 vminus.stlc.syntax <> tau_Tm:176 var
+R8044:8051 vminus.stlc.syntax <> sigma_Tm:175 var
+R8074:8077 vminus.stlc.syntax Core nrec constr
+R8099:8108 vminus.stlc.syntax Core congr_nrec thm
+R8195:8200 vminus.stlc.syntax <> ext_Tm:180 def
+R8241:8251 vminus.stlc.syntax Core upExt_Tm_Tm thm
+R8257:8261 vminus.stlc.syntax <> Eq_Tm:178 var
+R8223:8230 vminus.stlc.syntax Core up_Tm_Tm thm
+R8232:8237 vminus.stlc.syntax <> tau_Tm:176 var
+R8203:8210 vminus.stlc.syntax Core up_Tm_Tm thm
+R8212:8219 vminus.stlc.syntax <> sigma_Tm:175 var
+R8153:8158 vminus.stlc.syntax <> ext_Tm:180 def
+R8176:8180 vminus.stlc.syntax <> Eq_Tm:178 var
+R8169:8174 vminus.stlc.syntax <> tau_Tm:176 var
+R8160:8167 vminus.stlc.syntax <> sigma_Tm:175 var
+R8111:8116 vminus.stlc.syntax <> ext_Tm:180 def
+R8134:8138 vminus.stlc.syntax <> Eq_Tm:178 var
+R8127:8132 vminus.stlc.syntax <> tau_Tm:176 var
+R8118:8125 vminus.stlc.syntax <> sigma_Tm:175 var
+R8283:8286 vminus.stlc.syntax Core let_ constr
+R8305:8314 vminus.stlc.syntax Core congr_let_ thm
+R8359:8364 vminus.stlc.syntax <> ext_Tm:180 def
+R8405:8415 vminus.stlc.syntax Core upExt_Tm_Tm thm
+R8421:8425 vminus.stlc.syntax <> Eq_Tm:178 var
+R8387:8394 vminus.stlc.syntax Core up_Tm_Tm thm
+R8396:8401 vminus.stlc.syntax <> tau_Tm:176 var
+R8367:8374 vminus.stlc.syntax Core up_Tm_Tm thm
+R8376:8383 vminus.stlc.syntax <> sigma_Tm:175 var
+R8317:8322 vminus.stlc.syntax <> ext_Tm:180 def
+R8340:8344 vminus.stlc.syntax <> Eq_Tm:178 var
+R8333:8338 vminus.stlc.syntax <> tau_Tm:176 var
+R8324:8331 vminus.stlc.syntax <> sigma_Tm:175 var
+prf 8457:8472 Core up_ren_ren_Tm_Tm
+R8479:8481 Corelib.Init.Datatypes <> nat ind
+binder 8475:8475 <> k:182
+R8489:8491 Corelib.Init.Datatypes <> nat ind
+binder 8485:8485 <> l:183
+R8499:8501 Corelib.Init.Datatypes <> nat ind
+binder 8495:8495 <> m:184
+R8515:8518 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8510:8512 vminus.common.fintype <> fin def
+R8514:8514 vminus.stlc.syntax <> k:182 var
+R8519:8521 vminus.common.fintype <> fin def
+R8523:8523 vminus.stlc.syntax <> l:183 var
+binder 8505:8506 <> xi:185
+R8541:8544 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8536:8538 vminus.common.fintype <> fin def
+R8540:8540 vminus.stlc.syntax <> l:183 var
+R8545:8547 vminus.common.fintype <> fin def
+R8549:8549 vminus.stlc.syntax <> m:184 var
+binder 8529:8532 <> zeta:186
+R8564:8567 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8559:8561 vminus.common.fintype <> fin def
+R8563:8563 vminus.stlc.syntax <> k:182 var
+R8568:8570 vminus.common.fintype <> fin def
+R8572:8572 vminus.stlc.syntax <> m:184 var
+binder 8553:8555 <> rho:187
+binder 8590:8590 <> x:188
+R8610:8612 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8593:8599 vminus.common.core <> funcomp def
+R8609:8609 vminus.stlc.syntax <> x:188 var
+R8606:8607 vminus.stlc.syntax <> xi:185 var
+R8601:8604 vminus.stlc.syntax <> zeta:186 var
+R8613:8615 vminus.stlc.syntax <> rho:187 var
+R8617:8617 vminus.stlc.syntax <> x:188 var
+binder 8578:8579 <> Eq:189
+binder 8631:8631 <> x:190
+R8679:8681 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8634:8640 vminus.common.core <> funcomp def
+R8678:8678 vminus.stlc.syntax <> x:190 var
+R8662:8672 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R8674:8675 vminus.stlc.syntax <> xi:185 var
+R8643:8653 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R8655:8658 vminus.stlc.syntax <> zeta:186 var
+R8682:8692 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R8698:8698 vminus.stlc.syntax <> x:190 var
+R8694:8696 vminus.stlc.syntax <> rho:187 var
+R8715:8724 vminus.common.fintype <> up_ren_ren thm
+R8715:8724 vminus.common.fintype <> up_ren_ren thm
+prf 8755:8775 Core up_ren_ren_list_Tm_Tm
+R8782:8784 Corelib.Init.Datatypes <> nat ind
+binder 8778:8778 <> p:191
+R8792:8794 Corelib.Init.Datatypes <> nat ind
+binder 8788:8788 <> k:192
+R8802:8804 Corelib.Init.Datatypes <> nat ind
+binder 8798:8798 <> l:193
+R8812:8814 Corelib.Init.Datatypes <> nat ind
+binder 8808:8808 <> m:194
+R8830:8833 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8825:8827 vminus.common.fintype <> fin def
+R8829:8829 vminus.stlc.syntax <> k:192 var
+R8834:8836 vminus.common.fintype <> fin def
+R8838:8838 vminus.stlc.syntax <> l:193 var
+binder 8820:8821 <> xi:195
+R8854:8857 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8849:8851 vminus.common.fintype <> fin def
+R8853:8853 vminus.stlc.syntax <> l:193 var
+R8858:8860 vminus.common.fintype <> fin def
+R8862:8862 vminus.stlc.syntax <> m:194 var
+binder 8842:8845 <> zeta:196
+R8877:8880 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8872:8874 vminus.common.fintype <> fin def
+R8876:8876 vminus.stlc.syntax <> k:192 var
+R8881:8883 vminus.common.fintype <> fin def
+R8885:8885 vminus.stlc.syntax <> m:194 var
+binder 8866:8868 <> rho:197
+binder 8903:8903 <> x:198
+R8923:8925 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8906:8912 vminus.common.core <> funcomp def
+R8922:8922 vminus.stlc.syntax <> x:198 var
+R8919:8920 vminus.stlc.syntax <> xi:195 var
+R8914:8917 vminus.stlc.syntax <> zeta:196 var
+R8926:8928 vminus.stlc.syntax <> rho:197 var
+R8930:8930 vminus.stlc.syntax <> x:198 var
+binder 8891:8892 <> Eq:199
+binder 8944:8944 <> x:200
+R9008:9012 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8949:8955 vminus.common.core <> funcomp def
+R9007:9007 vminus.stlc.syntax <> x:200 var
+R8984:8999 vminus.stlc.syntax Core upRen_list_Tm_Tm thm
+R9003:9004 vminus.stlc.syntax <> xi:195 var
+R9001:9001 vminus.stlc.syntax <> p:191 var
+R8958:8973 vminus.stlc.syntax Core upRen_list_Tm_Tm thm
+R8977:8980 vminus.stlc.syntax <> zeta:196 var
+R8975:8975 vminus.stlc.syntax <> p:191 var
+R9013:9028 vminus.stlc.syntax Core upRen_list_Tm_Tm thm
+R9036:9036 vminus.stlc.syntax <> x:200 var
+R9032:9034 vminus.stlc.syntax <> rho:197 var
+R9030:9030 vminus.stlc.syntax <> p:191 var
+R9053:9064 vminus.common.fintype <> up_ren_ren_p thm
+R9053:9064 vminus.common.fintype <> up_ren_ren_p thm
+def 9086:9098 Core compRenRen_Tm
+R9108:9110 Corelib.Init.Datatypes <> nat ind
+binder 9101:9104 <> k_Tm:201
+R9121:9123 Corelib.Init.Datatypes <> nat ind
+binder 9114:9117 <> l_Tm:202
+R9134:9136 Corelib.Init.Datatypes <> nat ind
+binder 9127:9130 <> m_Tm:203
+R9156:9159 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9148:9150 vminus.common.fintype <> fin def
+R9152:9155 vminus.stlc.syntax <> m_Tm:203 var
+R9160:9162 vminus.common.fintype <> fin def
+R9164:9167 vminus.stlc.syntax <> k_Tm:201 var
+binder 9140:9144 <> xi_Tm:204
+R9189:9192 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9181:9183 vminus.common.fintype <> fin def
+R9185:9188 vminus.stlc.syntax <> k_Tm:201 var
+R9193:9195 vminus.common.fintype <> fin def
+R9197:9200 vminus.stlc.syntax <> l_Tm:202 var
+binder 9171:9177 <> zeta_Tm:205
+R9221:9224 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R9213:9215 vminus.common.fintype <> fin def
+R9217:9220 vminus.stlc.syntax <> m_Tm:203 var
+R9225:9227 vminus.common.fintype <> fin def
+R9229:9232 vminus.stlc.syntax <> l_Tm:202 var
+binder 9204:9209 <> rho_Tm:206
+binder 9251:9251 <> x:207
+R9277:9279 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9254:9260 vminus.common.core <> funcomp def
+R9276:9276 vminus.stlc.syntax <> x:207 var
+R9270:9274 vminus.stlc.syntax <> xi_Tm:204 var
+R9262:9268 vminus.stlc.syntax <> zeta_Tm:205 var
+R9280:9285 vminus.stlc.syntax <> rho_Tm:206 var
+R9287:9287 vminus.stlc.syntax <> x:207 var
+binder 9236:9240 <> Eq_Tm:208
+R9295:9296 vminus.stlc.syntax Core Tm ind
+R9298:9301 vminus.stlc.syntax <> m_Tm:203 var
+binder 9291:9291 <> s:209
+R9349:9351 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9318:9323 vminus.stlc.syntax Core ren_Tm def
+R9334:9339 vminus.stlc.syntax Core ren_Tm def
+R9347:9347 vminus.stlc.syntax <> s:209 var
+R9341:9345 vminus.stlc.syntax <> xi_Tm:204 var
+R9325:9331 vminus.stlc.syntax <> zeta_Tm:205 var
+R9352:9357 vminus.stlc.syntax Core ren_Tm def
+R9366:9366 vminus.stlc.syntax <> s:209 var
+R9359:9364 vminus.stlc.syntax <> rho_Tm:206 var
+R9379:9379 vminus.stlc.syntax <> s:209 var
+R9390:9392 vminus.stlc.syntax Core var constr
+R9402:9403 vminus.common.fintype <> ap def
+R9417:9421 vminus.stlc.syntax <> Eq_Tm:208 var
+R9406:9408 vminus.stlc.syntax Core var constr
+R9410:9413 vminus.stlc.syntax <> l_Tm:202 var
+R9431:9433 vminus.stlc.syntax Core abs constr
+R9449:9457 vminus.stlc.syntax Core congr_abs thm
+R9468:9480 vminus.stlc.syntax <> compRenRen_Tm:210 def
+R9557:9566 vminus.common.fintype <> up_ren_ren thm
+R9574:9578 vminus.stlc.syntax <> Eq_Tm:208 var
+R9536:9546 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R9548:9553 vminus.stlc.syntax <> rho_Tm:206 var
+R9503:9513 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R9515:9521 vminus.stlc.syntax <> zeta_Tm:205 var
+R9483:9493 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R9495:9499 vminus.stlc.syntax <> xi_Tm:204 var
+R9589:9591 vminus.stlc.syntax Core app constr
+R9610:9618 vminus.stlc.syntax Core congr_app thm
+R9675:9687 vminus.stlc.syntax <> compRenRen_Tm:210 def
+R9710:9714 vminus.stlc.syntax <> Eq_Tm:208 var
+R9703:9708 vminus.stlc.syntax <> rho_Tm:206 var
+R9695:9701 vminus.stlc.syntax <> zeta_Tm:205 var
+R9689:9693 vminus.stlc.syntax <> xi_Tm:204 var
+R9621:9633 vminus.stlc.syntax <> compRenRen_Tm:210 def
+R9656:9660 vminus.stlc.syntax <> Eq_Tm:208 var
+R9649:9654 vminus.stlc.syntax <> rho_Tm:206 var
+R9641:9647 vminus.stlc.syntax <> zeta_Tm:205 var
+R9635:9639 vminus.stlc.syntax <> xi_Tm:204 var
+R9724:9726 vminus.stlc.syntax Core lit constr
+R9736:9744 vminus.stlc.syntax Core congr_lit thm
+R9747:9753 Corelib.Init.Logic <> eq_refl constr
+R9763:9766 vminus.stlc.syntax Core succ constr
+R9776:9785 vminus.stlc.syntax Core congr_succ thm
+R9788:9800 vminus.stlc.syntax <> compRenRen_Tm:210 def
+R9823:9827 vminus.stlc.syntax <> Eq_Tm:208 var
+R9816:9821 vminus.stlc.syntax <> rho_Tm:206 var
+R9808:9814 vminus.stlc.syntax <> zeta_Tm:205 var
+R9802:9806 vminus.stlc.syntax <> xi_Tm:204 var
+R9837:9840 vminus.stlc.syntax Core nrec constr
+R9862:9871 vminus.stlc.syntax Core congr_nrec thm
+R9982:9994 vminus.stlc.syntax <> compRenRen_Tm:210 def
+R10071:10080 vminus.common.fintype <> up_ren_ren thm
+R10088:10092 vminus.stlc.syntax <> Eq_Tm:208 var
+R10050:10060 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R10062:10067 vminus.stlc.syntax <> rho_Tm:206 var
+R10017:10027 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R10029:10035 vminus.stlc.syntax <> zeta_Tm:205 var
+R9997:10007 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R10009:10013 vminus.stlc.syntax <> xi_Tm:204 var
+R9928:9940 vminus.stlc.syntax <> compRenRen_Tm:210 def
+R9963:9967 vminus.stlc.syntax <> Eq_Tm:208 var
+R9956:9961 vminus.stlc.syntax <> rho_Tm:206 var
+R9948:9954 vminus.stlc.syntax <> zeta_Tm:205 var
+R9942:9946 vminus.stlc.syntax <> xi_Tm:204 var
+R9874:9886 vminus.stlc.syntax <> compRenRen_Tm:210 def
+R9909:9913 vminus.stlc.syntax <> Eq_Tm:208 var
+R9902:9907 vminus.stlc.syntax <> rho_Tm:206 var
+R9894:9900 vminus.stlc.syntax <> zeta_Tm:205 var
+R9888:9892 vminus.stlc.syntax <> xi_Tm:204 var
+R10103:10106 vminus.stlc.syntax Core let_ constr
+R10125:10134 vminus.stlc.syntax Core congr_let_ thm
+R10191:10203 vminus.stlc.syntax <> compRenRen_Tm:210 def
+R10280:10289 vminus.common.fintype <> up_ren_ren thm
+R10297:10301 vminus.stlc.syntax <> Eq_Tm:208 var
+R10259:10269 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R10271:10276 vminus.stlc.syntax <> rho_Tm:206 var
+R10226:10236 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R10238:10244 vminus.stlc.syntax <> zeta_Tm:205 var
+R10206:10216 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R10218:10222 vminus.stlc.syntax <> xi_Tm:204 var
+R10137:10149 vminus.stlc.syntax <> compRenRen_Tm:210 def
+R10172:10176 vminus.stlc.syntax <> Eq_Tm:208 var
+R10165:10170 vminus.stlc.syntax <> rho_Tm:206 var
+R10157:10163 vminus.stlc.syntax <> zeta_Tm:205 var
+R10151:10155 vminus.stlc.syntax <> xi_Tm:204 var
+prf 10322:10339 Core up_ren_subst_Tm_Tm
+R10346:10348 Corelib.Init.Datatypes <> nat ind
+binder 10342:10342 <> k:212
+R10356:10358 Corelib.Init.Datatypes <> nat ind
+binder 10352:10352 <> l:213
+R10369:10371 Corelib.Init.Datatypes <> nat ind
+binder 10362:10365 <> m_Tm:214
+R10387:10390 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10382:10384 vminus.common.fintype <> fin def
+R10386:10386 vminus.stlc.syntax <> k:212 var
+R10391:10393 vminus.common.fintype <> fin def
+R10395:10395 vminus.stlc.syntax <> l:213 var
+binder 10377:10378 <> xi:215
+R10410:10413 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10405:10407 vminus.common.fintype <> fin def
+R10409:10409 vminus.stlc.syntax <> l:213 var
+R10414:10415 vminus.stlc.syntax Core Tm ind
+R10417:10420 vminus.stlc.syntax <> m_Tm:214 var
+binder 10399:10401 <> tau:216
+R10437:10440 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10432:10434 vminus.common.fintype <> fin def
+R10436:10436 vminus.stlc.syntax <> k:212 var
+R10441:10442 vminus.stlc.syntax Core Tm ind
+R10444:10447 vminus.stlc.syntax <> m_Tm:214 var
+binder 10424:10428 <> theta:217
+binder 10465:10465 <> x:218
+R10484:10486 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10468:10474 vminus.common.core <> funcomp def
+R10483:10483 vminus.stlc.syntax <> x:218 var
+R10480:10481 vminus.stlc.syntax <> xi:215 var
+R10476:10478 vminus.stlc.syntax <> tau:216 var
+R10487:10491 vminus.stlc.syntax <> theta:217 var
+R10493:10493 vminus.stlc.syntax <> x:218 var
+binder 10453:10454 <> Eq:219
+binder 10507:10507 <> x:220
+R10551:10553 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10510:10516 vminus.common.core <> funcomp def
+R10550:10550 vminus.stlc.syntax <> x:220 var
+R10534:10544 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R10546:10547 vminus.stlc.syntax <> xi:215 var
+R10519:10526 vminus.stlc.syntax Core up_Tm_Tm thm
+R10528:10530 vminus.stlc.syntax <> tau:216 var
+R10554:10561 vminus.stlc.syntax Core up_Tm_Tm thm
+R10569:10569 vminus.stlc.syntax <> x:220 var
+R10563:10567 vminus.stlc.syntax <> theta:217 var
+binder 10590:10590 <> n:221
+R10608:10608 vminus.stlc.syntax <> n:221 var
+R10624:10627 Corelib.Init.Datatypes <> Some constr
+R10638:10639 vminus.common.fintype <> ap def
+R10642:10647 vminus.stlc.syntax Core ren_Tm def
+R10649:10653 vminus.common.fintype <> shift def
+R10676:10679 Corelib.Init.Datatypes <> None constr
+R10684:10690 Corelib.Init.Logic <> eq_refl constr
+binder 10590:10590 <> n:223
+R10608:10608 vminus.stlc.syntax <> n:223 var
+R10624:10627 Corelib.Init.Datatypes <> Some constr
+R10638:10639 vminus.common.fintype <> ap def
+R10642:10647 vminus.stlc.syntax Core ren_Tm def
+R10649:10653 vminus.common.fintype <> shift def
+R10676:10679 Corelib.Init.Datatypes <> None constr
+R10684:10690 Corelib.Init.Logic <> eq_refl constr
+prf 10717:10739 Core up_ren_subst_list_Tm_Tm
+R10746:10748 Corelib.Init.Datatypes <> nat ind
+binder 10742:10742 <> p:225
+R10756:10758 Corelib.Init.Datatypes <> nat ind
+binder 10752:10752 <> k:226
+R10766:10768 Corelib.Init.Datatypes <> nat ind
+binder 10762:10762 <> l:227
+R10779:10781 Corelib.Init.Datatypes <> nat ind
+binder 10772:10775 <> m_Tm:228
+R10797:10800 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10792:10794 vminus.common.fintype <> fin def
+R10796:10796 vminus.stlc.syntax <> k:226 var
+R10801:10803 vminus.common.fintype <> fin def
+R10805:10805 vminus.stlc.syntax <> l:227 var
+binder 10787:10788 <> xi:229
+R10820:10823 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10815:10817 vminus.common.fintype <> fin def
+R10819:10819 vminus.stlc.syntax <> l:227 var
+R10824:10825 vminus.stlc.syntax Core Tm ind
+R10827:10830 vminus.stlc.syntax <> m_Tm:228 var
+binder 10809:10811 <> tau:230
+R10847:10850 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10842:10844 vminus.common.fintype <> fin def
+R10846:10846 vminus.stlc.syntax <> k:226 var
+R10851:10852 vminus.stlc.syntax Core Tm ind
+R10854:10857 vminus.stlc.syntax <> m_Tm:228 var
+binder 10834:10838 <> theta:231
+binder 10875:10875 <> x:232
+R10894:10896 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10878:10884 vminus.common.core <> funcomp def
+R10893:10893 vminus.stlc.syntax <> x:232 var
+R10890:10891 vminus.stlc.syntax <> xi:229 var
+R10886:10888 vminus.stlc.syntax <> tau:230 var
+R10897:10901 vminus.stlc.syntax <> theta:231 var
+R10903:10903 vminus.stlc.syntax <> x:232 var
+binder 10863:10864 <> Eq:233
+binder 10917:10917 <> x:234
+R10977:10981 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10922:10928 vminus.common.core <> funcomp def
+R10976:10976 vminus.stlc.syntax <> x:234 var
+R10953:10968 vminus.stlc.syntax Core upRen_list_Tm_Tm thm
+R10972:10973 vminus.stlc.syntax <> xi:229 var
+R10970:10970 vminus.stlc.syntax <> p:225 var
+R10931:10943 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R10947:10949 vminus.stlc.syntax <> tau:230 var
+R10945:10945 vminus.stlc.syntax <> p:225 var
+R10982:10994 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R11004:11004 vminus.stlc.syntax <> x:234 var
+R10998:11002 vminus.stlc.syntax <> theta:231 var
+R10996:10996 vminus.stlc.syntax <> p:225 var
+binder 11025:11025 <> n:235
+R11037:11044 Corelib.Init.Logic <> eq_trans thm
+R11080:11092 vminus.common.fintype <> scons_p_congr thm
+binder 11142:11142 <> z:236
+R11160:11167 Corelib.Init.Logic <> eq_trans thm
+R11212:11213 vminus.common.fintype <> ap def
+R11240:11240 vminus.stlc.syntax <> z:236 var
+R11216:11221 vminus.stlc.syntax Core ren_Tm def
+R11224:11230 vminus.common.fintype <> shift_p def
+R11170:11182 vminus.common.fintype <> scons_p_tail' thm
+R11192:11192 vminus.stlc.syntax <> z:236 var
+binder 11099:11099 <> z:237
+R11104:11116 vminus.common.fintype <> scons_p_head' thm
+R11122:11122 vminus.stlc.syntax <> z:237 var
+R11047:11059 vminus.common.fintype <> scons_p_comp' thm
+R11067:11067 vminus.stlc.syntax <> n:235 var
+binder 11025:11025 <> n:238
+R11037:11044 Corelib.Init.Logic <> eq_trans thm
+R11080:11092 vminus.common.fintype <> scons_p_congr thm
+binder 11142:11142 <> z:239
+R11160:11167 Corelib.Init.Logic <> eq_trans thm
+R11212:11213 vminus.common.fintype <> ap def
+R11240:11240 vminus.stlc.syntax <> z:239 var
+R11216:11221 vminus.stlc.syntax Core ren_Tm def
+R11224:11230 vminus.common.fintype <> shift_p def
+R11170:11182 vminus.common.fintype <> scons_p_tail' thm
+R11192:11192 vminus.stlc.syntax <> z:239 var
+binder 11099:11099 <> z:240
+R11104:11116 vminus.common.fintype <> scons_p_head' thm
+R11122:11122 vminus.stlc.syntax <> z:240 var
+R11047:11059 vminus.common.fintype <> scons_p_comp' thm
+R11067:11067 vminus.stlc.syntax <> n:238 var
+def 11263:11277 Core compRenSubst_Tm
+R11287:11289 Corelib.Init.Datatypes <> nat ind
+binder 11280:11283 <> k_Tm:241
+R11300:11302 Corelib.Init.Datatypes <> nat ind
+binder 11293:11296 <> l_Tm:242
+R11313:11315 Corelib.Init.Datatypes <> nat ind
+binder 11306:11309 <> m_Tm:243
+R11335:11338 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11327:11329 vminus.common.fintype <> fin def
+R11331:11334 vminus.stlc.syntax <> m_Tm:243 var
+R11339:11341 vminus.common.fintype <> fin def
+R11343:11346 vminus.stlc.syntax <> k_Tm:241 var
+binder 11319:11323 <> xi_Tm:244
+R11367:11370 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11359:11361 vminus.common.fintype <> fin def
+R11363:11366 vminus.stlc.syntax <> k_Tm:241 var
+R11371:11372 vminus.stlc.syntax Core Tm ind
+R11374:11377 vminus.stlc.syntax <> l_Tm:242 var
+binder 11350:11355 <> tau_Tm:245
+R11400:11403 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R11392:11394 vminus.common.fintype <> fin def
+R11396:11399 vminus.stlc.syntax <> m_Tm:243 var
+R11404:11405 vminus.stlc.syntax Core Tm ind
+R11407:11410 vminus.stlc.syntax <> l_Tm:242 var
+binder 11381:11388 <> theta_Tm:246
+binder 11429:11429 <> x:247
+R11454:11456 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11432:11438 vminus.common.core <> funcomp def
+R11453:11453 vminus.stlc.syntax <> x:247 var
+R11447:11451 vminus.stlc.syntax <> xi_Tm:244 var
+R11440:11445 vminus.stlc.syntax <> tau_Tm:245 var
+R11457:11464 vminus.stlc.syntax <> theta_Tm:246 var
+R11466:11466 vminus.stlc.syntax <> x:247 var
+binder 11414:11418 <> Eq_Tm:248
+R11474:11475 vminus.stlc.syntax Core Tm ind
+R11477:11480 vminus.stlc.syntax <> m_Tm:243 var
+binder 11470:11470 <> s:249
+R11529:11531 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11497:11504 vminus.stlc.syntax Core subst_Tm def
+R11514:11519 vminus.stlc.syntax Core ren_Tm def
+R11527:11527 vminus.stlc.syntax <> s:249 var
+R11521:11525 vminus.stlc.syntax <> xi_Tm:244 var
+R11506:11511 vminus.stlc.syntax <> tau_Tm:245 var
+R11532:11539 vminus.stlc.syntax Core subst_Tm def
+R11550:11550 vminus.stlc.syntax <> s:249 var
+R11541:11548 vminus.stlc.syntax <> theta_Tm:246 var
+R11563:11563 vminus.stlc.syntax <> s:249 var
+R11574:11576 vminus.stlc.syntax Core var constr
+R11586:11590 vminus.stlc.syntax <> Eq_Tm:248 var
+R11599:11601 vminus.stlc.syntax Core abs constr
+R11617:11625 vminus.stlc.syntax Core congr_abs thm
+R11636:11650 vminus.stlc.syntax <> compRenSubst_Tm:250 def
+R11722:11739 vminus.stlc.syntax Core up_ren_subst_Tm_Tm thm
+R11747:11751 vminus.stlc.syntax <> Eq_Tm:248 var
+R11702:11709 vminus.stlc.syntax Core up_Tm_Tm thm
+R11711:11718 vminus.stlc.syntax <> theta_Tm:246 var
+R11673:11680 vminus.stlc.syntax Core up_Tm_Tm thm
+R11682:11687 vminus.stlc.syntax <> tau_Tm:245 var
+R11653:11663 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R11665:11669 vminus.stlc.syntax <> xi_Tm:244 var
+R11762:11764 vminus.stlc.syntax Core app constr
+R11783:11791 vminus.stlc.syntax Core congr_app thm
+R11851:11865 vminus.stlc.syntax <> compRenSubst_Tm:250 def
+R11889:11893 vminus.stlc.syntax <> Eq_Tm:248 var
+R11880:11887 vminus.stlc.syntax <> theta_Tm:246 var
+R11873:11878 vminus.stlc.syntax <> tau_Tm:245 var
+R11867:11871 vminus.stlc.syntax <> xi_Tm:244 var
+R11794:11808 vminus.stlc.syntax <> compRenSubst_Tm:250 def
+R11832:11836 vminus.stlc.syntax <> Eq_Tm:248 var
+R11823:11830 vminus.stlc.syntax <> theta_Tm:246 var
+R11816:11821 vminus.stlc.syntax <> tau_Tm:245 var
+R11810:11814 vminus.stlc.syntax <> xi_Tm:244 var
+R11903:11905 vminus.stlc.syntax Core lit constr
+R11915:11923 vminus.stlc.syntax Core congr_lit thm
+R11926:11932 Corelib.Init.Logic <> eq_refl constr
+R11942:11945 vminus.stlc.syntax Core succ constr
+R11955:11964 vminus.stlc.syntax Core congr_succ thm
+R11967:11981 vminus.stlc.syntax <> compRenSubst_Tm:250 def
+R12005:12009 vminus.stlc.syntax <> Eq_Tm:248 var
+R11996:12003 vminus.stlc.syntax <> theta_Tm:246 var
+R11989:11994 vminus.stlc.syntax <> tau_Tm:245 var
+R11983:11987 vminus.stlc.syntax <> xi_Tm:244 var
+R12019:12022 vminus.stlc.syntax Core nrec constr
+R12044:12053 vminus.stlc.syntax Core congr_nrec thm
+R12170:12184 vminus.stlc.syntax <> compRenSubst_Tm:250 def
+R12256:12273 vminus.stlc.syntax Core up_ren_subst_Tm_Tm thm
+R12281:12285 vminus.stlc.syntax <> Eq_Tm:248 var
+R12236:12243 vminus.stlc.syntax Core up_Tm_Tm thm
+R12245:12252 vminus.stlc.syntax <> theta_Tm:246 var
+R12207:12214 vminus.stlc.syntax Core up_Tm_Tm thm
+R12216:12221 vminus.stlc.syntax <> tau_Tm:245 var
+R12187:12197 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R12199:12203 vminus.stlc.syntax <> xi_Tm:244 var
+R12113:12127 vminus.stlc.syntax <> compRenSubst_Tm:250 def
+R12151:12155 vminus.stlc.syntax <> Eq_Tm:248 var
+R12142:12149 vminus.stlc.syntax <> theta_Tm:246 var
+R12135:12140 vminus.stlc.syntax <> tau_Tm:245 var
+R12129:12133 vminus.stlc.syntax <> xi_Tm:244 var
+R12056:12070 vminus.stlc.syntax <> compRenSubst_Tm:250 def
+R12094:12098 vminus.stlc.syntax <> Eq_Tm:248 var
+R12085:12092 vminus.stlc.syntax <> theta_Tm:246 var
+R12078:12083 vminus.stlc.syntax <> tau_Tm:245 var
+R12072:12076 vminus.stlc.syntax <> xi_Tm:244 var
+R12296:12299 vminus.stlc.syntax Core let_ constr
+R12318:12327 vminus.stlc.syntax Core congr_let_ thm
+R12387:12401 vminus.stlc.syntax <> compRenSubst_Tm:250 def
+R12473:12490 vminus.stlc.syntax Core up_ren_subst_Tm_Tm thm
+R12498:12502 vminus.stlc.syntax <> Eq_Tm:248 var
+R12453:12460 vminus.stlc.syntax Core up_Tm_Tm thm
+R12462:12469 vminus.stlc.syntax <> theta_Tm:246 var
+R12424:12431 vminus.stlc.syntax Core up_Tm_Tm thm
+R12433:12438 vminus.stlc.syntax <> tau_Tm:245 var
+R12404:12414 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R12416:12420 vminus.stlc.syntax <> xi_Tm:244 var
+R12330:12344 vminus.stlc.syntax <> compRenSubst_Tm:250 def
+R12368:12372 vminus.stlc.syntax <> Eq_Tm:248 var
+R12359:12366 vminus.stlc.syntax <> theta_Tm:246 var
+R12352:12357 vminus.stlc.syntax <> tau_Tm:245 var
+R12346:12350 vminus.stlc.syntax <> xi_Tm:244 var
+prf 12523:12540 Core up_subst_ren_Tm_Tm
+R12547:12549 Corelib.Init.Datatypes <> nat ind
+binder 12543:12543 <> k:252
+R12560:12562 Corelib.Init.Datatypes <> nat ind
+binder 12553:12556 <> l_Tm:253
+R12573:12575 Corelib.Init.Datatypes <> nat ind
+binder 12566:12569 <> m_Tm:254
+R12594:12597 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12589:12591 vminus.common.fintype <> fin def
+R12593:12593 vminus.stlc.syntax <> k:252 var
+R12598:12599 vminus.stlc.syntax Core Tm ind
+R12601:12604 vminus.stlc.syntax <> l_Tm:253 var
+binder 12581:12585 <> sigma:255
+R12626:12629 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12618:12620 vminus.common.fintype <> fin def
+R12622:12625 vminus.stlc.syntax <> l_Tm:253 var
+R12630:12632 vminus.common.fintype <> fin def
+R12634:12637 vminus.stlc.syntax <> m_Tm:254 var
+binder 12608:12614 <> zeta_Tm:256
+R12656:12659 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12651:12653 vminus.common.fintype <> fin def
+R12655:12655 vminus.stlc.syntax <> k:252 var
+R12660:12661 vminus.stlc.syntax Core Tm ind
+R12663:12666 vminus.stlc.syntax <> m_Tm:254 var
+binder 12643:12647 <> theta:257
+binder 12684:12684 <> x:258
+R12719:12721 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12687:12693 vminus.common.core <> funcomp def
+R12718:12718 vminus.stlc.syntax <> x:258 var
+R12712:12716 vminus.stlc.syntax <> sigma:255 var
+R12696:12701 vminus.stlc.syntax Core ren_Tm def
+R12703:12709 vminus.stlc.syntax <> zeta_Tm:256 var
+R12722:12726 vminus.stlc.syntax <> theta:257 var
+R12728:12728 vminus.stlc.syntax <> x:258 var
+binder 12672:12673 <> Eq:259
+binder 12742:12742 <> x:260
+R12804:12808 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12747:12753 vminus.common.core <> funcomp def
+R12803:12803 vminus.stlc.syntax <> x:260 var
+R12787:12794 vminus.stlc.syntax Core up_Tm_Tm thm
+R12796:12800 vminus.stlc.syntax <> sigma:255 var
+R12756:12761 vminus.stlc.syntax Core ren_Tm def
+R12764:12774 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R12776:12782 vminus.stlc.syntax <> zeta_Tm:256 var
+R12809:12816 vminus.stlc.syntax Core up_Tm_Tm thm
+R12824:12824 vminus.stlc.syntax <> x:260 var
+R12818:12822 vminus.stlc.syntax <> theta:257 var
+binder 12845:12845 <> n:261
+R12863:12863 vminus.stlc.syntax <> n:261 var
+R12879:12882 Corelib.Init.Datatypes <> Some constr
+R12904:12911 Corelib.Init.Logic <> eq_trans thm
+R13057:13064 Corelib.Init.Logic <> eq_trans thm
+R13236:13237 vminus.common.fintype <> ap def
+R13240:13245 vminus.stlc.syntax Core ren_Tm def
+R13247:13251 vminus.common.fintype <> shift def
+R13083:13088 Corelib.Init.Logic <> eq_sym thm
+R13110:13122 vminus.stlc.syntax Core compRenRen_Tm def
+binder 13189:13189 <> x:263
+R13194:13200 Corelib.Init.Logic <> eq_refl constr
+R13139:13145 vminus.common.core <> funcomp def
+R13147:13151 vminus.common.fintype <> shift def
+R13132:13136 vminus.common.fintype <> shift def
+R12927:12939 vminus.stlc.syntax Core compRenRen_Tm def
+binder 13014:13014 <> x:264
+R13019:13025 Corelib.Init.Logic <> eq_refl constr
+R12986:12992 vminus.common.core <> funcomp def
+R12994:12998 vminus.common.fintype <> shift def
+R12948:12958 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R12941:12945 vminus.common.fintype <> shift def
+R13276:13279 Corelib.Init.Datatypes <> None constr
+R13284:13290 Corelib.Init.Logic <> eq_refl constr
+binder 12845:12845 <> n:265
+R12863:12863 vminus.stlc.syntax <> n:265 var
+R12879:12882 Corelib.Init.Datatypes <> Some constr
+R12904:12911 Corelib.Init.Logic <> eq_trans thm
+R13057:13064 Corelib.Init.Logic <> eq_trans thm
+R13236:13237 vminus.common.fintype <> ap def
+R13240:13245 vminus.stlc.syntax Core ren_Tm def
+R13247:13251 vminus.common.fintype <> shift def
+R13083:13088 Corelib.Init.Logic <> eq_sym thm
+R13110:13122 vminus.stlc.syntax Core compRenRen_Tm def
+binder 13189:13189 <> x:267
+R13194:13200 Corelib.Init.Logic <> eq_refl constr
+R13139:13145 vminus.common.core <> funcomp def
+R13147:13151 vminus.common.fintype <> shift def
+R13132:13136 vminus.common.fintype <> shift def
+R12927:12939 vminus.stlc.syntax Core compRenRen_Tm def
+binder 13014:13014 <> x:268
+R13019:13025 Corelib.Init.Logic <> eq_refl constr
+R12986:12992 vminus.common.core <> funcomp def
+R12994:12998 vminus.common.fintype <> shift def
+R12948:12958 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R12941:12945 vminus.common.fintype <> shift def
+R13276:13279 Corelib.Init.Datatypes <> None constr
+R13284:13290 Corelib.Init.Logic <> eq_refl constr
+prf 13317:13339 Core up_subst_ren_list_Tm_Tm
+R13346:13348 Corelib.Init.Datatypes <> nat ind
+binder 13342:13342 <> p:269
+R13356:13358 Corelib.Init.Datatypes <> nat ind
+binder 13352:13352 <> k:270
+R13369:13371 Corelib.Init.Datatypes <> nat ind
+binder 13362:13365 <> l_Tm:271
+R13382:13384 Corelib.Init.Datatypes <> nat ind
+binder 13375:13378 <> m_Tm:272
+R13403:13406 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13398:13400 vminus.common.fintype <> fin def
+R13402:13402 vminus.stlc.syntax <> k:270 var
+R13407:13408 vminus.stlc.syntax Core Tm ind
+R13410:13413 vminus.stlc.syntax <> l_Tm:271 var
+binder 13390:13394 <> sigma:273
+R13435:13438 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13427:13429 vminus.common.fintype <> fin def
+R13431:13434 vminus.stlc.syntax <> l_Tm:271 var
+R13439:13441 vminus.common.fintype <> fin def
+R13443:13446 vminus.stlc.syntax <> m_Tm:272 var
+binder 13417:13423 <> zeta_Tm:274
+R13465:13468 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13460:13462 vminus.common.fintype <> fin def
+R13464:13464 vminus.stlc.syntax <> k:270 var
+R13469:13470 vminus.stlc.syntax Core Tm ind
+R13472:13475 vminus.stlc.syntax <> m_Tm:272 var
+binder 13452:13456 <> theta:275
+binder 13493:13493 <> x:276
+R13528:13530 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13496:13502 vminus.common.core <> funcomp def
+R13527:13527 vminus.stlc.syntax <> x:276 var
+R13521:13525 vminus.stlc.syntax <> sigma:273 var
+R13505:13510 vminus.stlc.syntax Core ren_Tm def
+R13512:13518 vminus.stlc.syntax <> zeta_Tm:274 var
+R13531:13535 vminus.stlc.syntax <> theta:275 var
+R13537:13537 vminus.stlc.syntax <> x:276 var
+binder 13481:13482 <> Eq:277
+binder 13551:13551 <> x:278
+R13627:13631 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13556:13562 vminus.common.core <> funcomp def
+R13626:13626 vminus.stlc.syntax <> x:278 var
+R13603:13615 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R13619:13623 vminus.stlc.syntax <> sigma:273 var
+R13617:13617 vminus.stlc.syntax <> p:269 var
+R13565:13570 vminus.stlc.syntax Core ren_Tm def
+R13573:13588 vminus.stlc.syntax Core upRen_list_Tm_Tm thm
+R13592:13598 vminus.stlc.syntax <> zeta_Tm:274 var
+R13590:13590 vminus.stlc.syntax <> p:269 var
+R13632:13644 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R13654:13654 vminus.stlc.syntax <> x:278 var
+R13648:13652 vminus.stlc.syntax <> theta:275 var
+R13646:13646 vminus.stlc.syntax <> p:269 var
+binder 13675:13675 <> n:279
+R13687:13694 Corelib.Init.Logic <> eq_trans thm
+R13730:13742 vminus.common.fintype <> scons_p_congr thm
+binder 13829:13829 <> n:280
+R13847:13854 Corelib.Init.Logic <> eq_trans thm
+R14051:14058 Corelib.Init.Logic <> eq_trans thm
+R14270:14271 vminus.common.fintype <> ap def
+R14298:14298 vminus.stlc.syntax <> n:280 var
+R14274:14279 vminus.stlc.syntax Core ren_Tm def
+R14282:14288 vminus.common.fintype <> shift_p def
+R14079:14084 Corelib.Init.Logic <> eq_sym thm
+R14108:14120 vminus.stlc.syntax Core compRenRen_Tm def
+R14246:14246 vminus.stlc.syntax <> n:280 var
+binder 14201:14201 <> x:281
+R14206:14212 Corelib.Init.Logic <> eq_refl constr
+R14167:14173 vminus.common.core <> funcomp def
+R14176:14182 vminus.common.fintype <> shift_p def
+R14131:14137 vminus.common.fintype <> shift_p def
+R13872:13884 vminus.stlc.syntax Core compRenRen_Tm def
+R14031:14031 vminus.stlc.syntax <> n:280 var
+binder 13998:13998 <> x:282
+R14003:14015 vminus.common.fintype <> scons_p_tail' thm
+R14021:14021 vminus.stlc.syntax <> x:282 var
+R13946:13952 vminus.common.core <> funcomp def
+R13955:13961 vminus.common.fintype <> shift_p def
+R13899:13914 vminus.stlc.syntax Core upRen_list_Tm_Tm thm
+R13887:13893 vminus.common.fintype <> shift_p def
+binder 13761:13761 <> x:283
+R13766:13767 vminus.common.fintype <> ap def
+R13790:13802 vminus.common.fintype <> scons_p_head' thm
+R13808:13808 vminus.stlc.syntax <> x:283 var
+R13770:13772 vminus.stlc.syntax Core var constr
+R13775:13778 Corelib.Init.Peano <> plus abbrev
+R13697:13709 vminus.common.fintype <> scons_p_comp' thm
+R13717:13717 vminus.stlc.syntax <> n:279 var
+binder 13675:13675 <> n:284
+R13687:13694 Corelib.Init.Logic <> eq_trans thm
+R13730:13742 vminus.common.fintype <> scons_p_congr thm
+binder 13829:13829 <> n:285
+R13847:13854 Corelib.Init.Logic <> eq_trans thm
+R14051:14058 Corelib.Init.Logic <> eq_trans thm
+R14270:14271 vminus.common.fintype <> ap def
+R14298:14298 vminus.stlc.syntax <> n:285 var
+R14274:14279 vminus.stlc.syntax Core ren_Tm def
+R14282:14288 vminus.common.fintype <> shift_p def
+R14079:14084 Corelib.Init.Logic <> eq_sym thm
+R14108:14120 vminus.stlc.syntax Core compRenRen_Tm def
+R14246:14246 vminus.stlc.syntax <> n:285 var
+binder 14201:14201 <> x:286
+R14206:14212 Corelib.Init.Logic <> eq_refl constr
+R14167:14173 vminus.common.core <> funcomp def
+R14176:14182 vminus.common.fintype <> shift_p def
+R14131:14137 vminus.common.fintype <> shift_p def
+R13872:13884 vminus.stlc.syntax Core compRenRen_Tm def
+R14031:14031 vminus.stlc.syntax <> n:285 var
+binder 13998:13998 <> x:287
+R14003:14015 vminus.common.fintype <> scons_p_tail' thm
+R14021:14021 vminus.stlc.syntax <> x:287 var
+R13946:13952 vminus.common.core <> funcomp def
+R13955:13961 vminus.common.fintype <> shift_p def
+R13899:13914 vminus.stlc.syntax Core upRen_list_Tm_Tm thm
+R13887:13893 vminus.common.fintype <> shift_p def
+binder 13761:13761 <> x:288
+R13766:13767 vminus.common.fintype <> ap def
+R13790:13802 vminus.common.fintype <> scons_p_head' thm
+R13808:13808 vminus.stlc.syntax <> x:288 var
+R13770:13772 vminus.stlc.syntax Core var constr
+R13775:13778 Corelib.Init.Peano <> plus abbrev
+R13697:13709 vminus.common.fintype <> scons_p_comp' thm
+R13717:13717 vminus.stlc.syntax <> n:284 var
+def 14322:14336 Core compSubstRen_Tm
+R14346:14348 Corelib.Init.Datatypes <> nat ind
+binder 14339:14342 <> k_Tm:289
+R14359:14361 Corelib.Init.Datatypes <> nat ind
+binder 14352:14355 <> l_Tm:290
+R14372:14374 Corelib.Init.Datatypes <> nat ind
+binder 14365:14368 <> m_Tm:291
+R14397:14400 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14389:14391 vminus.common.fintype <> fin def
+R14393:14396 vminus.stlc.syntax <> m_Tm:291 var
+R14401:14402 vminus.stlc.syntax Core Tm ind
+R14404:14407 vminus.stlc.syntax <> k_Tm:289 var
+binder 14378:14385 <> sigma_Tm:292
+R14429:14432 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14421:14423 vminus.common.fintype <> fin def
+R14425:14428 vminus.stlc.syntax <> k_Tm:289 var
+R14433:14435 vminus.common.fintype <> fin def
+R14437:14440 vminus.stlc.syntax <> l_Tm:290 var
+binder 14411:14417 <> zeta_Tm:293
+R14463:14466 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14455:14457 vminus.common.fintype <> fin def
+R14459:14462 vminus.stlc.syntax <> m_Tm:291 var
+R14467:14468 vminus.stlc.syntax Core Tm ind
+R14470:14473 vminus.stlc.syntax <> l_Tm:290 var
+binder 14444:14451 <> theta_Tm:294
+binder 14492:14492 <> x:295
+R14530:14532 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14495:14501 vminus.common.core <> funcomp def
+R14529:14529 vminus.stlc.syntax <> x:295 var
+R14520:14527 vminus.stlc.syntax <> sigma_Tm:292 var
+R14504:14509 vminus.stlc.syntax Core ren_Tm def
+R14511:14517 vminus.stlc.syntax <> zeta_Tm:293 var
+R14533:14540 vminus.stlc.syntax <> theta_Tm:294 var
+R14542:14542 vminus.stlc.syntax <> x:295 var
+binder 14477:14481 <> Eq_Tm:296
+R14550:14551 vminus.stlc.syntax Core Tm ind
+R14553:14556 vminus.stlc.syntax <> m_Tm:291 var
+binder 14546:14546 <> s:297
+R14608:14610 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14572:14577 vminus.stlc.syntax Core ren_Tm def
+R14588:14595 vminus.stlc.syntax Core subst_Tm def
+R14606:14606 vminus.stlc.syntax <> s:297 var
+R14597:14604 vminus.stlc.syntax <> sigma_Tm:292 var
+R14579:14585 vminus.stlc.syntax <> zeta_Tm:293 var
+R14611:14618 vminus.stlc.syntax Core subst_Tm def
+R14629:14629 vminus.stlc.syntax <> s:297 var
+R14620:14627 vminus.stlc.syntax <> theta_Tm:294 var
+R14642:14642 vminus.stlc.syntax <> s:297 var
+R14653:14655 vminus.stlc.syntax Core var constr
+R14665:14669 vminus.stlc.syntax <> Eq_Tm:296 var
+R14678:14680 vminus.stlc.syntax Core abs constr
+R14696:14704 vminus.stlc.syntax Core congr_abs thm
+R14715:14729 vminus.stlc.syntax <> compSubstRen_Tm:298 def
+R14805:14822 vminus.stlc.syntax Core up_subst_ren_Tm_Tm thm
+R14830:14834 vminus.stlc.syntax <> Eq_Tm:296 var
+R14785:14792 vminus.stlc.syntax Core up_Tm_Tm thm
+R14794:14801 vminus.stlc.syntax <> theta_Tm:294 var
+R14752:14762 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R14764:14770 vminus.stlc.syntax <> zeta_Tm:293 var
+R14732:14739 vminus.stlc.syntax Core up_Tm_Tm thm
+R14741:14748 vminus.stlc.syntax <> sigma_Tm:292 var
+R14845:14847 vminus.stlc.syntax Core app constr
+R14866:14874 vminus.stlc.syntax Core congr_app thm
+R14938:14952 vminus.stlc.syntax <> compSubstRen_Tm:298 def
+R14980:14984 vminus.stlc.syntax <> Eq_Tm:296 var
+R14971:14978 vminus.stlc.syntax <> theta_Tm:294 var
+R14963:14969 vminus.stlc.syntax <> zeta_Tm:293 var
+R14954:14961 vminus.stlc.syntax <> sigma_Tm:292 var
+R14877:14891 vminus.stlc.syntax <> compSubstRen_Tm:298 def
+R14919:14923 vminus.stlc.syntax <> Eq_Tm:296 var
+R14910:14917 vminus.stlc.syntax <> theta_Tm:294 var
+R14902:14908 vminus.stlc.syntax <> zeta_Tm:293 var
+R14893:14900 vminus.stlc.syntax <> sigma_Tm:292 var
+R14994:14996 vminus.stlc.syntax Core lit constr
+R15006:15014 vminus.stlc.syntax Core congr_lit thm
+R15017:15023 Corelib.Init.Logic <> eq_refl constr
+R15033:15036 vminus.stlc.syntax Core succ constr
+R15052:15061 vminus.stlc.syntax Core congr_succ thm
+R15064:15078 vminus.stlc.syntax <> compSubstRen_Tm:298 def
+R15106:15110 vminus.stlc.syntax <> Eq_Tm:296 var
+R15097:15104 vminus.stlc.syntax <> theta_Tm:294 var
+R15089:15095 vminus.stlc.syntax <> zeta_Tm:293 var
+R15080:15087 vminus.stlc.syntax <> sigma_Tm:292 var
+R15120:15123 vminus.stlc.syntax Core nrec constr
+R15145:15154 vminus.stlc.syntax Core congr_nrec thm
+R15279:15293 vminus.stlc.syntax <> compSubstRen_Tm:298 def
+R15369:15386 vminus.stlc.syntax Core up_subst_ren_Tm_Tm thm
+R15394:15398 vminus.stlc.syntax <> Eq_Tm:296 var
+R15349:15356 vminus.stlc.syntax Core up_Tm_Tm thm
+R15358:15365 vminus.stlc.syntax <> theta_Tm:294 var
+R15316:15326 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R15328:15334 vminus.stlc.syntax <> zeta_Tm:293 var
+R15296:15303 vminus.stlc.syntax Core up_Tm_Tm thm
+R15305:15312 vminus.stlc.syntax <> sigma_Tm:292 var
+R15218:15232 vminus.stlc.syntax <> compSubstRen_Tm:298 def
+R15260:15264 vminus.stlc.syntax <> Eq_Tm:296 var
+R15251:15258 vminus.stlc.syntax <> theta_Tm:294 var
+R15243:15249 vminus.stlc.syntax <> zeta_Tm:293 var
+R15234:15241 vminus.stlc.syntax <> sigma_Tm:292 var
+R15157:15171 vminus.stlc.syntax <> compSubstRen_Tm:298 def
+R15199:15203 vminus.stlc.syntax <> Eq_Tm:296 var
+R15190:15197 vminus.stlc.syntax <> theta_Tm:294 var
+R15182:15188 vminus.stlc.syntax <> zeta_Tm:293 var
+R15173:15180 vminus.stlc.syntax <> sigma_Tm:292 var
+R15409:15412 vminus.stlc.syntax Core let_ constr
+R15431:15440 vminus.stlc.syntax Core congr_let_ thm
+R15504:15518 vminus.stlc.syntax <> compSubstRen_Tm:298 def
+R15594:15611 vminus.stlc.syntax Core up_subst_ren_Tm_Tm thm
+R15619:15623 vminus.stlc.syntax <> Eq_Tm:296 var
+R15574:15581 vminus.stlc.syntax Core up_Tm_Tm thm
+R15583:15590 vminus.stlc.syntax <> theta_Tm:294 var
+R15541:15551 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R15553:15559 vminus.stlc.syntax <> zeta_Tm:293 var
+R15521:15528 vminus.stlc.syntax Core up_Tm_Tm thm
+R15530:15537 vminus.stlc.syntax <> sigma_Tm:292 var
+R15443:15457 vminus.stlc.syntax <> compSubstRen_Tm:298 def
+R15485:15489 vminus.stlc.syntax <> Eq_Tm:296 var
+R15476:15483 vminus.stlc.syntax <> theta_Tm:294 var
+R15468:15474 vminus.stlc.syntax <> zeta_Tm:293 var
+R15459:15466 vminus.stlc.syntax <> sigma_Tm:292 var
+prf 15644:15663 Core up_subst_subst_Tm_Tm
+R15670:15672 Corelib.Init.Datatypes <> nat ind
+binder 15666:15666 <> k:300
+R15683:15685 Corelib.Init.Datatypes <> nat ind
+binder 15676:15679 <> l_Tm:301
+R15696:15698 Corelib.Init.Datatypes <> nat ind
+binder 15689:15692 <> m_Tm:302
+R15717:15720 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15712:15714 vminus.common.fintype <> fin def
+R15716:15716 vminus.stlc.syntax <> k:300 var
+R15721:15722 vminus.stlc.syntax Core Tm ind
+R15724:15727 vminus.stlc.syntax <> l_Tm:301 var
+binder 15704:15708 <> sigma:303
+R15748:15751 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15740:15742 vminus.common.fintype <> fin def
+R15744:15747 vminus.stlc.syntax <> l_Tm:301 var
+R15752:15753 vminus.stlc.syntax Core Tm ind
+R15755:15758 vminus.stlc.syntax <> m_Tm:302 var
+binder 15731:15736 <> tau_Tm:304
+R15777:15780 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15772:15774 vminus.common.fintype <> fin def
+R15776:15776 vminus.stlc.syntax <> k:300 var
+R15781:15782 vminus.stlc.syntax Core Tm ind
+R15784:15787 vminus.stlc.syntax <> m_Tm:302 var
+binder 15764:15768 <> theta:305
+binder 15805:15805 <> x:306
+R15841:15843 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15808:15814 vminus.common.core <> funcomp def
+R15840:15840 vminus.stlc.syntax <> x:306 var
+R15834:15838 vminus.stlc.syntax <> sigma:303 var
+R15817:15824 vminus.stlc.syntax Core subst_Tm def
+R15826:15831 vminus.stlc.syntax <> tau_Tm:304 var
+R15844:15848 vminus.stlc.syntax <> theta:305 var
+R15850:15850 vminus.stlc.syntax <> x:306 var
+binder 15793:15794 <> Eq:307
+binder 15864:15864 <> x:308
+R15924:15926 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15869:15875 vminus.common.core <> funcomp def
+R15923:15923 vminus.stlc.syntax <> x:308 var
+R15907:15914 vminus.stlc.syntax Core up_Tm_Tm thm
+R15916:15920 vminus.stlc.syntax <> sigma:303 var
+R15878:15885 vminus.stlc.syntax Core subst_Tm def
+R15888:15895 vminus.stlc.syntax Core up_Tm_Tm thm
+R15897:15902 vminus.stlc.syntax <> tau_Tm:304 var
+R15927:15934 vminus.stlc.syntax Core up_Tm_Tm thm
+R15942:15942 vminus.stlc.syntax <> x:308 var
+R15936:15940 vminus.stlc.syntax <> theta:305 var
+binder 15963:15963 <> n:309
+R15981:15981 vminus.stlc.syntax <> n:309 var
+R15997:16000 Corelib.Init.Datatypes <> Some constr
+R16022:16029 Corelib.Init.Logic <> eq_trans thm
+R16199:16206 Corelib.Init.Logic <> eq_trans thm
+R16409:16410 vminus.common.fintype <> ap def
+R16413:16418 vminus.stlc.syntax Core ren_Tm def
+R16420:16424 vminus.common.fintype <> shift def
+R16225:16230 Corelib.Init.Logic <> eq_sym thm
+R16252:16266 vminus.stlc.syntax Core compSubstRen_Tm def
+binder 16340:16340 <> x:311
+R16345:16351 Corelib.Init.Logic <> eq_refl constr
+R16304:16310 vminus.common.core <> funcomp def
+R16313:16318 vminus.stlc.syntax Core ren_Tm def
+R16320:16324 vminus.common.fintype <> shift def
+R16275:16279 vminus.common.fintype <> shift def
+R16045:16059 vminus.stlc.syntax Core compRenSubst_Tm def
+binder 16140:16140 <> x:312
+R16145:16151 Corelib.Init.Logic <> eq_refl constr
+R16102:16108 vminus.common.core <> funcomp def
+R16128:16132 vminus.common.fintype <> shift def
+R16111:16118 vminus.stlc.syntax Core up_Tm_Tm thm
+R16068:16075 vminus.stlc.syntax Core up_Tm_Tm thm
+R16061:16065 vminus.common.fintype <> shift def
+R16449:16452 Corelib.Init.Datatypes <> None constr
+R16457:16463 Corelib.Init.Logic <> eq_refl constr
+binder 15963:15963 <> n:313
+R15981:15981 vminus.stlc.syntax <> n:313 var
+R15997:16000 Corelib.Init.Datatypes <> Some constr
+R16022:16029 Corelib.Init.Logic <> eq_trans thm
+R16199:16206 Corelib.Init.Logic <> eq_trans thm
+R16409:16410 vminus.common.fintype <> ap def
+R16413:16418 vminus.stlc.syntax Core ren_Tm def
+R16420:16424 vminus.common.fintype <> shift def
+R16225:16230 Corelib.Init.Logic <> eq_sym thm
+R16252:16266 vminus.stlc.syntax Core compSubstRen_Tm def
+binder 16340:16340 <> x:315
+R16345:16351 Corelib.Init.Logic <> eq_refl constr
+R16304:16310 vminus.common.core <> funcomp def
+R16313:16318 vminus.stlc.syntax Core ren_Tm def
+R16320:16324 vminus.common.fintype <> shift def
+R16275:16279 vminus.common.fintype <> shift def
+R16045:16059 vminus.stlc.syntax Core compRenSubst_Tm def
+binder 16140:16140 <> x:316
+R16145:16151 Corelib.Init.Logic <> eq_refl constr
+R16102:16108 vminus.common.core <> funcomp def
+R16128:16132 vminus.common.fintype <> shift def
+R16111:16118 vminus.stlc.syntax Core up_Tm_Tm thm
+R16068:16075 vminus.stlc.syntax Core up_Tm_Tm thm
+R16061:16065 vminus.common.fintype <> shift def
+R16449:16452 Corelib.Init.Datatypes <> None constr
+R16457:16463 Corelib.Init.Logic <> eq_refl constr
+prf 16490:16514 Core up_subst_subst_list_Tm_Tm
+R16521:16523 Corelib.Init.Datatypes <> nat ind
+binder 16517:16517 <> p:317
+R16531:16533 Corelib.Init.Datatypes <> nat ind
+binder 16527:16527 <> k:318
+R16544:16546 Corelib.Init.Datatypes <> nat ind
+binder 16537:16540 <> l_Tm:319
+R16557:16559 Corelib.Init.Datatypes <> nat ind
+binder 16550:16553 <> m_Tm:320
+R16578:16581 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R16573:16575 vminus.common.fintype <> fin def
+R16577:16577 vminus.stlc.syntax <> k:318 var
+R16582:16583 vminus.stlc.syntax Core Tm ind
+R16585:16588 vminus.stlc.syntax <> l_Tm:319 var
+binder 16565:16569 <> sigma:321
+R16609:16612 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R16601:16603 vminus.common.fintype <> fin def
+R16605:16608 vminus.stlc.syntax <> l_Tm:319 var
+R16613:16614 vminus.stlc.syntax Core Tm ind
+R16616:16619 vminus.stlc.syntax <> m_Tm:320 var
+binder 16592:16597 <> tau_Tm:322
+R16638:16641 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R16633:16635 vminus.common.fintype <> fin def
+R16637:16637 vminus.stlc.syntax <> k:318 var
+R16642:16643 vminus.stlc.syntax Core Tm ind
+R16645:16648 vminus.stlc.syntax <> m_Tm:320 var
+binder 16625:16629 <> theta:323
+binder 16666:16666 <> x:324
+R16702:16704 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16669:16675 vminus.common.core <> funcomp def
+R16701:16701 vminus.stlc.syntax <> x:324 var
+R16695:16699 vminus.stlc.syntax <> sigma:321 var
+R16678:16685 vminus.stlc.syntax Core subst_Tm def
+R16687:16692 vminus.stlc.syntax <> tau_Tm:322 var
+R16705:16709 vminus.stlc.syntax <> theta:323 var
+R16711:16711 vminus.stlc.syntax <> x:324 var
+binder 16654:16655 <> Eq:325
+binder 16725:16725 <> x:326
+R16799:16803 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16730:16736 vminus.common.core <> funcomp def
+R16798:16798 vminus.stlc.syntax <> x:326 var
+R16775:16787 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R16791:16795 vminus.stlc.syntax <> sigma:321 var
+R16789:16789 vminus.stlc.syntax <> p:317 var
+R16739:16746 vminus.stlc.syntax Core subst_Tm def
+R16749:16761 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R16765:16770 vminus.stlc.syntax <> tau_Tm:322 var
+R16763:16763 vminus.stlc.syntax <> p:317 var
+R16804:16816 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R16826:16826 vminus.stlc.syntax <> x:326 var
+R16820:16824 vminus.stlc.syntax <> theta:323 var
+R16818:16818 vminus.stlc.syntax <> p:317 var
+binder 16847:16847 <> n:327
+R16859:16866 Corelib.Init.Logic <> eq_trans thm
+R16950:16962 vminus.common.fintype <> scons_p_congr thm
+binder 17054:17054 <> n:328
+R17072:17079 Corelib.Init.Logic <> eq_trans thm
+R17279:17286 Corelib.Init.Logic <> eq_trans thm
+R17468:17469 vminus.common.fintype <> ap def
+R17496:17496 vminus.stlc.syntax <> n:328 var
+R17472:17477 vminus.stlc.syntax Core ren_Tm def
+R17480:17486 vminus.common.fintype <> shift_p def
+R17307:17312 Corelib.Init.Logic <> eq_sym thm
+R17336:17350 vminus.stlc.syntax Core compSubstRen_Tm def
+R17444:17444 vminus.stlc.syntax <> n:328 var
+binder 17402:17402 <> x:329
+R17407:17412 Corelib.Init.Logic <> eq_sym thm
+R17415:17427 vminus.common.fintype <> scons_p_tail' thm
+R17433:17433 vminus.stlc.syntax <> x:329 var
+R17360:17366 vminus.common.fintype <> shift_p def
+R17097:17111 vminus.stlc.syntax Core compRenSubst_Tm def
+R17259:17259 vminus.stlc.syntax <> n:328 var
+binder 17238:17238 <> x:330
+R17243:17249 Corelib.Init.Logic <> eq_refl constr
+R17169:17175 vminus.common.core <> funcomp def
+R17203:17209 vminus.common.fintype <> shift_p def
+R17178:17190 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R17126:17138 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R17114:17120 vminus.common.fintype <> shift_p def
+binder 16981:16981 <> x:331
+R16986:16998 vminus.common.fintype <> scons_p_head' thm
+R17034:17034 vminus.stlc.syntax <> x:331 var
+binder 17007:17007 <> z:332
+R17012:17017 vminus.stlc.syntax Core ren_Tm def
+R17020:17026 vminus.common.fintype <> shift_p def
+R16878:16890 vminus.common.fintype <> scons_p_comp' thm
+R16937:16937 vminus.stlc.syntax <> n:327 var
+R16893:16899 vminus.common.core <> funcomp def
+R16922:16927 vminus.common.fintype <> zero_p def
+R16902:16904 vminus.stlc.syntax Core var constr
+R16907:16910 Corelib.Init.Peano <> plus abbrev
+binder 16847:16847 <> n:333
+R16859:16866 Corelib.Init.Logic <> eq_trans thm
+R16950:16962 vminus.common.fintype <> scons_p_congr thm
+binder 17054:17054 <> n:334
+R17072:17079 Corelib.Init.Logic <> eq_trans thm
+R17279:17286 Corelib.Init.Logic <> eq_trans thm
+R17468:17469 vminus.common.fintype <> ap def
+R17496:17496 vminus.stlc.syntax <> n:334 var
+R17472:17477 vminus.stlc.syntax Core ren_Tm def
+R17480:17486 vminus.common.fintype <> shift_p def
+R17307:17312 Corelib.Init.Logic <> eq_sym thm
+R17336:17350 vminus.stlc.syntax Core compSubstRen_Tm def
+R17444:17444 vminus.stlc.syntax <> n:334 var
+binder 17402:17402 <> x:335
+R17407:17412 Corelib.Init.Logic <> eq_sym thm
+R17415:17427 vminus.common.fintype <> scons_p_tail' thm
+R17433:17433 vminus.stlc.syntax <> x:335 var
+R17360:17366 vminus.common.fintype <> shift_p def
+R17097:17111 vminus.stlc.syntax Core compRenSubst_Tm def
+R17259:17259 vminus.stlc.syntax <> n:334 var
+binder 17238:17238 <> x:336
+R17243:17249 Corelib.Init.Logic <> eq_refl constr
+R17169:17175 vminus.common.core <> funcomp def
+R17203:17209 vminus.common.fintype <> shift_p def
+R17178:17190 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R17126:17138 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R17114:17120 vminus.common.fintype <> shift_p def
+binder 16981:16981 <> x:337
+R16986:16998 vminus.common.fintype <> scons_p_head' thm
+R17034:17034 vminus.stlc.syntax <> x:337 var
+binder 17007:17007 <> z:338
+R17012:17017 vminus.stlc.syntax Core ren_Tm def
+R17020:17026 vminus.common.fintype <> shift_p def
+R16878:16890 vminus.common.fintype <> scons_p_comp' thm
+R16937:16937 vminus.stlc.syntax <> n:333 var
+R16893:16899 vminus.common.core <> funcomp def
+R16922:16927 vminus.common.fintype <> zero_p def
+R16902:16904 vminus.stlc.syntax Core var constr
+R16907:16910 Corelib.Init.Peano <> plus abbrev
+def 17520:17536 Core compSubstSubst_Tm
+R17546:17548 Corelib.Init.Datatypes <> nat ind
+binder 17539:17542 <> k_Tm:339
+R17559:17561 Corelib.Init.Datatypes <> nat ind
+binder 17552:17555 <> l_Tm:340
+R17572:17574 Corelib.Init.Datatypes <> nat ind
+binder 17565:17568 <> m_Tm:341
+R17597:17600 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R17589:17591 vminus.common.fintype <> fin def
+R17593:17596 vminus.stlc.syntax <> m_Tm:341 var
+R17601:17602 vminus.stlc.syntax Core Tm ind
+R17604:17607 vminus.stlc.syntax <> k_Tm:339 var
+binder 17578:17585 <> sigma_Tm:342
+R17628:17631 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R17620:17622 vminus.common.fintype <> fin def
+R17624:17627 vminus.stlc.syntax <> k_Tm:339 var
+R17632:17633 vminus.stlc.syntax Core Tm ind
+R17635:17638 vminus.stlc.syntax <> l_Tm:340 var
+binder 17611:17616 <> tau_Tm:343
+R17661:17664 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R17653:17655 vminus.common.fintype <> fin def
+R17657:17660 vminus.stlc.syntax <> m_Tm:341 var
+R17665:17666 vminus.stlc.syntax Core Tm ind
+R17668:17671 vminus.stlc.syntax <> l_Tm:340 var
+binder 17642:17649 <> theta_Tm:344
+binder 17690:17690 <> x:345
+R17729:17731 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17693:17699 vminus.common.core <> funcomp def
+R17728:17728 vminus.stlc.syntax <> x:345 var
+R17719:17726 vminus.stlc.syntax <> sigma_Tm:342 var
+R17702:17709 vminus.stlc.syntax Core subst_Tm def
+R17711:17716 vminus.stlc.syntax <> tau_Tm:343 var
+R17732:17739 vminus.stlc.syntax <> theta_Tm:344 var
+R17741:17741 vminus.stlc.syntax <> x:345 var
+binder 17675:17679 <> Eq_Tm:346
+R17749:17750 vminus.stlc.syntax Core Tm ind
+R17752:17755 vminus.stlc.syntax <> m_Tm:341 var
+binder 17745:17745 <> s:347
+R17808:17810 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17771:17778 vminus.stlc.syntax Core subst_Tm def
+R17788:17795 vminus.stlc.syntax Core subst_Tm def
+R17806:17806 vminus.stlc.syntax <> s:347 var
+R17797:17804 vminus.stlc.syntax <> sigma_Tm:342 var
+R17780:17785 vminus.stlc.syntax <> tau_Tm:343 var
+R17811:17818 vminus.stlc.syntax Core subst_Tm def
+R17829:17829 vminus.stlc.syntax <> s:347 var
+R17820:17827 vminus.stlc.syntax <> theta_Tm:344 var
+R17842:17842 vminus.stlc.syntax <> s:347 var
+R17853:17855 vminus.stlc.syntax Core var constr
+R17865:17869 vminus.stlc.syntax <> Eq_Tm:346 var
+R17878:17880 vminus.stlc.syntax Core abs constr
+R17896:17904 vminus.stlc.syntax Core congr_abs thm
+R17915:17931 vminus.stlc.syntax <> compSubstSubst_Tm:348 def
+R18003:18022 vminus.stlc.syntax Core up_subst_subst_Tm_Tm thm
+R18030:18034 vminus.stlc.syntax <> Eq_Tm:346 var
+R17983:17990 vminus.stlc.syntax Core up_Tm_Tm thm
+R17992:17999 vminus.stlc.syntax <> theta_Tm:344 var
+R17954:17961 vminus.stlc.syntax Core up_Tm_Tm thm
+R17963:17968 vminus.stlc.syntax <> tau_Tm:343 var
+R17934:17941 vminus.stlc.syntax Core up_Tm_Tm thm
+R17943:17950 vminus.stlc.syntax <> sigma_Tm:342 var
+R18045:18047 vminus.stlc.syntax Core app constr
+R18066:18074 vminus.stlc.syntax Core congr_app thm
+R18139:18155 vminus.stlc.syntax <> compSubstSubst_Tm:348 def
+R18182:18186 vminus.stlc.syntax <> Eq_Tm:346 var
+R18173:18180 vminus.stlc.syntax <> theta_Tm:344 var
+R18166:18171 vminus.stlc.syntax <> tau_Tm:343 var
+R18157:18164 vminus.stlc.syntax <> sigma_Tm:342 var
+R18077:18093 vminus.stlc.syntax <> compSubstSubst_Tm:348 def
+R18120:18124 vminus.stlc.syntax <> Eq_Tm:346 var
+R18111:18118 vminus.stlc.syntax <> theta_Tm:344 var
+R18104:18109 vminus.stlc.syntax <> tau_Tm:343 var
+R18095:18102 vminus.stlc.syntax <> sigma_Tm:342 var
+R18196:18198 vminus.stlc.syntax Core lit constr
+R18208:18216 vminus.stlc.syntax Core congr_lit thm
+R18219:18225 Corelib.Init.Logic <> eq_refl constr
+R18235:18238 vminus.stlc.syntax Core succ constr
+R18254:18263 vminus.stlc.syntax Core congr_succ thm
+R18266:18282 vminus.stlc.syntax <> compSubstSubst_Tm:348 def
+R18309:18313 vminus.stlc.syntax <> Eq_Tm:346 var
+R18300:18307 vminus.stlc.syntax <> theta_Tm:344 var
+R18293:18298 vminus.stlc.syntax <> tau_Tm:343 var
+R18284:18291 vminus.stlc.syntax <> sigma_Tm:342 var
+R18323:18326 vminus.stlc.syntax Core nrec constr
+R18348:18357 vminus.stlc.syntax Core congr_nrec thm
+R18484:18500 vminus.stlc.syntax <> compSubstSubst_Tm:348 def
+R18572:18591 vminus.stlc.syntax Core up_subst_subst_Tm_Tm thm
+R18599:18603 vminus.stlc.syntax <> Eq_Tm:346 var
+R18552:18559 vminus.stlc.syntax Core up_Tm_Tm thm
+R18561:18568 vminus.stlc.syntax <> theta_Tm:344 var
+R18523:18530 vminus.stlc.syntax Core up_Tm_Tm thm
+R18532:18537 vminus.stlc.syntax <> tau_Tm:343 var
+R18503:18510 vminus.stlc.syntax Core up_Tm_Tm thm
+R18512:18519 vminus.stlc.syntax <> sigma_Tm:342 var
+R18422:18438 vminus.stlc.syntax <> compSubstSubst_Tm:348 def
+R18465:18469 vminus.stlc.syntax <> Eq_Tm:346 var
+R18456:18463 vminus.stlc.syntax <> theta_Tm:344 var
+R18449:18454 vminus.stlc.syntax <> tau_Tm:343 var
+R18440:18447 vminus.stlc.syntax <> sigma_Tm:342 var
+R18360:18376 vminus.stlc.syntax <> compSubstSubst_Tm:348 def
+R18403:18407 vminus.stlc.syntax <> Eq_Tm:346 var
+R18394:18401 vminus.stlc.syntax <> theta_Tm:344 var
+R18387:18392 vminus.stlc.syntax <> tau_Tm:343 var
+R18378:18385 vminus.stlc.syntax <> sigma_Tm:342 var
+R18614:18617 vminus.stlc.syntax Core let_ constr
+R18636:18645 vminus.stlc.syntax Core congr_let_ thm
+R18710:18726 vminus.stlc.syntax <> compSubstSubst_Tm:348 def
+R18798:18817 vminus.stlc.syntax Core up_subst_subst_Tm_Tm thm
+R18825:18829 vminus.stlc.syntax <> Eq_Tm:346 var
+R18778:18785 vminus.stlc.syntax Core up_Tm_Tm thm
+R18787:18794 vminus.stlc.syntax <> theta_Tm:344 var
+R18749:18756 vminus.stlc.syntax Core up_Tm_Tm thm
+R18758:18763 vminus.stlc.syntax <> tau_Tm:343 var
+R18729:18736 vminus.stlc.syntax Core up_Tm_Tm thm
+R18738:18745 vminus.stlc.syntax <> sigma_Tm:342 var
+R18648:18664 vminus.stlc.syntax <> compSubstSubst_Tm:348 def
+R18691:18695 vminus.stlc.syntax <> Eq_Tm:346 var
+R18682:18689 vminus.stlc.syntax <> theta_Tm:344 var
+R18675:18680 vminus.stlc.syntax <> tau_Tm:343 var
+R18666:18673 vminus.stlc.syntax <> sigma_Tm:342 var
+prf 18850:18858 Core renRen_Tm
+R18868:18870 Corelib.Init.Datatypes <> nat ind
+binder 18861:18864 <> k_Tm:350
+R18881:18883 Corelib.Init.Datatypes <> nat ind
+binder 18874:18877 <> l_Tm:351
+R18894:18896 Corelib.Init.Datatypes <> nat ind
+binder 18887:18890 <> m_Tm:352
+R18918:18921 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R18910:18912 vminus.common.fintype <> fin def
+R18914:18917 vminus.stlc.syntax <> m_Tm:352 var
+R18922:18924 vminus.common.fintype <> fin def
+R18926:18929 vminus.stlc.syntax <> k_Tm:350 var
+binder 18902:18906 <> xi_Tm:353
+R18951:18954 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R18943:18945 vminus.common.fintype <> fin def
+R18947:18950 vminus.stlc.syntax <> k_Tm:350 var
+R18955:18957 vminus.common.fintype <> fin def
+R18959:18962 vminus.stlc.syntax <> l_Tm:351 var
+binder 18933:18939 <> zeta_Tm:354
+R18972:18973 vminus.stlc.syntax Core Tm ind
+R18975:18978 vminus.stlc.syntax <> m_Tm:352 var
+binder 18968:18968 <> s:355
+R19016:19018 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18985:18990 vminus.stlc.syntax Core ren_Tm def
+R19001:19006 vminus.stlc.syntax Core ren_Tm def
+R19014:19014 vminus.stlc.syntax <> s:355 var
+R19008:19012 vminus.stlc.syntax <> xi_Tm:353 var
+R18992:18998 vminus.stlc.syntax <> zeta_Tm:354 var
+R19019:19024 vminus.stlc.syntax Core ren_Tm def
+R19050:19050 vminus.stlc.syntax <> s:355 var
+R19027:19033 vminus.common.core <> funcomp def
+R19043:19047 vminus.stlc.syntax <> xi_Tm:353 var
+R19035:19041 vminus.stlc.syntax <> zeta_Tm:354 var
+R19067:19079 vminus.stlc.syntax Core compRenRen_Tm def
+binder 19102:19102 <> n:356
+R19107:19113 Corelib.Init.Logic <> eq_refl constr
+R19067:19079 vminus.stlc.syntax Core compRenRen_Tm def
+binder 19102:19102 <> n:357
+R19107:19113 Corelib.Init.Logic <> eq_refl constr
+prf 19132:19151 Core renRen'_Tm_pointwise
+R19161:19163 Corelib.Init.Datatypes <> nat ind
+binder 19154:19157 <> k_Tm:358
+R19174:19176 Corelib.Init.Datatypes <> nat ind
+binder 19167:19170 <> l_Tm:359
+R19187:19189 Corelib.Init.Datatypes <> nat ind
+binder 19180:19183 <> m_Tm:360
+R19211:19214 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R19203:19205 vminus.common.fintype <> fin def
+R19207:19210 vminus.stlc.syntax <> m_Tm:360 var
+R19215:19217 vminus.common.fintype <> fin def
+R19219:19222 vminus.stlc.syntax <> k_Tm:358 var
+binder 19195:19199 <> xi_Tm:361
+R19244:19247 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R19236:19238 vminus.common.fintype <> fin def
+R19240:19243 vminus.stlc.syntax <> k_Tm:358 var
+R19248:19250 vminus.common.fintype <> fin def
+R19252:19255 vminus.stlc.syntax <> l_Tm:359 var
+binder 19226:19232 <> zeta_Tm:362
+R19262:19279 Corelib.Classes.Morphisms <> pointwise_relation def
+R19333:19338 vminus.stlc.syntax Core ren_Tm def
+R19341:19347 vminus.common.core <> funcomp def
+R19357:19361 vminus.stlc.syntax <> xi_Tm:361 var
+R19349:19355 vminus.stlc.syntax <> zeta_Tm:362 var
+R19287:19293 vminus.common.core <> funcomp def
+R19313:19318 vminus.stlc.syntax Core ren_Tm def
+R19320:19324 vminus.stlc.syntax <> xi_Tm:361 var
+R19296:19301 vminus.stlc.syntax Core ren_Tm def
+R19303:19309 vminus.stlc.syntax <> zeta_Tm:362 var
+R19283:19284 Corelib.Init.Logic <> eq ind
+binder 19384:19384 <> s:363
+R19389:19401 vminus.stlc.syntax Core compRenRen_Tm def
+R19438:19438 vminus.stlc.syntax <> s:363 var
+binder 19424:19424 <> n:364
+R19429:19435 Corelib.Init.Logic <> eq_refl constr
+binder 19384:19384 <> s:365
+R19389:19401 vminus.stlc.syntax Core compRenRen_Tm def
+R19438:19438 vminus.stlc.syntax <> s:365 var
+binder 19424:19424 <> n:366
+R19429:19435 Corelib.Init.Logic <> eq_refl constr
+prf 19454:19464 Core renSubst_Tm
+R19474:19476 Corelib.Init.Datatypes <> nat ind
+binder 19467:19470 <> k_Tm:367
+R19487:19489 Corelib.Init.Datatypes <> nat ind
+binder 19480:19483 <> l_Tm:368
+R19500:19502 Corelib.Init.Datatypes <> nat ind
+binder 19493:19496 <> m_Tm:369
+R19524:19527 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R19516:19518 vminus.common.fintype <> fin def
+R19520:19523 vminus.stlc.syntax <> m_Tm:369 var
+R19528:19530 vminus.common.fintype <> fin def
+R19532:19535 vminus.stlc.syntax <> k_Tm:367 var
+binder 19508:19512 <> xi_Tm:370
+R19556:19559 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R19548:19550 vminus.common.fintype <> fin def
+R19552:19555 vminus.stlc.syntax <> k_Tm:367 var
+R19560:19561 vminus.stlc.syntax Core Tm ind
+R19563:19566 vminus.stlc.syntax <> l_Tm:368 var
+binder 19539:19544 <> tau_Tm:371
+R19574:19575 vminus.stlc.syntax Core Tm ind
+R19577:19580 vminus.stlc.syntax <> m_Tm:369 var
+binder 19570:19570 <> s:372
+R19619:19621 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19587:19594 vminus.stlc.syntax Core subst_Tm def
+R19604:19609 vminus.stlc.syntax Core ren_Tm def
+R19617:19617 vminus.stlc.syntax <> s:372 var
+R19611:19615 vminus.stlc.syntax <> xi_Tm:370 var
+R19596:19601 vminus.stlc.syntax <> tau_Tm:371 var
+R19622:19629 vminus.stlc.syntax Core subst_Tm def
+R19654:19654 vminus.stlc.syntax <> s:372 var
+R19632:19638 vminus.common.core <> funcomp def
+R19647:19651 vminus.stlc.syntax <> xi_Tm:370 var
+R19640:19645 vminus.stlc.syntax <> tau_Tm:371 var
+R19671:19685 vminus.stlc.syntax Core compRenSubst_Tm def
+binder 19707:19707 <> n:373
+R19712:19718 Corelib.Init.Logic <> eq_refl constr
+R19671:19685 vminus.stlc.syntax Core compRenSubst_Tm def
+binder 19707:19707 <> n:374
+R19712:19718 Corelib.Init.Logic <> eq_refl constr
+prf 19737:19757 Core renSubst_Tm_pointwise
+R19767:19769 Corelib.Init.Datatypes <> nat ind
+binder 19760:19763 <> k_Tm:375
+R19780:19782 Corelib.Init.Datatypes <> nat ind
+binder 19773:19776 <> l_Tm:376
+R19793:19795 Corelib.Init.Datatypes <> nat ind
+binder 19786:19789 <> m_Tm:377
+R19817:19820 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R19809:19811 vminus.common.fintype <> fin def
+R19813:19816 vminus.stlc.syntax <> m_Tm:377 var
+R19821:19823 vminus.common.fintype <> fin def
+R19825:19828 vminus.stlc.syntax <> k_Tm:375 var
+binder 19801:19805 <> xi_Tm:378
+R19849:19852 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R19841:19843 vminus.common.fintype <> fin def
+R19845:19848 vminus.stlc.syntax <> k_Tm:375 var
+R19853:19854 vminus.stlc.syntax Core Tm ind
+R19856:19859 vminus.stlc.syntax <> l_Tm:376 var
+binder 19832:19837 <> tau_Tm:379
+R19866:19883 Corelib.Classes.Morphisms <> pointwise_relation def
+R19938:19945 vminus.stlc.syntax Core subst_Tm def
+R19948:19954 vminus.common.core <> funcomp def
+R19963:19967 vminus.stlc.syntax <> xi_Tm:378 var
+R19956:19961 vminus.stlc.syntax <> tau_Tm:379 var
+R19891:19897 vminus.common.core <> funcomp def
+R19918:19923 vminus.stlc.syntax Core ren_Tm def
+R19925:19929 vminus.stlc.syntax <> xi_Tm:378 var
+R19900:19907 vminus.stlc.syntax Core subst_Tm def
+R19909:19914 vminus.stlc.syntax <> tau_Tm:379 var
+R19887:19888 Corelib.Init.Logic <> eq ind
+binder 19990:19990 <> s:380
+R19995:20009 vminus.stlc.syntax Core compRenSubst_Tm def
+R20045:20045 vminus.stlc.syntax <> s:380 var
+binder 20031:20031 <> n:381
+R20036:20042 Corelib.Init.Logic <> eq_refl constr
+binder 19990:19990 <> s:382
+R19995:20009 vminus.stlc.syntax Core compRenSubst_Tm def
+R20045:20045 vminus.stlc.syntax <> s:382 var
+binder 20031:20031 <> n:383
+R20036:20042 Corelib.Init.Logic <> eq_refl constr
+prf 20061:20071 Core substRen_Tm
+R20081:20083 Corelib.Init.Datatypes <> nat ind
+binder 20074:20077 <> k_Tm:384
+R20094:20096 Corelib.Init.Datatypes <> nat ind
+binder 20087:20090 <> l_Tm:385
+R20107:20109 Corelib.Init.Datatypes <> nat ind
+binder 20100:20103 <> m_Tm:386
+R20134:20137 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20126:20128 vminus.common.fintype <> fin def
+R20130:20133 vminus.stlc.syntax <> m_Tm:386 var
+R20138:20139 vminus.stlc.syntax Core Tm ind
+R20141:20144 vminus.stlc.syntax <> k_Tm:384 var
+binder 20115:20122 <> sigma_Tm:387
+R20166:20169 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20158:20160 vminus.common.fintype <> fin def
+R20162:20165 vminus.stlc.syntax <> k_Tm:384 var
+R20170:20172 vminus.common.fintype <> fin def
+R20174:20177 vminus.stlc.syntax <> l_Tm:385 var
+binder 20148:20154 <> zeta_Tm:388
+R20187:20188 vminus.stlc.syntax Core Tm ind
+R20190:20193 vminus.stlc.syntax <> m_Tm:386 var
+binder 20183:20183 <> s:389
+R20236:20240 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20200:20205 vminus.stlc.syntax Core ren_Tm def
+R20216:20223 vminus.stlc.syntax Core subst_Tm def
+R20234:20234 vminus.stlc.syntax <> s:389 var
+R20225:20232 vminus.stlc.syntax <> sigma_Tm:387 var
+R20207:20213 vminus.stlc.syntax <> zeta_Tm:388 var
+R20241:20248 vminus.stlc.syntax Core subst_Tm def
+R20286:20286 vminus.stlc.syntax <> s:389 var
+R20251:20257 vminus.common.core <> funcomp def
+R20276:20283 vminus.stlc.syntax <> sigma_Tm:387 var
+R20260:20265 vminus.stlc.syntax Core ren_Tm def
+R20267:20273 vminus.stlc.syntax <> zeta_Tm:388 var
+R20303:20317 vminus.stlc.syntax Core compSubstRen_Tm def
+binder 20343:20343 <> n:390
+R20348:20354 Corelib.Init.Logic <> eq_refl constr
+R20303:20317 vminus.stlc.syntax Core compSubstRen_Tm def
+binder 20343:20343 <> n:391
+R20348:20354 Corelib.Init.Logic <> eq_refl constr
+prf 20373:20393 Core substRen_Tm_pointwise
+R20403:20405 Corelib.Init.Datatypes <> nat ind
+binder 20396:20399 <> k_Tm:392
+R20416:20418 Corelib.Init.Datatypes <> nat ind
+binder 20409:20412 <> l_Tm:393
+R20429:20431 Corelib.Init.Datatypes <> nat ind
+binder 20422:20425 <> m_Tm:394
+R20456:20459 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20448:20450 vminus.common.fintype <> fin def
+R20452:20455 vminus.stlc.syntax <> m_Tm:394 var
+R20460:20461 vminus.stlc.syntax Core Tm ind
+R20463:20466 vminus.stlc.syntax <> k_Tm:392 var
+binder 20437:20444 <> sigma_Tm:395
+R20488:20491 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20480:20482 vminus.common.fintype <> fin def
+R20484:20487 vminus.stlc.syntax <> k_Tm:392 var
+R20492:20494 vminus.common.fintype <> fin def
+R20496:20499 vminus.stlc.syntax <> l_Tm:393 var
+binder 20470:20476 <> zeta_Tm:396
+R20506:20523 Corelib.Classes.Morphisms <> pointwise_relation def
+R20582:20589 vminus.stlc.syntax Core subst_Tm def
+R20592:20598 vminus.common.core <> funcomp def
+R20617:20624 vminus.stlc.syntax <> sigma_Tm:395 var
+R20601:20606 vminus.stlc.syntax Core ren_Tm def
+R20608:20614 vminus.stlc.syntax <> zeta_Tm:396 var
+R20531:20537 vminus.common.core <> funcomp def
+R20557:20564 vminus.stlc.syntax Core subst_Tm def
+R20566:20573 vminus.stlc.syntax <> sigma_Tm:395 var
+R20540:20545 vminus.stlc.syntax Core ren_Tm def
+R20547:20553 vminus.stlc.syntax <> zeta_Tm:396 var
+R20527:20528 Corelib.Init.Logic <> eq ind
+binder 20647:20647 <> s:397
+R20652:20666 vminus.stlc.syntax Core compSubstRen_Tm def
+R20706:20706 vminus.stlc.syntax <> s:397 var
+binder 20692:20692 <> n:398
+R20697:20703 Corelib.Init.Logic <> eq_refl constr
+binder 20647:20647 <> s:399
+R20652:20666 vminus.stlc.syntax Core compSubstRen_Tm def
+R20706:20706 vminus.stlc.syntax <> s:399 var
+binder 20692:20692 <> n:400
+R20697:20703 Corelib.Init.Logic <> eq_refl constr
+prf 20722:20734 Core substSubst_Tm
+R20744:20746 Corelib.Init.Datatypes <> nat ind
+binder 20737:20740 <> k_Tm:401
+R20757:20759 Corelib.Init.Datatypes <> nat ind
+binder 20750:20753 <> l_Tm:402
+R20770:20772 Corelib.Init.Datatypes <> nat ind
+binder 20763:20766 <> m_Tm:403
+R20797:20800 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20789:20791 vminus.common.fintype <> fin def
+R20793:20796 vminus.stlc.syntax <> m_Tm:403 var
+R20801:20802 vminus.stlc.syntax Core Tm ind
+R20804:20807 vminus.stlc.syntax <> k_Tm:401 var
+binder 20778:20785 <> sigma_Tm:404
+R20828:20831 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20820:20822 vminus.common.fintype <> fin def
+R20824:20827 vminus.stlc.syntax <> k_Tm:401 var
+R20832:20833 vminus.stlc.syntax Core Tm ind
+R20835:20838 vminus.stlc.syntax <> l_Tm:402 var
+binder 20811:20816 <> tau_Tm:405
+R20848:20849 vminus.stlc.syntax Core Tm ind
+R20851:20854 vminus.stlc.syntax <> m_Tm:403 var
+binder 20844:20844 <> s:406
+R20898:20902 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20861:20868 vminus.stlc.syntax Core subst_Tm def
+R20878:20885 vminus.stlc.syntax Core subst_Tm def
+R20896:20896 vminus.stlc.syntax <> s:406 var
+R20887:20894 vminus.stlc.syntax <> sigma_Tm:404 var
+R20870:20875 vminus.stlc.syntax <> tau_Tm:405 var
+R20903:20910 vminus.stlc.syntax Core subst_Tm def
+R20949:20949 vminus.stlc.syntax <> s:406 var
+R20913:20919 vminus.common.core <> funcomp def
+R20939:20946 vminus.stlc.syntax <> sigma_Tm:404 var
+R20922:20929 vminus.stlc.syntax Core subst_Tm def
+R20931:20936 vminus.stlc.syntax <> tau_Tm:405 var
+R20966:20982 vminus.stlc.syntax Core compSubstSubst_Tm def
+binder 21007:21007 <> n:407
+R21012:21018 Corelib.Init.Logic <> eq_refl constr
+R20966:20982 vminus.stlc.syntax Core compSubstSubst_Tm def
+binder 21007:21007 <> n:408
+R21012:21018 Corelib.Init.Logic <> eq_refl constr
+prf 21037:21059 Core substSubst_Tm_pointwise
+R21069:21071 Corelib.Init.Datatypes <> nat ind
+binder 21062:21065 <> k_Tm:409
+R21082:21084 Corelib.Init.Datatypes <> nat ind
+binder 21075:21078 <> l_Tm:410
+R21095:21097 Corelib.Init.Datatypes <> nat ind
+binder 21088:21091 <> m_Tm:411
+R21122:21125 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R21114:21116 vminus.common.fintype <> fin def
+R21118:21121 vminus.stlc.syntax <> m_Tm:411 var
+R21126:21127 vminus.stlc.syntax Core Tm ind
+R21129:21132 vminus.stlc.syntax <> k_Tm:409 var
+binder 21103:21110 <> sigma_Tm:412
+R21153:21156 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R21145:21147 vminus.common.fintype <> fin def
+R21149:21152 vminus.stlc.syntax <> k_Tm:409 var
+R21157:21158 vminus.stlc.syntax Core Tm ind
+R21160:21163 vminus.stlc.syntax <> l_Tm:410 var
+binder 21136:21141 <> tau_Tm:413
+R21170:21187 Corelib.Classes.Morphisms <> pointwise_relation def
+R21247:21254 vminus.stlc.syntax Core subst_Tm def
+R21257:21263 vminus.common.core <> funcomp def
+R21283:21290 vminus.stlc.syntax <> sigma_Tm:412 var
+R21266:21273 vminus.stlc.syntax Core subst_Tm def
+R21275:21280 vminus.stlc.syntax <> tau_Tm:413 var
+R21195:21201 vminus.common.core <> funcomp def
+R21222:21229 vminus.stlc.syntax Core subst_Tm def
+R21231:21238 vminus.stlc.syntax <> sigma_Tm:412 var
+R21204:21211 vminus.stlc.syntax Core subst_Tm def
+R21213:21218 vminus.stlc.syntax <> tau_Tm:413 var
+R21191:21192 Corelib.Init.Logic <> eq ind
+binder 21313:21313 <> s:414
+R21318:21334 vminus.stlc.syntax Core compSubstSubst_Tm def
+R21373:21373 vminus.stlc.syntax <> s:414 var
+binder 21359:21359 <> n:415
+R21364:21370 Corelib.Init.Logic <> eq_refl constr
+binder 21313:21313 <> s:416
+R21318:21334 vminus.stlc.syntax Core compSubstSubst_Tm def
+R21373:21373 vminus.stlc.syntax <> s:416 var
+binder 21359:21359 <> n:417
+R21364:21370 Corelib.Init.Logic <> eq_refl constr
+prf 21389:21406 Core rinstInst_up_Tm_Tm
+R21413:21415 Corelib.Init.Datatypes <> nat ind
+binder 21409:21409 <> m:418
+R21426:21428 Corelib.Init.Datatypes <> nat ind
+binder 21419:21422 <> n_Tm:419
+R21442:21445 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R21437:21439 vminus.common.fintype <> fin def
+R21441:21441 vminus.stlc.syntax <> m:418 var
+R21446:21448 vminus.common.fintype <> fin def
+R21450:21453 vminus.stlc.syntax <> n_Tm:419 var
+binder 21432:21433 <> xi:420
+R21472:21475 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R21467:21469 vminus.common.fintype <> fin def
+R21471:21471 vminus.stlc.syntax <> m:418 var
+R21476:21477 vminus.stlc.syntax Core Tm ind
+R21479:21482 vminus.stlc.syntax <> n_Tm:419 var
+binder 21459:21463 <> sigma:421
+binder 21500:21500 <> x:422
+R21526:21528 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21503:21509 vminus.common.core <> funcomp def
+R21525:21525 vminus.stlc.syntax <> x:422 var
+R21522:21523 vminus.stlc.syntax <> xi:420 var
+R21512:21514 vminus.stlc.syntax Core var constr
+R21516:21519 vminus.stlc.syntax <> n_Tm:419 var
+R21529:21533 vminus.stlc.syntax <> sigma:421 var
+R21535:21535 vminus.stlc.syntax <> x:422 var
+binder 21488:21489 <> Eq:423
+binder 21549:21549 <> x:424
+R21593:21595 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21552:21558 vminus.common.core <> funcomp def
+R21592:21592 vminus.stlc.syntax <> x:424 var
+R21576:21586 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R21588:21589 vminus.stlc.syntax <> xi:420 var
+R21561:21563 vminus.stlc.syntax Core var constr
+R21566:21566 Corelib.Init.Datatypes <> S constr
+R21568:21571 vminus.stlc.syntax <> n_Tm:419 var
+R21596:21603 vminus.stlc.syntax Core up_Tm_Tm thm
+R21611:21611 vminus.stlc.syntax <> x:424 var
+R21605:21609 vminus.stlc.syntax <> sigma:421 var
+binder 21632:21632 <> n:425
+R21650:21650 vminus.stlc.syntax <> n:425 var
+R21666:21669 Corelib.Init.Datatypes <> Some constr
+R21680:21681 vminus.common.fintype <> ap def
+R21684:21689 vminus.stlc.syntax Core ren_Tm def
+R21691:21695 vminus.common.fintype <> shift def
+R21718:21721 Corelib.Init.Datatypes <> None constr
+R21726:21732 Corelib.Init.Logic <> eq_refl constr
+binder 21632:21632 <> n:427
+R21650:21650 vminus.stlc.syntax <> n:427 var
+R21666:21669 Corelib.Init.Datatypes <> Some constr
+R21680:21681 vminus.common.fintype <> ap def
+R21684:21689 vminus.stlc.syntax Core ren_Tm def
+R21691:21695 vminus.common.fintype <> shift def
+R21718:21721 Corelib.Init.Datatypes <> None constr
+R21726:21732 Corelib.Init.Logic <> eq_refl constr
+prf 21759:21781 Core rinstInst_up_list_Tm_Tm
+R21788:21790 Corelib.Init.Datatypes <> nat ind
+binder 21784:21784 <> p:429
+R21798:21800 Corelib.Init.Datatypes <> nat ind
+binder 21794:21794 <> m:430
+R21811:21813 Corelib.Init.Datatypes <> nat ind
+binder 21804:21807 <> n_Tm:431
+R21829:21832 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R21824:21826 vminus.common.fintype <> fin def
+R21828:21828 vminus.stlc.syntax <> m:430 var
+R21833:21835 vminus.common.fintype <> fin def
+R21837:21840 vminus.stlc.syntax <> n_Tm:431 var
+binder 21819:21820 <> xi:432
+R21857:21860 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R21852:21854 vminus.common.fintype <> fin def
+R21856:21856 vminus.stlc.syntax <> m:430 var
+R21861:21862 vminus.stlc.syntax Core Tm ind
+R21864:21867 vminus.stlc.syntax <> n_Tm:431 var
+binder 21844:21848 <> sigma:433
+binder 21885:21885 <> x:434
+R21911:21913 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21888:21894 vminus.common.core <> funcomp def
+R21910:21910 vminus.stlc.syntax <> x:434 var
+R21907:21908 vminus.stlc.syntax <> xi:432 var
+R21897:21899 vminus.stlc.syntax Core var constr
+R21901:21904 vminus.stlc.syntax <> n_Tm:431 var
+R21914:21918 vminus.stlc.syntax <> sigma:433 var
+R21920:21920 vminus.stlc.syntax <> x:434 var
+binder 21873:21874 <> Eq:435
+binder 21934:21934 <> x:436
+R21992:21996 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21939:21945 vminus.common.core <> funcomp def
+R21991:21991 vminus.stlc.syntax <> x:436 var
+R21968:21983 vminus.stlc.syntax Core upRen_list_Tm_Tm thm
+R21987:21988 vminus.stlc.syntax <> xi:432 var
+R21985:21985 vminus.stlc.syntax <> p:429 var
+R21948:21950 vminus.stlc.syntax Core var constr
+R21953:21956 Corelib.Init.Peano <> plus abbrev
+R21958:21958 vminus.stlc.syntax <> p:429 var
+R21960:21963 vminus.stlc.syntax <> n_Tm:431 var
+R21997:22009 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R22019:22019 vminus.stlc.syntax <> x:436 var
+R22013:22017 vminus.stlc.syntax <> sigma:433 var
+R22011:22011 vminus.stlc.syntax <> p:429 var
+binder 22040:22040 <> n:437
+R22052:22059 Corelib.Init.Logic <> eq_trans thm
+R22113:22125 vminus.common.fintype <> scons_p_congr thm
+binder 22163:22163 <> n:438
+R22168:22169 vminus.common.fintype <> ap def
+R22196:22196 vminus.stlc.syntax <> n:438 var
+R22172:22177 vminus.stlc.syntax Core ren_Tm def
+R22180:22186 vminus.common.fintype <> shift_p def
+binder 22132:22132 <> z:439
+R22137:22143 Corelib.Init.Logic <> eq_refl constr
+R22062:22074 vminus.common.fintype <> scons_p_comp' thm
+R22100:22100 vminus.stlc.syntax <> n:437 var
+R22081:22083 vminus.stlc.syntax Core var constr
+R22086:22089 Corelib.Init.Peano <> plus abbrev
+binder 22040:22040 <> n:440
+R22052:22059 Corelib.Init.Logic <> eq_trans thm
+R22113:22125 vminus.common.fintype <> scons_p_congr thm
+binder 22163:22163 <> n:441
+R22168:22169 vminus.common.fintype <> ap def
+R22196:22196 vminus.stlc.syntax <> n:441 var
+R22172:22177 vminus.stlc.syntax Core ren_Tm def
+R22180:22186 vminus.common.fintype <> shift_p def
+binder 22132:22132 <> z:442
+R22137:22143 Corelib.Init.Logic <> eq_refl constr
+R22062:22074 vminus.common.fintype <> scons_p_comp' thm
+R22100:22100 vminus.stlc.syntax <> n:440 var
+R22081:22083 vminus.stlc.syntax Core var constr
+R22086:22089 Corelib.Init.Peano <> plus abbrev
+def 22218:22230 Core rinst_inst_Tm
+R22240:22242 Corelib.Init.Datatypes <> nat ind
+binder 22233:22236 <> m_Tm:443
+R22253:22255 Corelib.Init.Datatypes <> nat ind
+binder 22246:22249 <> n_Tm:444
+R22275:22278 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R22267:22269 vminus.common.fintype <> fin def
+R22271:22274 vminus.stlc.syntax <> m_Tm:443 var
+R22279:22281 vminus.common.fintype <> fin def
+R22283:22286 vminus.stlc.syntax <> n_Tm:444 var
+binder 22259:22263 <> xi_Tm:445
+R22309:22312 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R22301:22303 vminus.common.fintype <> fin def
+R22305:22308 vminus.stlc.syntax <> m_Tm:443 var
+R22313:22314 vminus.stlc.syntax Core Tm ind
+R22316:22319 vminus.stlc.syntax <> n_Tm:444 var
+binder 22290:22297 <> sigma_Tm:446
+binder 22338:22338 <> x:447
+R22367:22369 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22341:22347 vminus.common.core <> funcomp def
+R22366:22366 vminus.stlc.syntax <> x:447 var
+R22360:22364 vminus.stlc.syntax <> xi_Tm:445 var
+R22350:22352 vminus.stlc.syntax Core var constr
+R22354:22357 vminus.stlc.syntax <> n_Tm:444 var
+R22370:22377 vminus.stlc.syntax <> sigma_Tm:446 var
+R22379:22379 vminus.stlc.syntax <> x:447 var
+binder 22323:22327 <> Eq_Tm:448
+R22387:22388 vminus.stlc.syntax Core Tm ind
+R22390:22393 vminus.stlc.syntax <> m_Tm:443 var
+binder 22383:22383 <> s:449
+R22423:22425 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22409:22414 vminus.stlc.syntax Core ren_Tm def
+R22422:22422 vminus.stlc.syntax <> s:449 var
+R22416:22420 vminus.stlc.syntax <> xi_Tm:445 var
+R22426:22433 vminus.stlc.syntax Core subst_Tm def
+R22444:22444 vminus.stlc.syntax <> s:449 var
+R22435:22442 vminus.stlc.syntax <> sigma_Tm:446 var
+R22457:22457 vminus.stlc.syntax <> s:449 var
+R22468:22470 vminus.stlc.syntax Core var constr
+R22480:22484 vminus.stlc.syntax <> Eq_Tm:448 var
+R22493:22495 vminus.stlc.syntax Core abs constr
+R22511:22519 vminus.stlc.syntax Core congr_abs thm
+R22530:22542 vminus.stlc.syntax <> rinst_inst_Tm:450 def
+R22596:22613 vminus.stlc.syntax Core rinstInst_up_Tm_Tm thm
+R22619:22623 vminus.stlc.syntax <> Eq_Tm:448 var
+R22565:22572 vminus.stlc.syntax Core up_Tm_Tm thm
+R22574:22581 vminus.stlc.syntax <> sigma_Tm:446 var
+R22545:22555 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R22557:22561 vminus.stlc.syntax <> xi_Tm:445 var
+R22634:22636 vminus.stlc.syntax Core app constr
+R22655:22663 vminus.stlc.syntax Core congr_app thm
+R22714:22726 vminus.stlc.syntax <> rinst_inst_Tm:450 def
+R22743:22747 vminus.stlc.syntax <> Eq_Tm:448 var
+R22734:22741 vminus.stlc.syntax <> sigma_Tm:446 var
+R22728:22732 vminus.stlc.syntax <> xi_Tm:445 var
+R22666:22678 vminus.stlc.syntax <> rinst_inst_Tm:450 def
+R22695:22699 vminus.stlc.syntax <> Eq_Tm:448 var
+R22686:22693 vminus.stlc.syntax <> sigma_Tm:446 var
+R22680:22684 vminus.stlc.syntax <> xi_Tm:445 var
+R22757:22759 vminus.stlc.syntax Core lit constr
+R22769:22777 vminus.stlc.syntax Core congr_lit thm
+R22780:22786 Corelib.Init.Logic <> eq_refl constr
+R22796:22799 vminus.stlc.syntax Core succ constr
+R22809:22818 vminus.stlc.syntax Core congr_succ thm
+R22821:22833 vminus.stlc.syntax <> rinst_inst_Tm:450 def
+R22850:22854 vminus.stlc.syntax <> Eq_Tm:448 var
+R22841:22848 vminus.stlc.syntax <> sigma_Tm:446 var
+R22835:22839 vminus.stlc.syntax <> xi_Tm:445 var
+R22864:22867 vminus.stlc.syntax Core nrec constr
+R22889:22898 vminus.stlc.syntax Core congr_nrec thm
+R22997:23009 vminus.stlc.syntax <> rinst_inst_Tm:450 def
+R23063:23080 vminus.stlc.syntax Core rinstInst_up_Tm_Tm thm
+R23086:23090 vminus.stlc.syntax <> Eq_Tm:448 var
+R23032:23039 vminus.stlc.syntax Core up_Tm_Tm thm
+R23041:23048 vminus.stlc.syntax <> sigma_Tm:446 var
+R23012:23022 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R23024:23028 vminus.stlc.syntax <> xi_Tm:445 var
+R22949:22961 vminus.stlc.syntax <> rinst_inst_Tm:450 def
+R22978:22982 vminus.stlc.syntax <> Eq_Tm:448 var
+R22969:22976 vminus.stlc.syntax <> sigma_Tm:446 var
+R22963:22967 vminus.stlc.syntax <> xi_Tm:445 var
+R22901:22913 vminus.stlc.syntax <> rinst_inst_Tm:450 def
+R22930:22934 vminus.stlc.syntax <> Eq_Tm:448 var
+R22921:22928 vminus.stlc.syntax <> sigma_Tm:446 var
+R22915:22919 vminus.stlc.syntax <> xi_Tm:445 var
+R23101:23104 vminus.stlc.syntax Core let_ constr
+R23123:23132 vminus.stlc.syntax Core congr_let_ thm
+R23183:23195 vminus.stlc.syntax <> rinst_inst_Tm:450 def
+R23249:23266 vminus.stlc.syntax Core rinstInst_up_Tm_Tm thm
+R23272:23276 vminus.stlc.syntax <> Eq_Tm:448 var
+R23218:23225 vminus.stlc.syntax Core up_Tm_Tm thm
+R23227:23234 vminus.stlc.syntax <> sigma_Tm:446 var
+R23198:23208 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R23210:23214 vminus.stlc.syntax <> xi_Tm:445 var
+R23135:23147 vminus.stlc.syntax <> rinst_inst_Tm:450 def
+R23164:23168 vminus.stlc.syntax <> Eq_Tm:448 var
+R23155:23162 vminus.stlc.syntax <> sigma_Tm:446 var
+R23149:23153 vminus.stlc.syntax <> xi_Tm:445 var
+prf 23297:23309 Core rinstInst'_Tm
+R23319:23321 Corelib.Init.Datatypes <> nat ind
+binder 23312:23315 <> m_Tm:452
+R23332:23334 Corelib.Init.Datatypes <> nat ind
+binder 23325:23328 <> n_Tm:453
+R23354:23357 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R23346:23348 vminus.common.fintype <> fin def
+R23350:23353 vminus.stlc.syntax <> m_Tm:452 var
+R23358:23360 vminus.common.fintype <> fin def
+R23362:23365 vminus.stlc.syntax <> n_Tm:453 var
+binder 23338:23342 <> xi_Tm:454
+R23375:23376 vminus.stlc.syntax Core Tm ind
+R23378:23381 vminus.stlc.syntax <> m_Tm:452 var
+binder 23371:23371 <> s:455
+R23400:23402 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23386:23391 vminus.stlc.syntax Core ren_Tm def
+R23399:23399 vminus.stlc.syntax <> s:455 var
+R23393:23397 vminus.stlc.syntax <> xi_Tm:454 var
+R23403:23410 vminus.stlc.syntax Core subst_Tm def
+R23439:23439 vminus.stlc.syntax <> s:455 var
+R23413:23419 vminus.common.core <> funcomp def
+R23432:23436 vminus.stlc.syntax <> xi_Tm:454 var
+R23422:23424 vminus.stlc.syntax Core var constr
+R23426:23429 vminus.stlc.syntax <> n_Tm:453 var
+R23456:23468 vminus.stlc.syntax Core rinst_inst_Tm def
+binder 23483:23483 <> n:456
+R23488:23494 Corelib.Init.Logic <> eq_refl constr
+R23456:23468 vminus.stlc.syntax Core rinst_inst_Tm def
+binder 23483:23483 <> n:457
+R23488:23494 Corelib.Init.Logic <> eq_refl constr
+prf 23513:23535 Core rinstInst'_Tm_pointwise
+R23545:23547 Corelib.Init.Datatypes <> nat ind
+binder 23538:23541 <> m_Tm:458
+R23558:23560 Corelib.Init.Datatypes <> nat ind
+binder 23551:23554 <> n_Tm:459
+R23582:23585 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R23574:23576 vminus.common.fintype <> fin def
+R23578:23581 vminus.stlc.syntax <> m_Tm:458 var
+R23586:23588 vminus.common.fintype <> fin def
+R23590:23593 vminus.stlc.syntax <> n_Tm:459 var
+binder 23566:23570 <> xi_Tm:460
+R23600:23617 Corelib.Classes.Morphisms <> pointwise_relation def
+R23644:23651 vminus.stlc.syntax Core subst_Tm def
+R23654:23660 vminus.common.core <> funcomp def
+R23673:23677 vminus.stlc.syntax <> xi_Tm:460 var
+R23663:23665 vminus.stlc.syntax Core var constr
+R23667:23670 vminus.stlc.syntax <> n_Tm:459 var
+R23625:23630 vminus.stlc.syntax Core ren_Tm def
+R23632:23636 vminus.stlc.syntax <> xi_Tm:460 var
+R23621:23622 Corelib.Init.Logic <> eq ind
+binder 23700:23700 <> s:461
+R23705:23717 vminus.stlc.syntax Core rinst_inst_Tm def
+R23746:23746 vminus.stlc.syntax <> s:461 var
+binder 23732:23732 <> n:462
+R23737:23743 Corelib.Init.Logic <> eq_refl constr
+binder 23700:23700 <> s:463
+R23705:23717 vminus.stlc.syntax Core rinst_inst_Tm def
+R23746:23746 vminus.stlc.syntax <> s:463 var
+binder 23732:23732 <> n:464
+R23737:23743 Corelib.Init.Logic <> eq_refl constr
+prf 23762:23771 Core instId'_Tm
+R23781:23783 Corelib.Init.Datatypes <> nat ind
+binder 23774:23777 <> m_Tm:465
+R23791:23792 vminus.stlc.syntax Core Tm ind
+R23794:23797 vminus.stlc.syntax <> m_Tm:465 var
+binder 23787:23787 <> s:466
+R23823:23825 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23802:23809 vminus.stlc.syntax Core subst_Tm def
+R23822:23822 vminus.stlc.syntax <> s:466 var
+R23812:23814 vminus.stlc.syntax Core var constr
+R23816:23819 vminus.stlc.syntax <> m_Tm:465 var
+R23826:23826 vminus.stlc.syntax <> s:466 var
+R23843:23852 vminus.stlc.syntax Core idSubst_Tm def
+binder 23870:23870 <> n:467
+R23875:23881 Corelib.Init.Logic <> eq_refl constr
+R23855:23857 vminus.stlc.syntax Core var constr
+R23843:23852 vminus.stlc.syntax Core idSubst_Tm def
+binder 23870:23870 <> n:468
+R23875:23881 Corelib.Init.Logic <> eq_refl constr
+R23855:23857 vminus.stlc.syntax Core var constr
+prf 23900:23919 Core instId'_Tm_pointwise
+R23929:23931 Corelib.Init.Datatypes <> nat ind
+binder 23922:23925 <> m_Tm:469
+R23938:23955 Corelib.Classes.Morphisms <> pointwise_relation def
+R23984:23985 vminus.common.fintype <> id def
+R23963:23970 vminus.stlc.syntax Core subst_Tm def
+R23973:23975 vminus.stlc.syntax Core var constr
+R23977:23980 vminus.stlc.syntax <> m_Tm:469 var
+R23959:23960 Corelib.Init.Logic <> eq ind
+binder 24006:24006 <> s:470
+R24011:24020 vminus.stlc.syntax Core idSubst_Tm def
+R24052:24052 vminus.stlc.syntax <> s:470 var
+binder 24038:24038 <> n:471
+R24043:24049 Corelib.Init.Logic <> eq_refl constr
+R24023:24025 vminus.stlc.syntax Core var constr
+binder 24006:24006 <> s:472
+R24011:24020 vminus.stlc.syntax Core idSubst_Tm def
+R24052:24052 vminus.stlc.syntax <> s:472 var
+binder 24038:24038 <> n:473
+R24043:24049 Corelib.Init.Logic <> eq_refl constr
+R24023:24025 vminus.stlc.syntax Core var constr
+prf 24068:24078 Core rinstId'_Tm
+R24088:24090 Corelib.Init.Datatypes <> nat ind
+binder 24081:24084 <> m_Tm:474
+R24098:24099 vminus.stlc.syntax Core Tm ind
+R24101:24104 vminus.stlc.syntax <> m_Tm:474 var
+binder 24094:24094 <> s:475
+R24120:24122 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24109:24114 vminus.stlc.syntax Core ren_Tm def
+R24119:24119 vminus.stlc.syntax <> s:475 var
+R24116:24117 vminus.common.fintype <> id def
+R24123:24123 vminus.stlc.syntax <> s:475 var
+R24140:24147 Corelib.Init.Logic <> eq_ind_r def
+R24182:24194 vminus.stlc.syntax Core rinstInst'_Tm thm
+R24196:24197 vminus.common.fintype <> id def
+R24167:24176 vminus.stlc.syntax Core instId'_Tm thm
+binder 24154:24154 <> t:476
+R24160:24162 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24159:24159 vminus.stlc.syntax <> t:476 var
+R24140:24147 Corelib.Init.Logic <> eq_ind_r def
+R24182:24194 vminus.stlc.syntax Core rinstInst'_Tm thm
+R24196:24197 vminus.common.fintype <> id def
+R24167:24176 vminus.stlc.syntax Core instId'_Tm thm
+binder 24154:24154 <> t:477
+R24160:24162 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24159:24159 vminus.stlc.syntax <> t:477 var
+prf 24216:24236 Core rinstId'_Tm_pointwise
+R24246:24248 Corelib.Init.Datatypes <> nat ind
+binder 24239:24242 <> m_Tm:478
+R24255:24272 Corelib.Classes.Morphisms <> pointwise_relation def
+R24302:24303 vminus.common.fintype <> id def
+R24281:24286 vminus.stlc.syntax Core ren_Tm def
+R24288:24291 vminus.stlc.syntax <> m_Tm:478 var
+R24293:24296 vminus.stlc.syntax <> m_Tm:478 var
+R24298:24299 vminus.common.fintype <> id def
+R24276:24277 Corelib.Init.Logic <> eq ind
+binder 24324:24324 <> s:479
+R24329:24336 Corelib.Init.Logic <> eq_ind_r def
+R24371:24383 vminus.stlc.syntax Core rinstInst'_Tm thm
+R24388:24388 vminus.stlc.syntax <> s:479 var
+R24385:24386 vminus.common.fintype <> id def
+R24356:24365 vminus.stlc.syntax Core instId'_Tm thm
+R24367:24367 vminus.stlc.syntax <> s:479 var
+binder 24343:24343 <> t:480
+R24349:24351 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24348:24348 vminus.stlc.syntax <> t:480 var
+R24352:24352 vminus.stlc.syntax <> s:479 var
+binder 24324:24324 <> s:481
+R24329:24336 Corelib.Init.Logic <> eq_ind_r def
+R24371:24383 vminus.stlc.syntax Core rinstInst'_Tm thm
+R24388:24388 vminus.stlc.syntax <> s:481 var
+R24385:24386 vminus.common.fintype <> id def
+R24356:24365 vminus.stlc.syntax Core instId'_Tm thm
+R24367:24367 vminus.stlc.syntax <> s:481 var
+binder 24343:24343 <> t:482
+R24349:24351 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24348:24348 vminus.stlc.syntax <> t:482 var
+R24352:24352 vminus.stlc.syntax <> s:481 var
+prf 24405:24412 Core varL'_Tm
+R24422:24424 Corelib.Init.Datatypes <> nat ind
+binder 24415:24418 <> m_Tm:483
+R24435:24437 Corelib.Init.Datatypes <> nat ind
+binder 24428:24431 <> n_Tm:484
+R24460:24463 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R24452:24454 vminus.common.fintype <> fin def
+R24456:24459 vminus.stlc.syntax <> m_Tm:483 var
+R24464:24465 vminus.stlc.syntax Core Tm ind
+R24467:24470 vminus.stlc.syntax <> n_Tm:484 var
+binder 24441:24448 <> sigma_Tm:485
+R24480:24482 vminus.common.fintype <> fin def
+R24484:24487 vminus.stlc.syntax <> m_Tm:483 var
+binder 24476:24476 <> x:486
+R24522:24524 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24492:24499 vminus.stlc.syntax Core subst_Tm def
+R24511:24513 vminus.stlc.syntax Core var constr
+R24515:24518 vminus.stlc.syntax <> m_Tm:483 var
+R24520:24520 vminus.stlc.syntax <> x:486 var
+R24501:24508 vminus.stlc.syntax <> sigma_Tm:485 var
+R24525:24532 vminus.stlc.syntax <> sigma_Tm:485 var
+R24534:24534 vminus.stlc.syntax <> x:486 var
+R24551:24557 Corelib.Init.Logic <> eq_refl constr
+R24551:24557 Corelib.Init.Logic <> eq_refl constr
+prf 24573:24590 Core varL'_Tm_pointwise
+R24600:24602 Corelib.Init.Datatypes <> nat ind
+binder 24593:24596 <> m_Tm:487
+R24613:24615 Corelib.Init.Datatypes <> nat ind
+binder 24606:24609 <> n_Tm:488
+R24640:24643 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R24632:24634 vminus.common.fintype <> fin def
+R24636:24639 vminus.stlc.syntax <> m_Tm:487 var
+R24644:24645 vminus.stlc.syntax Core Tm ind
+R24647:24650 vminus.stlc.syntax <> n_Tm:488 var
+binder 24621:24628 <> sigma_Tm:489
+R24657:24674 Corelib.Classes.Morphisms <> pointwise_relation def
+R24722:24729 vminus.stlc.syntax <> sigma_Tm:489 var
+R24682:24688 vminus.common.core <> funcomp def
+R24711:24713 vminus.stlc.syntax Core var constr
+R24715:24718 vminus.stlc.syntax <> m_Tm:487 var
+R24691:24698 vminus.stlc.syntax Core subst_Tm def
+R24700:24707 vminus.stlc.syntax <> sigma_Tm:489 var
+R24678:24679 Corelib.Init.Logic <> eq ind
+binder 24750:24750 <> x:490
+R24755:24761 Corelib.Init.Logic <> eq_refl constr
+binder 24750:24750 <> x:491
+R24755:24761 Corelib.Init.Logic <> eq_refl constr
+prf 24777:24787 Core varLRen'_Tm
+R24797:24799 Corelib.Init.Datatypes <> nat ind
+binder 24790:24793 <> m_Tm:492
+R24810:24812 Corelib.Init.Datatypes <> nat ind
+binder 24803:24806 <> n_Tm:493
+R24832:24835 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R24824:24826 vminus.common.fintype <> fin def
+R24828:24831 vminus.stlc.syntax <> m_Tm:492 var
+R24836:24838 vminus.common.fintype <> fin def
+R24840:24843 vminus.stlc.syntax <> n_Tm:493 var
+binder 24816:24820 <> xi_Tm:494
+R24853:24855 vminus.common.fintype <> fin def
+R24857:24860 vminus.stlc.syntax <> m_Tm:492 var
+binder 24849:24849 <> x:495
+R24890:24892 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24865:24870 vminus.stlc.syntax Core ren_Tm def
+R24879:24881 vminus.stlc.syntax Core var constr
+R24883:24886 vminus.stlc.syntax <> m_Tm:492 var
+R24888:24888 vminus.stlc.syntax <> x:495 var
+R24872:24876 vminus.stlc.syntax <> xi_Tm:494 var
+R24893:24895 vminus.stlc.syntax Core var constr
+R24897:24900 vminus.stlc.syntax <> n_Tm:493 var
+R24903:24907 vminus.stlc.syntax <> xi_Tm:494 var
+R24909:24909 vminus.stlc.syntax <> x:495 var
+R24927:24933 Corelib.Init.Logic <> eq_refl constr
+R24927:24933 Corelib.Init.Logic <> eq_refl constr
+prf 24949:24969 Core varLRen'_Tm_pointwise
+R24979:24981 Corelib.Init.Datatypes <> nat ind
+binder 24972:24975 <> m_Tm:496
+R24992:24994 Corelib.Init.Datatypes <> nat ind
+binder 24985:24988 <> n_Tm:497
+R25016:25019 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R25008:25010 vminus.common.fintype <> fin def
+R25012:25015 vminus.stlc.syntax <> m_Tm:496 var
+R25020:25022 vminus.common.fintype <> fin def
+R25024:25027 vminus.stlc.syntax <> n_Tm:497 var
+binder 25000:25004 <> xi_Tm:498
+R25034:25051 Corelib.Classes.Morphisms <> pointwise_relation def
+R25099:25105 vminus.common.core <> funcomp def
+R25118:25122 vminus.stlc.syntax <> xi_Tm:498 var
+R25108:25110 vminus.stlc.syntax Core var constr
+R25112:25115 vminus.stlc.syntax <> n_Tm:497 var
+R25059:25065 vminus.common.core <> funcomp def
+R25083:25085 vminus.stlc.syntax Core var constr
+R25087:25090 vminus.stlc.syntax <> m_Tm:496 var
+R25068:25073 vminus.stlc.syntax Core ren_Tm def
+R25075:25079 vminus.stlc.syntax <> xi_Tm:498 var
+R25055:25056 Corelib.Init.Logic <> eq ind
+binder 25144:25144 <> x:499
+R25149:25155 Corelib.Init.Logic <> eq_refl constr
+binder 25144:25144 <> x:500
+R25149:25155 Corelib.Init.Logic <> eq_refl constr
+ind 25175:25176 Core Ty
+constr 25192:25194 Core Nat
+constr 25205:25207 Core Arr
+R25198:25199 vminus.stlc.syntax <> Ty:501 ind
+R25213:25216 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R25211:25212 vminus.stlc.syntax <> Ty:501 ind
+R25219:25222 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R25217:25218 vminus.stlc.syntax <> Ty:501 ind
+R25223:25224 vminus.stlc.syntax <> Ty:501 ind
+scheme 25175:25176 Core Ty_rect
+scheme 25175:25176 Core Ty_ind
+scheme 25175:25176 Core Ty_rec
+scheme 25175:25176 Core Ty_sind
+prf 25234:25242 Core congr_Nat
+R25249:25251 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25246:25248 vminus.stlc.syntax Core Nat constr
+R25252:25254 vminus.stlc.syntax Core Nat constr
+R25271:25277 Corelib.Init.Logic <> eq_refl constr
+R25271:25277 Corelib.Init.Logic <> eq_refl constr
+prf 25293:25301 Core congr_Arr
+R25309:25310 vminus.stlc.syntax Core Ty ind
+binder 25304:25305 <> s0:503
+R25319:25320 vminus.stlc.syntax Core Ty ind
+binder 25314:25315 <> s1:504
+R25329:25330 vminus.stlc.syntax Core Ty ind
+binder 25324:25325 <> t0:505
+R25339:25340 vminus.stlc.syntax Core Ty ind
+binder 25334:25335 <> t1:506
+R25351:25353 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25349:25350 vminus.stlc.syntax <> s0:503 var
+R25354:25355 vminus.stlc.syntax <> t0:505 var
+binder 25344:25345 <> H0:507
+R25368:25370 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25366:25367 vminus.stlc.syntax <> s1:504 var
+R25371:25372 vminus.stlc.syntax <> t1:506 var
+binder 25361:25362 <> H1:508
+R25386:25388 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25377:25379 vminus.stlc.syntax Core Arr constr
+R25381:25382 vminus.stlc.syntax <> s0:503 var
+R25384:25385 vminus.stlc.syntax <> s1:504 var
+R25389:25391 vminus.stlc.syntax Core Arr constr
+R25393:25394 vminus.stlc.syntax <> t0:505 var
+R25396:25397 vminus.stlc.syntax <> t1:506 var
+R25414:25421 Corelib.Init.Logic <> eq_trans thm
+R25480:25481 vminus.common.fintype <> ap def
+binder 25488:25488 <> x:509
+R25493:25495 vminus.stlc.syntax Core Arr constr
+R25500:25500 vminus.stlc.syntax <> x:509 var
+R25424:25431 Corelib.Init.Logic <> eq_trans thm
+R25442:25443 vminus.common.fintype <> ap def
+binder 25450:25450 <> x:510
+R25455:25457 vminus.stlc.syntax Core Arr constr
+R25459:25459 vminus.stlc.syntax <> x:510 var
+R25433:25439 Corelib.Init.Logic <> eq_refl constr
+R25414:25421 Corelib.Init.Logic <> eq_trans thm
+R25480:25481 vminus.common.fintype <> ap def
+binder 25488:25488 <> x:511
+R25493:25495 vminus.stlc.syntax Core Arr constr
+R25500:25500 vminus.stlc.syntax <> x:511 var
+R25424:25431 Corelib.Init.Logic <> eq_trans thm
+R25442:25443 vminus.common.fintype <> ap def
+binder 25450:25450 <> x:512
+R25455:25457 vminus.stlc.syntax Core Arr constr
+R25459:25459 vminus.stlc.syntax <> x:512 var
+R25433:25439 Corelib.Init.Logic <> eq_refl constr
+ind 25521:25525 Core Up_Tm
+constr 25538:25542 Core up_Tm
+rec 25521:25525 Core Up_Tm
+proj 25538:25542 Core up_Tm
+binder 25527:25527 <> X:513
+binder 25529:25529 <> Y:514
+R25547:25550 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R25546:25546 vminus.stlc.syntax <> X:513 var
+R25551:25551 vminus.stlc.syntax <> Y:514 var
+inst 25574:25581 Core Subst_Tm
+R25597:25599 Corelib.Init.Datatypes <> nat ind
+binder 25585:25588 <> m_Tm:517
+binder 25590:25593 <> n_Tm:518
+R25604:25609 vminus.common.fintype <> Subst1 class
+R25623:25630 vminus.stlc.syntax Core subst_Tm def
+inst 25664:25671 Core Up_Tm_Tm
+R25684:25686 Corelib.Init.Datatypes <> nat ind
+binder 25675:25675 <> m:519
+binder 25677:25680 <> n_Tm:520
+R25691:25695 vminus.stlc.syntax Core Up_Tm class
+R25707:25714 vminus.stlc.syntax Core up_Tm_Tm thm
+inst 25745:25750 Core Ren_Tm
+R25766:25768 Corelib.Init.Datatypes <> nat ind
+binder 25754:25757 <> m_Tm:521
+binder 25759:25762 <> n_Tm:522
+R25773:25776 vminus.common.fintype <> Ren1 class
+R25790:25795 vminus.stlc.syntax Core ren_Tm def
+inst 25829:25842 Core VarInstance_Tm
+R25853:25855 Corelib.Init.Datatypes <> nat ind
+binder 25846:25849 <> n_Tm:523
+R25860:25862 vminus.common.fintype <> Var class
+R25874:25876 vminus.stlc.syntax Core var constr
+R25916:25923 vminus.stlc.syntax Core subst_Tm def
+not 25895:25895 Core ::subst_scope:x_'['_x_']'
+R26025:26029 vminus.stlc.syntax Core up_Tm def
+not 26012:26012 Core ::subst_scope:'↑__Tm'
+R26086:26093 vminus.stlc.syntax Core up_Tm_Tm thm
+not 26073:26073 Core ::subst_scope:'↑__Tm'
+R26159:26164 vminus.stlc.syntax Core ren_Tm def
+not 26137:26137 Core ::subst_scope:x_'⟨'_x_'⟩'
+R26261:26263 vminus.stlc.syntax Core var constr
+not 26250:26250 Core ::subst_scope:'var'
+R26336:26338 vminus.common.fintype <> ids def
+R26344:26357 vminus.stlc.syntax Core VarInstance_Tm inst
+not 26320:26320 Core ::subst_scope:x_'__Tm'
+R26449:26451 vminus.stlc.syntax Core var constr
+not 26434:26434 Core ::subst_scope:x_'__Tm'
+inst 26523:26539 Core subst_Tm_morphism
+R26550:26552 Corelib.Init.Datatypes <> nat ind
+binder 26543:26546 <> m_Tm:524
+R26563:26565 Corelib.Init.Datatypes <> nat ind
+binder 26556:26559 <> n_Tm:525
+R26571:26576 Corelib.Classes.Morphisms <> Proper class
+R26642:26649 vminus.stlc.syntax Core subst_Tm def
+R26651:26654 vminus.stlc.syntax <> m_Tm:524 var
+R26656:26659 vminus.stlc.syntax <> n_Tm:525 var
+R26579:26588 Corelib.Classes.Morphisms <> respectful def
+R26617:26626 Corelib.Classes.Morphisms <> respectful def
+R26631:26632 Corelib.Init.Logic <> eq ind
+R26628:26629 Corelib.Init.Logic <> eq ind
+R26591:26608 Corelib.Classes.Morphisms <> pointwise_relation def
+R26612:26613 Corelib.Init.Logic <> eq ind
+binder 26682:26685 <> f_Tm:526
+binder 26687:26690 <> g_Tm:527
+binder 26692:26696 <> Eq_Tm:528
+binder 26698:26698 <> s:529
+binder 26700:26700 <> t:530
+binder 26702:26706 <> Eq_st:531
+R26718:26723 Corelib.Init.Logic <> eq_ind scheme
+R26812:26816 vminus.stlc.syntax <> Eq_st:531 var
+R26810:26810 vminus.stlc.syntax <> t:530 var
+R26784:26789 vminus.stlc.syntax Core ext_Tm def
+R26807:26807 vminus.stlc.syntax <> s:529 var
+R26801:26805 vminus.stlc.syntax <> Eq_Tm:528 var
+R26796:26799 vminus.stlc.syntax <> g_Tm:527 var
+R26791:26794 vminus.stlc.syntax <> f_Tm:526 var
+binder 26732:26733 <> t':532
+R26753:26755 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26738:26745 vminus.stlc.syntax Core subst_Tm def
+R26752:26752 vminus.stlc.syntax <> s:529 var
+R26747:26750 vminus.stlc.syntax <> f_Tm:526 var
+R26756:26763 vminus.stlc.syntax Core subst_Tm def
+R26770:26771 vminus.stlc.syntax <> t':532 var
+R26765:26768 vminus.stlc.syntax <> g_Tm:527 var
+R26725:26725 vminus.stlc.syntax <> s:529 var
+binder 26682:26685 <> f_Tm:533
+binder 26687:26690 <> g_Tm:534
+binder 26692:26696 <> Eq_Tm:535
+binder 26698:26698 <> s:536
+binder 26700:26700 <> t:537
+binder 26702:26706 <> Eq_st:538
+R26718:26723 Corelib.Init.Logic <> eq_ind scheme
+R26812:26816 vminus.stlc.syntax <> Eq_st:538 var
+R26810:26810 vminus.stlc.syntax <> t:537 var
+R26784:26789 vminus.stlc.syntax Core ext_Tm def
+R26807:26807 vminus.stlc.syntax <> s:536 var
+R26801:26805 vminus.stlc.syntax <> Eq_Tm:535 var
+R26796:26799 vminus.stlc.syntax <> g_Tm:534 var
+R26791:26794 vminus.stlc.syntax <> f_Tm:533 var
+binder 26732:26733 <> t':539
+R26753:26755 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26738:26745 vminus.stlc.syntax Core subst_Tm def
+R26752:26752 vminus.stlc.syntax <> s:536 var
+R26747:26750 vminus.stlc.syntax <> f_Tm:533 var
+R26756:26763 vminus.stlc.syntax Core subst_Tm def
+R26770:26771 vminus.stlc.syntax <> t':539 var
+R26765:26768 vminus.stlc.syntax <> g_Tm:534 var
+R26725:26725 vminus.stlc.syntax <> s:536 var
+inst 26845:26862 Core subst_Tm_morphism2
+R26873:26875 Corelib.Init.Datatypes <> nat ind
+binder 26866:26869 <> m_Tm:540
+R26886:26888 Corelib.Init.Datatypes <> nat ind
+binder 26879:26882 <> n_Tm:541
+R26894:26899 Corelib.Classes.Morphisms <> Proper class
+R26972:26979 vminus.stlc.syntax Core subst_Tm def
+R26981:26984 vminus.stlc.syntax <> m_Tm:540 var
+R26986:26989 vminus.stlc.syntax <> n_Tm:541 var
+R26902:26911 Corelib.Classes.Morphisms <> respectful def
+R26940:26957 Corelib.Classes.Morphisms <> pointwise_relation def
+R26961:26962 Corelib.Init.Logic <> eq ind
+R26914:26931 Corelib.Classes.Morphisms <> pointwise_relation def
+R26935:26936 Corelib.Init.Logic <> eq ind
+binder 27012:27015 <> f_Tm:542
+binder 27017:27020 <> g_Tm:543
+binder 27022:27026 <> Eq_Tm:544
+binder 27028:27028 <> s:545
+R27033:27038 vminus.stlc.syntax Core ext_Tm def
+R27056:27056 vminus.stlc.syntax <> s:545 var
+R27050:27054 vminus.stlc.syntax <> Eq_Tm:544 var
+R27045:27048 vminus.stlc.syntax <> g_Tm:543 var
+R27040:27043 vminus.stlc.syntax <> f_Tm:542 var
+binder 27012:27015 <> f_Tm:546
+binder 27017:27020 <> g_Tm:547
+binder 27022:27026 <> Eq_Tm:548
+binder 27028:27028 <> s:549
+R27033:27038 vminus.stlc.syntax Core ext_Tm def
+R27056:27056 vminus.stlc.syntax <> s:549 var
+R27050:27054 vminus.stlc.syntax <> Eq_Tm:548 var
+R27045:27048 vminus.stlc.syntax <> g_Tm:547 var
+R27040:27043 vminus.stlc.syntax <> f_Tm:546 var
+inst 27085:27099 Core ren_Tm_morphism
+R27110:27112 Corelib.Init.Datatypes <> nat ind
+binder 27103:27106 <> m_Tm:550
+R27123:27125 Corelib.Init.Datatypes <> nat ind
+binder 27116:27119 <> n_Tm:551
+R27131:27136 Corelib.Classes.Morphisms <> Proper class
+R27202:27207 vminus.stlc.syntax Core ren_Tm def
+R27209:27212 vminus.stlc.syntax <> m_Tm:550 var
+R27214:27217 vminus.stlc.syntax <> n_Tm:551 var
+R27139:27148 Corelib.Classes.Morphisms <> respectful def
+R27177:27186 Corelib.Classes.Morphisms <> respectful def
+R27191:27192 Corelib.Init.Logic <> eq ind
+R27188:27189 Corelib.Init.Logic <> eq ind
+R27151:27168 Corelib.Classes.Morphisms <> pointwise_relation def
+R27172:27173 Corelib.Init.Logic <> eq ind
+binder 27240:27243 <> f_Tm:552
+binder 27245:27248 <> g_Tm:553
+binder 27250:27254 <> Eq_Tm:554
+binder 27256:27256 <> s:555
+binder 27258:27258 <> t:556
+binder 27260:27264 <> Eq_st:557
+R27276:27281 Corelib.Init.Logic <> eq_ind scheme
+R27369:27373 vminus.stlc.syntax <> Eq_st:557 var
+R27367:27367 vminus.stlc.syntax <> t:556 var
+R27338:27346 vminus.stlc.syntax Core extRen_Tm def
+R27364:27364 vminus.stlc.syntax <> s:555 var
+R27358:27362 vminus.stlc.syntax <> Eq_Tm:554 var
+R27353:27356 vminus.stlc.syntax <> g_Tm:553 var
+R27348:27351 vminus.stlc.syntax <> f_Tm:552 var
+binder 27290:27291 <> t':558
+R27309:27311 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27296:27301 vminus.stlc.syntax Core ren_Tm def
+R27308:27308 vminus.stlc.syntax <> s:555 var
+R27303:27306 vminus.stlc.syntax <> f_Tm:552 var
+R27312:27317 vminus.stlc.syntax Core ren_Tm def
+R27324:27325 vminus.stlc.syntax <> t':558 var
+R27319:27322 vminus.stlc.syntax <> g_Tm:553 var
+R27283:27283 vminus.stlc.syntax <> s:555 var
+binder 27240:27243 <> f_Tm:559
+binder 27245:27248 <> g_Tm:560
+binder 27250:27254 <> Eq_Tm:561
+binder 27256:27256 <> s:562
+binder 27258:27258 <> t:563
+binder 27260:27264 <> Eq_st:564
+R27276:27281 Corelib.Init.Logic <> eq_ind scheme
+R27369:27373 vminus.stlc.syntax <> Eq_st:564 var
+R27367:27367 vminus.stlc.syntax <> t:563 var
+R27338:27346 vminus.stlc.syntax Core extRen_Tm def
+R27364:27364 vminus.stlc.syntax <> s:562 var
+R27358:27362 vminus.stlc.syntax <> Eq_Tm:561 var
+R27353:27356 vminus.stlc.syntax <> g_Tm:560 var
+R27348:27351 vminus.stlc.syntax <> f_Tm:559 var
+binder 27290:27291 <> t':565
+R27309:27311 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27296:27301 vminus.stlc.syntax Core ren_Tm def
+R27308:27308 vminus.stlc.syntax <> s:562 var
+R27303:27306 vminus.stlc.syntax <> f_Tm:559 var
+R27312:27317 vminus.stlc.syntax Core ren_Tm def
+R27324:27325 vminus.stlc.syntax <> t':565 var
+R27319:27322 vminus.stlc.syntax <> g_Tm:560 var
+R27283:27283 vminus.stlc.syntax <> s:562 var
+inst 27402:27417 Core ren_Tm_morphism2
+R27428:27430 Corelib.Init.Datatypes <> nat ind
+binder 27421:27424 <> m_Tm:566
+R27441:27443 Corelib.Init.Datatypes <> nat ind
+binder 27434:27437 <> n_Tm:567
+R27449:27454 Corelib.Classes.Morphisms <> Proper class
+R27527:27532 vminus.stlc.syntax Core ren_Tm def
+R27534:27537 vminus.stlc.syntax <> m_Tm:566 var
+R27539:27542 vminus.stlc.syntax <> n_Tm:567 var
+R27457:27466 Corelib.Classes.Morphisms <> respectful def
+R27495:27512 Corelib.Classes.Morphisms <> pointwise_relation def
+R27516:27517 Corelib.Init.Logic <> eq ind
+R27469:27486 Corelib.Classes.Morphisms <> pointwise_relation def
+R27490:27491 Corelib.Init.Logic <> eq ind
+binder 27565:27568 <> f_Tm:568
+binder 27570:27573 <> g_Tm:569
+binder 27575:27579 <> Eq_Tm:570
+binder 27581:27581 <> s:571
+R27586:27594 vminus.stlc.syntax Core extRen_Tm def
+R27612:27612 vminus.stlc.syntax <> s:571 var
+R27606:27610 vminus.stlc.syntax <> Eq_Tm:570 var
+R27601:27604 vminus.stlc.syntax <> g_Tm:569 var
+R27596:27599 vminus.stlc.syntax <> f_Tm:568 var
+binder 27565:27568 <> f_Tm:572
+binder 27570:27573 <> g_Tm:573
+binder 27575:27579 <> Eq_Tm:574
+binder 27581:27581 <> s:575
+R27586:27594 vminus.stlc.syntax Core extRen_Tm def
+R27612:27612 vminus.stlc.syntax <> s:575 var
+R27606:27610 vminus.stlc.syntax <> Eq_Tm:574 var
+R27601:27604 vminus.stlc.syntax <> g_Tm:573 var
+R27596:27599 vminus.stlc.syntax <> f_Tm:572 var
+R27677:27690 vminus.stlc.syntax Core VarInstance_Tm inst
+R27693:27695 vminus.common.fintype <> Var class
+R27698:27700 vminus.common.fintype <> ids def
+R27703:27708 vminus.stlc.syntax Core Ren_Tm inst
+R27711:27714 vminus.common.fintype <> Ren1 class
+R27717:27720 vminus.common.fintype <> ren1 def
+R27745:27752 vminus.stlc.syntax Core Up_Tm_Tm inst
+R27755:27759 vminus.stlc.syntax Core Up_Tm class
+R27762:27766 vminus.stlc.syntax Core up_Tm def
+R27769:27776 vminus.stlc.syntax Core Subst_Tm inst
+R27779:27784 vminus.common.fintype <> Subst1 class
+R27787:27792 vminus.common.fintype <> subst1 def
+R27895:27908 vminus.stlc.syntax Core VarInstance_Tm inst
+R27911:27913 vminus.common.fintype <> Var class
+R27916:27918 vminus.common.fintype <> ids def
+R27965:27970 vminus.stlc.syntax Core Ren_Tm inst
+R27973:27976 vminus.common.fintype <> Ren1 class
+R27979:27982 vminus.common.fintype <> ren1 def
+R27985:27992 vminus.stlc.syntax Core Up_Tm_Tm inst
+R28039:28043 vminus.stlc.syntax Core Up_Tm class
+R28046:28050 vminus.stlc.syntax Core up_Tm def
+R28053:28060 vminus.stlc.syntax Core Subst_Tm inst
+R28063:28068 vminus.common.fintype <> Subst1 class
+R28115:28120 vminus.common.fintype <> subst1 def
+R28202:28224 vminus.stlc.syntax Core substSubst_Tm_pointwise thm
+R28269:28281 vminus.stlc.syntax Core substSubst_Tm thm
+R28326:28346 vminus.stlc.syntax Core substRen_Tm_pointwise thm
+R28391:28401 vminus.stlc.syntax Core substRen_Tm thm
+R28446:28466 vminus.stlc.syntax Core renSubst_Tm_pointwise thm
+R28511:28521 vminus.stlc.syntax Core renSubst_Tm thm
+R28566:28585 vminus.stlc.syntax Core renRen'_Tm_pointwise thm
+R28630:28638 vminus.stlc.syntax Core renRen_Tm thm
+R28683:28703 vminus.stlc.syntax Core varLRen'_Tm_pointwise thm
+R28748:28758 vminus.stlc.syntax Core varLRen'_Tm thm
+R28803:28820 vminus.stlc.syntax Core varL'_Tm_pointwise thm
+R28865:28872 vminus.stlc.syntax Core varL'_Tm thm
+R28917:28937 vminus.stlc.syntax Core rinstId'_Tm_pointwise thm
+R28982:28992 vminus.stlc.syntax Core rinstId'_Tm thm
+R29037:29056 vminus.stlc.syntax Core instId'_Tm_pointwise thm
+R29101:29110 vminus.stlc.syntax Core instId'_Tm thm
+R29167:29179 vminus.stlc.syntax Core up_list_Tm_Tm thm
+R29182:29189 vminus.stlc.syntax Core up_Tm_Tm thm
+R29192:29207 vminus.stlc.syntax Core upRen_list_Tm_Tm thm
+R29231:29241 vminus.stlc.syntax Core upRen_Tm_Tm thm
+R29244:29249 vminus.common.fintype <> up_ren def
+R29283:29290 vminus.stlc.syntax Core subst_Tm def
+R29292:29297 vminus.stlc.syntax Core ren_Tm def
+R29418:29431 vminus.stlc.syntax Core VarInstance_Tm inst
+R29434:29436 vminus.common.fintype <> Var class
+R29439:29441 vminus.common.fintype <> ids def
+R29444:29449 vminus.stlc.syntax Core Ren_Tm inst
+R29452:29455 vminus.common.fintype <> Ren1 class
+R29458:29461 vminus.common.fintype <> ren1 def
+R29482:29489 vminus.stlc.syntax Core Up_Tm_Tm inst
+R29492:29496 vminus.stlc.syntax Core Up_Tm class
+R29499:29503 vminus.stlc.syntax Core up_Tm def
+R29506:29513 vminus.stlc.syntax Core Subst_Tm inst
+R29516:29521 vminus.common.fintype <> Subst1 class
+R29524:29529 vminus.common.fintype <> subst1 def
+R29760:29782 vminus.stlc.syntax Core rinstInst'_Tm_pointwise thm
+R29822:29834 vminus.stlc.syntax Core rinstInst'_Tm thm
+R29979:29982 vminus.stlc.syntax Core <> mod
+mod 29993:29997 <> Extra
+R30008:30011 vminus.stlc.syntax Core <> mod
+R30025:30027 vminus.stlc.syntax Core var constr
+R30025:30027 vminus.stlc.syntax Core var constr
+R30048:30051 vminus.stlc.syntax Core let_ constr
+R30048:30051 vminus.stlc.syntax Core let_ constr
+R30072:30075 vminus.stlc.syntax Core nrec constr
+R30072:30075 vminus.stlc.syntax Core nrec constr
+R30096:30099 vminus.stlc.syntax Core succ constr
+R30096:30099 vminus.stlc.syntax Core succ constr
+R30120:30122 vminus.stlc.syntax Core lit constr
+R30120:30122 vminus.stlc.syntax Core lit constr
+R30143:30145 vminus.stlc.syntax Core app constr
+R30143:30145 vminus.stlc.syntax Core app constr
+R30166:30168 vminus.stlc.syntax Core abs constr
+R30166:30168 vminus.stlc.syntax Core abs constr
+R30201:30208 vminus.stlc.syntax Core subst_Tm def
+R30243:30248 vminus.stlc.syntax Core ren_Tm def
+R30265:30269 vminus.stlc.syntax Extra <> mod
+mod 30280:30288 <> interface
+R30299:30302 vminus.stlc.syntax Core <> mod
+R30313:30317 vminus.stlc.syntax Extra <> mod
+R30325:30333 vminus.stlc.syntax interface <> mod
+R30344:30352 vminus.stlc.syntax interface <> mod

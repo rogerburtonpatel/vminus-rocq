@@ -1,0 +1,14 @@
+-R . vminus 
+common/core.v
+common/fin_util.v
+common/fintype.v
+common/relations.v
+common/unscoped.v
+stlc/bigsafety.v
+stlc/red_equiv.v
+stlc/red.v
+stlc/safety.v
+stlc/small_step.v
+stlc/soundness.v
+stlc/syntax.v
+stlc/typing.v

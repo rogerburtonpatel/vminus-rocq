@@ -1,0 +1,348 @@
+DIGEST 50143ce4aab321e30102ffe0083b605f
+Fvminus.stlc.small_step
+R15:25 vminus.stlc.syntax <> <> lib
+R43:50 vminus.stlc.red <> <> lib
+R61:72 vminus.stlc.red RedNotations <> mod
+R82:96 vminus.common.fintype ScopedNotations <> mod
+R328:337 vminus.stlc.red Small step ind
+R340:342 vminus.stlc.syntax Core abs constr
+R328:337 vminus.stlc.red Small step ind
+R340:342 vminus.stlc.syntax Core abs constr
+R384:393 vminus.stlc.red Small step ind
+R396:398 vminus.stlc.syntax Core lit constr
+R384:393 vminus.stlc.red Small step ind
+R396:398 vminus.stlc.syntax Core lit constr
+R440:449 vminus.stlc.red Small step ind
+R452:454 vminus.stlc.syntax Core var constr
+R440:449 vminus.stlc.red Small step ind
+R452:454 vminus.stlc.syntax Core var constr
+R507:509 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R496:503 vminus.stlc.red <> is_value def
+R510:513 Corelib.Init.Datatypes <> true constr
+R507:509 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R496:503 vminus.stlc.red <> is_value def
+R510:513 Corelib.Init.Datatypes <> true constr
+R521:530 vminus.stlc.red Small step ind
+R521:530 vminus.stlc.red Small step ind
+prf 607:628 <> small_step_determinism
+binder 642:643 <> e1:1
+binder 645:646 <> e2:2
+R659:662 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R652:656 vminus.stlc.red RedNotations :::x_'⤳'_x not
+R650:651 vminus.stlc.small_step <> e1:1 var
+R657:658 vminus.stlc.small_step <> e2:2 var
+binder 670:672 <> e2':3
+R685:688 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R677:681 vminus.stlc.red RedNotations :::x_'⤳'_x not
+R675:676 vminus.stlc.small_step <> e1:1 var
+R682:684 vminus.stlc.small_step <> e2':3 var
+R691:693 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R689:690 vminus.stlc.small_step <> e2:2 var
+R694:696 vminus.stlc.small_step <> e2':3 var
+prf 1777:1788 <> ms_app_cong1
+binder 1790:1791 <> e1:4
+binder 1793:1795 <> e1':5
+binder 1797:1798 <> e2:6
+R1814:1818 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1805:1810 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R1803:1804 vminus.stlc.small_step <> e1:4 var
+R1811:1813 vminus.stlc.small_step <> e1':5 var
+R1828:1833 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R1819:1821 vminus.stlc.syntax Core app constr
+R1826:1827 vminus.stlc.small_step <> e2:6 var
+R1823:1824 vminus.stlc.small_step <> e1:4 var
+R1834:1836 vminus.stlc.syntax Core app constr
+R1842:1843 vminus.stlc.small_step <> e2:6 var
+R1838:1840 vminus.stlc.small_step <> e1':5 var
+R1877:1883 vminus.common.relations <> ms_refl constr
+R1877:1883 vminus.common.relations <> ms_refl constr
+R1895:1902 vminus.common.relations <> ms_trans constr
+R1895:1902 vminus.common.relations <> ms_trans constr
+R1914:1930 vminus.stlc.red Small s_app_cong1 constr
+R1914:1930 vminus.stlc.red Small s_app_cong1 constr
+prf 2088:2099 <> ms_app_cong2
+binder 2101:2101 <> v:7
+binder 2103:2104 <> e2:8
+binder 2106:2108 <> e2':9
+R2132:2136 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2125:2127 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2115:2122 vminus.stlc.red <> is_value def
+R2124:2124 vminus.stlc.small_step <> v:7 var
+R2128:2131 Corelib.Init.Datatypes <> true constr
+R2148:2152 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2139:2144 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R2137:2138 vminus.stlc.small_step <> e2:8 var
+R2145:2147 vminus.stlc.small_step <> e2':9 var
+R2161:2166 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R2153:2155 vminus.stlc.syntax Core app constr
+R2159:2160 vminus.stlc.small_step <> e2:8 var
+R2157:2157 vminus.stlc.small_step <> v:7 var
+R2167:2169 vminus.stlc.syntax Core app constr
+R2173:2175 vminus.stlc.small_step <> e2':9 var
+R2171:2171 vminus.stlc.small_step <> v:7 var
+R2227:2233 vminus.common.relations <> ms_refl constr
+R2227:2233 vminus.common.relations <> ms_refl constr
+R2245:2252 vminus.common.relations <> ms_trans constr
+R2245:2252 vminus.common.relations <> ms_trans constr
+R2264:2280 vminus.stlc.red Small s_app_cong2 constr
+R2264:2280 vminus.stlc.red Small s_app_cong2 constr
+prf 2442:2448 <> ms_beta
+R2464:2465 vminus.stlc.syntax Core Tm ind
+binder 2460:2460 <> e:10
+R2475:2476 vminus.stlc.syntax Core Tm ind
+binder 2471:2471 <> v:11
+R2499:2502 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2492:2494 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2482:2489 vminus.stlc.red <> is_value def
+R2491:2491 vminus.stlc.small_step <> v:11 var
+R2495:2498 Corelib.Init.Datatypes <> true constr
+R2516:2521 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R2503:2505 vminus.stlc.syntax Core app constr
+R2515:2515 vminus.stlc.small_step <> v:11 var
+R2508:2510 vminus.stlc.syntax Core abs constr
+R2512:2512 vminus.stlc.small_step <> e:10 var
+R2523:2524 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R2528:2528 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R2526:2527 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R2525:2525 vminus.stlc.small_step <> v:11 var
+R2522:2522 vminus.stlc.small_step <> e:10 var
+R2555:2560 vminus.common.relations <> ms_one thm
+R2555:2560 vminus.common.relations <> ms_one thm
+R2569:2580 vminus.stlc.red Small s_beta constr
+R2569:2580 vminus.stlc.red Small s_beta constr
+prf 2603:2614 <> ms_succ_cong
+binder 2616:2616 <> e:12
+binder 2618:2619 <> e':13
+R2635:2639 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2627:2632 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R2626:2626 vminus.stlc.small_step <> e:12 var
+R2633:2634 vminus.stlc.small_step <> e':13 var
+R2646:2651 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R2640:2643 vminus.stlc.syntax Core succ constr
+R2645:2645 vminus.stlc.small_step <> e:12 var
+R2652:2655 vminus.stlc.syntax Core succ constr
+R2657:2658 vminus.stlc.small_step <> e':13 var
+R2693:2699 vminus.common.relations <> ms_refl constr
+R2693:2699 vminus.common.relations <> ms_refl constr
+R2711:2718 vminus.common.relations <> ms_trans constr
+R2711:2718 vminus.common.relations <> ms_trans constr
+R2730:2746 vminus.stlc.red Small s_succ_cong constr
+R2730:2746 vminus.stlc.red Small s_succ_cong constr
+prf 3049:3060 <> ms_nrec_zero
+binder 3062:3063 <> e0:14
+binder 3065:3066 <> e1:15
+binder 3068:3070 <> e0':16
+R3087:3090 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3078:3083 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R3076:3077 vminus.stlc.small_step <> e0:14 var
+R3084:3086 vminus.stlc.small_step <> e0':16 var
+R3109:3114 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R3091:3094 vminus.stlc.syntax Core nrec constr
+R3107:3108 vminus.stlc.small_step <> e1:15 var
+R3104:3105 vminus.stlc.small_step <> e0:14 var
+R3097:3099 vminus.stlc.syntax Core lit constr
+R3115:3117 vminus.stlc.small_step <> e0':16 var
+R3154:3170 vminus.stlc.red Small s_nrec_zero constr
+R3154:3170 vminus.stlc.red Small s_nrec_zero constr
+R3198:3203 vminus.common.relations <> ms_one thm
+R3198:3203 vminus.common.relations <> ms_one thm
+R3225:3230 vminus.common.relations <> ms_app thm
+R3225:3230 vminus.common.relations <> ms_app thm
+prf 3433:3444 <> ms_nrec_cong
+binder 3446:3446 <> e:17
+binder 3448:3449 <> e':18
+binder 3451:3452 <> e0:19
+binder 3454:3455 <> e1:20
+R3470:3473 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3462:3467 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R3461:3461 vminus.stlc.small_step <> e:17 var
+R3468:3469 vminus.stlc.small_step <> e':18 var
+R3486:3491 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R3474:3477 vminus.stlc.syntax Core nrec constr
+R3484:3485 vminus.stlc.small_step <> e1:20 var
+R3481:3482 vminus.stlc.small_step <> e0:19 var
+R3479:3479 vminus.stlc.small_step <> e:17 var
+R3492:3495 vminus.stlc.syntax Core nrec constr
+R3503:3504 vminus.stlc.small_step <> e1:20 var
+R3500:3501 vminus.stlc.small_step <> e0:19 var
+R3497:3498 vminus.stlc.small_step <> e':18 var
+R3542:3548 vminus.common.relations <> ms_refl constr
+R3542:3548 vminus.common.relations <> ms_refl constr
+R3568:3584 vminus.stlc.red Small s_nrec_cong constr
+R3568:3584 vminus.stlc.red Small s_nrec_cong constr
+R3626:3633 vminus.common.relations <> ms_trans constr
+R3626:3633 vminus.common.relations <> ms_trans constr
+prf 4127:4138 <> ms_nrec_succ
+binder 4149:4149 <> e:21
+binder 4151:4152 <> e':22
+binder 4154:4155 <> e0:23
+binder 4157:4158 <> e1:24
+binder 4160:4161 <> v1:25
+binder 4163:4163 <> v:26
+binder 4165:4165 <> k:27
+R4187:4190 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4180:4182 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4169:4176 vminus.stlc.red <> is_value def
+R4178:4179 vminus.stlc.small_step <> v1:25 var
+R4183:4186 Corelib.Init.Datatypes <> true constr
+R4208:4212 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4201:4203 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4191:4198 vminus.stlc.red <> is_value def
+R4200:4200 vminus.stlc.small_step <> v:26 var
+R4204:4207 Corelib.Init.Datatypes <> true constr
+R4213:4213 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4230:4235 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4215:4220 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R4214:4214 vminus.stlc.small_step <> e:21 var
+R4221:4223 vminus.stlc.syntax Core lit constr
+R4226:4226 Corelib.Init.Datatypes <> S constr
+R4228:4228 vminus.stlc.small_step <> k:27 var
+R4236:4236 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4263:4268 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4251:4256 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R4239:4240 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R4250:4250 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R4241:4241 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R4247:4249 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R4242:4244 vminus.stlc.syntax Core lit constr
+R4246:4246 vminus.stlc.small_step <> k:27 var
+R4237:4238 vminus.stlc.small_step <> e1:24 var
+R4257:4259 vminus.stlc.syntax Core abs constr
+R4261:4262 vminus.stlc.small_step <> e':22 var
+R4269:4269 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4296:4301 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4288:4293 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R4270:4273 vminus.stlc.syntax Core nrec constr
+R4286:4287 vminus.stlc.small_step <> e1:24 var
+R4283:4284 vminus.stlc.small_step <> e0:23 var
+R4276:4278 vminus.stlc.syntax Core lit constr
+R4280:4280 vminus.stlc.small_step <> k:27 var
+R4294:4295 vminus.stlc.small_step <> v1:25 var
+R4302:4302 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4319:4327 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4312:4317 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R4305:4306 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R4311:4311 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R4309:4310 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R4307:4308 vminus.stlc.small_step <> v1:25 var
+R4303:4304 vminus.stlc.small_step <> e':22 var
+R4318:4318 vminus.stlc.small_step <> v:26 var
+R4340:4347 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R4328:4331 vminus.stlc.syntax Core nrec constr
+R4338:4339 vminus.stlc.small_step <> e1:24 var
+R4335:4336 vminus.stlc.small_step <> e0:23 var
+R4333:4333 vminus.stlc.small_step <> e:21 var
+R4348:4348 vminus.stlc.small_step <> v:26 var
+R4386:4397 vminus.stlc.small_step <> ms_nrec_cong thm
+R4402:4404 vminus.stlc.syntax Core lit constr
+R4407:4407 Corelib.Init.Datatypes <> S constr
+R4386:4397 vminus.stlc.small_step <> ms_nrec_cong thm
+R4402:4404 vminus.stlc.syntax Core lit constr
+R4407:4407 Corelib.Init.Datatypes <> S constr
+R4452:4468 vminus.stlc.red Small s_nrec_succ constr
+R4452:4468 vminus.stlc.red Small s_nrec_succ constr
+R4501:4506 vminus.common.relations <> ms_one thm
+R4501:4506 vminus.common.relations <> ms_one thm
+R4538:4543 vminus.common.relations <> ms_app thm
+R4538:4543 vminus.common.relations <> ms_app thm
+R4595:4606 vminus.stlc.small_step <> ms_app_cong1 thm
+R4611:4612 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R4622:4622 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R4613:4613 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R4619:4621 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R4614:4616 vminus.stlc.syntax Core lit constr
+R4626:4628 vminus.stlc.syntax Core abs constr
+R4635:4638 vminus.stlc.syntax Core nrec constr
+R4641:4643 vminus.stlc.syntax Core lit constr
+R4595:4606 vminus.stlc.small_step <> ms_app_cong1 thm
+R4611:4612 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R4622:4622 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R4613:4613 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R4619:4621 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R4614:4616 vminus.stlc.syntax Core lit constr
+R4626:4628 vminus.stlc.syntax Core abs constr
+R4635:4638 vminus.stlc.syntax Core nrec constr
+R4641:4643 vminus.stlc.syntax Core lit constr
+R4688:4695 vminus.stlc.red <> is_value def
+R4698:4700 vminus.stlc.syntax Core abs constr
+R4688:4695 vminus.stlc.red <> is_value def
+R4698:4700 vminus.stlc.syntax Core abs constr
+R4748:4759 vminus.stlc.small_step <> ms_app_cong2 thm
+R4748:4759 vminus.stlc.small_step <> ms_app_cong2 thm
+R4811:4817 vminus.stlc.small_step <> ms_beta thm
+R4811:4817 vminus.stlc.small_step <> ms_beta thm
+R4852:4857 vminus.common.relations <> ms_app thm
+R4852:4857 vminus.common.relations <> ms_app thm
+R4904:4909 vminus.common.relations <> ms_app thm
+R4904:4909 vminus.common.relations <> ms_app thm
+R4953:4958 vminus.common.relations <> ms_app thm
+R4967:4973 vminus.stlc.small_step <> ms_beta thm
+R4953:4958 vminus.common.relations <> ms_app thm
+R4967:4973 vminus.stlc.small_step <> ms_beta thm
+R5008:5013 vminus.common.relations <> ms_app thm
+R5008:5013 vminus.common.relations <> ms_app thm
+prf 5223:5229 <> ms_letv
+R5246:5247 vminus.stlc.syntax Core Tm ind
+binder 5242:5242 <> v:28
+R5257:5258 vminus.stlc.syntax Core Tm ind
+binder 5253:5253 <> e:29
+R5283:5286 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5276:5278 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5266:5273 vminus.stlc.red <> is_value def
+R5275:5275 vminus.stlc.small_step <> v:28 var
+R5279:5282 Corelib.Init.Datatypes <> true constr
+R5295:5300 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R5287:5290 vminus.stlc.syntax Core let_ constr
+R5294:5294 vminus.stlc.small_step <> e:29 var
+R5292:5292 vminus.stlc.small_step <> v:28 var
+R5302:5303 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R5307:5307 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R5305:5306 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R5304:5304 vminus.stlc.small_step <> v:28 var
+R5301:5301 vminus.stlc.small_step <> e:29 var
+R5335:5340 vminus.common.relations <> ms_one thm
+R5335:5340 vminus.common.relations <> ms_one thm
+R5349:5360 vminus.stlc.red Small s_letv constr
+R5349:5360 vminus.stlc.red Small s_letv constr
+prf 5384:5394 <> ms_let_cong
+binder 5396:5397 <> e1:30
+binder 5399:5400 <> e2:31
+binder 5402:5403 <> v1:32
+binder 5405:5406 <> v2:33
+R5428:5431 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5421:5423 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5410:5417 vminus.stlc.red <> is_value def
+R5419:5420 vminus.stlc.small_step <> v1:32 var
+R5424:5427 Corelib.Init.Datatypes <> true constr
+R5450:5454 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5443:5445 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5432:5439 vminus.stlc.red <> is_value def
+R5441:5442 vminus.stlc.small_step <> v2:33 var
+R5446:5449 Corelib.Init.Datatypes <> true constr
+R5455:5455 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5466:5471 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5458:5463 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R5456:5457 vminus.stlc.small_step <> e1:30 var
+R5464:5465 vminus.stlc.small_step <> v1:32 var
+R5472:5472 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5490:5495 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5482:5487 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R5475:5476 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R5481:5481 vminus.common.fintype SubstNotations ::subst_scope:x_'['_x_']' not
+R5479:5480 vminus.common.fintype ScopedNotations ::subst_scope:x_'..' not
+R5477:5478 vminus.stlc.small_step <> v1:32 var
+R5473:5474 vminus.stlc.small_step <> e2:31 var
+R5488:5489 vminus.stlc.small_step <> v2:33 var
+R5506:5511 vminus.stlc.red RedNotations :::x_'⤳*'_x not
+R5496:5499 vminus.stlc.syntax Core let_ constr
+R5504:5505 vminus.stlc.small_step <> e2:31 var
+R5501:5502 vminus.stlc.small_step <> e1:30 var
+R5512:5513 vminus.stlc.small_step <> v2:33 var
+R5566:5571 vminus.common.relations <> ms_app thm
+R5574:5580 vminus.stlc.small_step <> ms_letv thm
+R5566:5571 vminus.common.relations <> ms_app thm
+R5574:5580 vminus.stlc.small_step <> ms_letv thm
+R5641:5656 vminus.stlc.red Small s_let_cong constr
+R5641:5656 vminus.stlc.red Small s_let_cong constr
+R5690:5697 vminus.common.relations <> ms_trans constr
+R5690:5697 vminus.common.relations <> ms_trans constr

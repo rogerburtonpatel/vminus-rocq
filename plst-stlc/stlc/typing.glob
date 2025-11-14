@@ -1,0 +1,165 @@
+DIGEST e9c0948a7c61e1302597ecce47b2396b
+Fvminus.stlc.typing
+R27:35 Stdlib.ssr.ssreflect <> <> lib
+R65:80 Stdlib.Program.Equality <> <> lib
+R98:111 vminus.common.fintype <> <> lib
+R129:139 vminus.common.core <> <> lib
+R158:168 vminus.stlc.syntax <> <> lib
+R179:193 vminus.common.fintype ScopedNotations <> mod
+mod 204:218 <> SyntaxNotations
+R255:258 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R243:245 vminus.stlc.syntax Core var constr
+R247:254 vminus.common.fintype <> var_zero def
+R261:264 vminus.common.fintype CombineNotations ::fscope:x_'>>'_x not
+R265:270 vminus.stlc.syntax Core ren_Tm def
+R272:274 vminus.common.fintype ScopedNotations ::subst_scope:'↑' not
+not 230:230 SyntaxNotations ::subst_scope:'⇑'_x
+R310:324 vminus.stlc.typing SyntaxNotations <> mod
+R335:349 vminus.stlc.typing SyntaxNotations <> mod
+def 364:366 <> Ctx
+R373:375 Corelib.Init.Datatypes <> nat ind
+binder 369:369 <> n:1
+R386:389 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R381:383 vminus.common.fintype <> fin def
+R385:385 vminus.stlc.typing <> n:1 var
+R390:391 vminus.stlc.syntax Core Ty ind
+ind 405:410 <> typing
+constr 458:462 <> t_var
+constr 503:507 <> t_abs
+constr 596:600 <> t_app
+constr 714:718 <> t_lit
+constr 755:760 <> t_succ
+constr 822:827 <> t_nrec
+constr 969:973 <> t_let
+binder 413:413 <> n:2
+R422:424 vminus.stlc.typing <> Ctx def
+R426:426 vminus.stlc.typing <> n:2 var
+binder 417:418 <> Γ:3
+R435:438 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R431:432 vminus.stlc.syntax Core Tm ind
+R441:444 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R439:440 vminus.stlc.syntax Core Ty ind
+binder 464:464 <> x:6
+R473:478 vminus.stlc.typing <> typing:4 ind
+R492:493 vminus.stlc.typing <> Γ:3 var
+R495:495 vminus.stlc.typing <> x:6 var
+R484:486 vminus.stlc.syntax Core var constr
+R488:488 vminus.stlc.typing <> x:6 var
+R480:481 vminus.stlc.typing <> Γ:3 var
+binder 509:509 <> e:7
+binder 511:513 <> τ1:8
+binder 515:517 <> τ2:9
+R550:558 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R526:531 vminus.stlc.typing <> typing:4 ind
+R547:549 vminus.stlc.typing <> τ2:9 var
+R545:545 vminus.stlc.typing <> e:7 var
+R537:540 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R534:536 vminus.stlc.typing <> τ1:8 var
+R541:542 vminus.stlc.typing <> Γ:3 var
+R559:564 vminus.stlc.typing <> typing:4 ind
+R578:580 vminus.stlc.syntax Core Arr constr
+R582:584 vminus.stlc.typing <> τ1:8 var
+R586:588 vminus.stlc.typing <> τ2:9 var
+R570:572 vminus.stlc.syntax Core abs constr
+R574:574 vminus.stlc.typing <> e:7 var
+R566:567 vminus.stlc.typing <> Γ:3 var
+binder 602:603 <> e1:10
+binder 605:606 <> e2:11
+binder 608:610 <> τ1:12
+binder 612:614 <> τ2:13
+R649:657 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R623:628 vminus.stlc.typing <> typing:4 ind
+R637:639 vminus.stlc.syntax Core Arr constr
+R641:643 vminus.stlc.typing <> τ1:12 var
+R645:647 vminus.stlc.typing <> τ2:13 var
+R633:634 vminus.stlc.typing <> e1:10 var
+R630:631 vminus.stlc.typing <> Γ:3 var
+R674:682 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R658:663 vminus.stlc.typing <> typing:4 ind
+R671:673 vminus.stlc.typing <> τ1:12 var
+R668:669 vminus.stlc.typing <> e2:11 var
+R665:666 vminus.stlc.typing <> Γ:3 var
+R683:688 vminus.stlc.typing <> typing:4 ind
+R705:707 vminus.stlc.typing <> τ2:13 var
+R694:696 vminus.stlc.syntax Core app constr
+R701:702 vminus.stlc.typing <> e2:11 var
+R698:699 vminus.stlc.typing <> e1:10 var
+R690:691 vminus.stlc.typing <> Γ:3 var
+binder 720:720 <> k:14
+R729:734 vminus.stlc.typing <> typing:4 ind
+R747:749 vminus.stlc.syntax Core Nat constr
+R740:742 vminus.stlc.syntax Core lit constr
+R744:744 vminus.stlc.typing <> k:14 var
+R736:737 vminus.stlc.typing <> Γ:3 var
+binder 762:762 <> e:15
+R785:793 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R770:775 vminus.stlc.typing <> typing:4 ind
+R782:784 vminus.stlc.syntax Core Nat constr
+R780:780 vminus.stlc.typing <> e:15 var
+R777:778 vminus.stlc.typing <> Γ:3 var
+R794:799 vminus.stlc.typing <> typing:4 ind
+R813:815 vminus.stlc.syntax Core Nat constr
+R805:808 vminus.stlc.syntax Core succ constr
+R810:810 vminus.stlc.typing <> e:15 var
+R801:802 vminus.stlc.typing <> Γ:3 var
+binder 829:829 <> e:16
+binder 831:832 <> e0:17
+binder 834:835 <> e1:18
+binder 837:838 <> τ:19
+R861:869 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R846:851 vminus.stlc.typing <> typing:4 ind
+R858:860 vminus.stlc.syntax Core Nat constr
+R856:856 vminus.stlc.typing <> e:16 var
+R853:854 vminus.stlc.typing <> Γ:3 var
+R885:893 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R870:875 vminus.stlc.typing <> typing:4 ind
+R883:884 vminus.stlc.typing <> τ:19 var
+R880:881 vminus.stlc.typing <> e0:17 var
+R877:878 vminus.stlc.typing <> Γ:3 var
+R927:935 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R894:899 vminus.stlc.typing <> typing:4 ind
+R917:919 vminus.stlc.syntax Core Arr constr
+R921:922 vminus.stlc.typing <> τ:19 var
+R924:925 vminus.stlc.typing <> τ:19 var
+R913:914 vminus.stlc.typing <> e1:18 var
+R905:908 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R902:904 vminus.stlc.syntax Core Nat constr
+R909:910 vminus.stlc.typing <> Γ:3 var
+R936:941 vminus.stlc.typing <> typing:4 ind
+R961:962 vminus.stlc.typing <> τ:19 var
+R947:950 vminus.stlc.syntax Core nrec constr
+R957:958 vminus.stlc.typing <> e1:18 var
+R954:955 vminus.stlc.typing <> e0:17 var
+R952:952 vminus.stlc.typing <> e:16 var
+R943:944 vminus.stlc.typing <> Γ:3 var
+binder 975:976 <> e1:20
+binder 978:979 <> e2:21
+binder 981:983 <> τ1:22
+binder 985:987 <> τ2:23
+R1011:1018 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R995:1000 vminus.stlc.typing <> typing:4 ind
+R1008:1010 vminus.stlc.typing <> τ1:22 var
+R1005:1006 vminus.stlc.typing <> e1:20 var
+R1002:1003 vminus.stlc.typing <> Γ:3 var
+R1044:1051 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1019:1024 vminus.stlc.typing <> typing:4 ind
+R1041:1043 vminus.stlc.typing <> τ2:23 var
+R1038:1039 vminus.stlc.typing <> e2:21 var
+R1030:1033 vminus.common.fintype CombineNotations ::subst_scope:x_'.:'_x not
+R1027:1029 vminus.stlc.typing <> τ1:22 var
+R1034:1035 vminus.stlc.typing <> Γ:3 var
+R1052:1057 vminus.stlc.typing <> typing:4 ind
+R1075:1077 vminus.stlc.typing <> τ2:23 var
+R1063:1066 vminus.stlc.syntax Core let_ constr
+R1071:1072 vminus.stlc.typing <> e2:21 var
+R1068:1069 vminus.stlc.typing <> e1:20 var
+R1059:1060 vminus.stlc.typing <> Γ:3 var
+scheme 405:410 <> typing_ind
+scheme 405:410 <> typing_sind
+mod 1089:1103 <> TypingNotations
+R1113:1127 vminus.common.fintype ScopedNotations <> mod
+R1137:1151 vminus.stlc.typing SyntaxNotations <> mod
+R1184:1189 vminus.stlc.typing <> typing ind
+not 1163:1163 TypingNotations :::x_'|-'_x_'∈'_x
+R1219:1233 vminus.stlc.typing TypingNotations <> mod
+R1244:1258 vminus.stlc.typing TypingNotations <> mod
