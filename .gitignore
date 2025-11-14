@@ -1,0 +1,14 @@
+# Rocq generated files
+*.vo
+*.glob
+*.vok
+*.vos
+.CoqSrc.mk.d
+CoqSrc.mk
+CoqSrc.mk.conf
+_CoqProject
+.lia.cache
+
+.DS_Store
+
+*.aux
