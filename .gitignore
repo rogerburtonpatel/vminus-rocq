@@ -1,14 +1,16 @@
-# Rocq generated files
+# Rocq build artifacts
 *.vo
 *.glob
 *.vok
 *.vos
+*.aux
+.*.aux
+
 .CoqSrc.mk.d
 CoqSrc.mk
 CoqSrc.mk.conf
 _CoqProject
 .lia.cache
 
+# macOS
 .DS_Store
-
-*.aux
