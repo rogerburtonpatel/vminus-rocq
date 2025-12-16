@@ -59,10 +59,10 @@ with GuardedExp : Type :=
 | guardedexp : list Guard -> Tm -> GuardedExp
 
 with Guard : Type :=
-| g_comp : Val -> Guard        (* a computation. if it fails, the branch is ignored. *)
-| g_eqn : Tm -> Tm -> Guard    (* t1 = t2 *)
-| g_choice : Guard -> list Guard -> Guard -> list Guard -> Guard 
-                                (* g+ | g+. nonempty lists?  *)
+| comp : Tm -> Guard        (* a computation. if it fails, the branch is ignored. *)
+| eqn : Tm -> Tm -> Guard    (* t1 = t2 *)
+| choice : list Guard -> list Guard -> Guard 
+                                (* g* | g*  *)
 
 (***************** CASE, PATTERNS *****************)
 
@@ -225,11 +225,60 @@ expected stepping behavior *)
     pick_a_guard gs = (Some g, gs') -> 
       solve_guard ρ g failed
    (*********************************) ->
-      solve_guards ρ (g::gs) failed
+      solve_guards ρ gs failed
+
+| sgs_rec ρ ρ' g gs gs' r : 
+
+    pick_a_guard gs = (Some g, gs') -> 
+      solve_guard ρ g (refined ρ') -> 
+    solve_guards ρ' gs' r 
+   (*********************************) ->
+      solve_guards ρ gs r
+
+
 with solve_guard : env -> Guard -> UnificationResult -> Prop := 
-| s_gcomp_fail 
-| s_gcomp_succ 
-| s_gcomp_succ 
+| s_comp_fail ρ e : 
+   eval ρ e fail -> 
+   solve_guard ρ (comp e) †
+   
+(* success does not change the environment. *)
+| s_comp_succ ρ e v : 
+   eval ρ e v -> 
+   v <> fail -> 
+   solve_guard ρ (comp e) (refined ρ)
+
+| s_eqn ρ e1 e2 r : 
+   unify e1 e2 r -> 
+   solve_guard ρ (eqn e1 e2) r
+
+| s_choice_empty1 ρ gs2 : 
+   solve_guard ρ (choice [] gs2 ) (refined ρ)
+
+| s_choice_empty2 ρ gs1 : 
+   solve_guard ρ (choice gs1 []) (refined ρ)
+
+(* choice should go either way *)
+| s_choice_fail_l ρ gs1 gs2 r : 
+   solve_guards ρ gs1 failed -> 
+   solve_guards ρ gs2 r -> 
+   solve_guard ρ (choice gs1 gs2) r  
+
+| s_choice_fail_r ρ gs1 gs2 r : 
+   solve_guards ρ gs2 failed -> 
+   solve_guards ρ gs1 r -> 
+   solve_guard ρ (choice gs1 gs2) r  
+
+| s_choice_succ_l ρ ρ' gs1 gs2 : 
+   solve_guards ρ gs1 (refined ρ') -> 
+   solve_guard ρ (choice gs1 gs2) (refined ρ')
+
+| s_choice_succ_r ρ ρ' gs1 gs2 : 
+   solve_guards ρ gs2 (refined ρ') -> 
+   solve_guard ρ (choice gs1 gs2) (refined ρ')
+
+   
+with unify : Tm -> Tm -> UnificationResult -> Prop := 
+
 
 
 with eval_all : env -> list Tm -> list Val -> Prop := 
@@ -238,14 +287,7 @@ with eval_all : env -> list Tm -> list Val -> Prop :=
 
        eval ρ e v -> eval_all ρ es vs 
       (******************************) ->
-       eval_all ρ (e :: es) (v :: vs). 
-
-(* Inductive unify : Tm -> Tm -> Prop := 
-| u_val : 
-
-| g_comp : Val -> Guard
-| g_eqn : Tm -> Tm -> Guard    (* t1 = t2 *)
-| g_choice : Guard -> list Guard -> Guard -> list Guard -> Guard  *)
+       eval_all ρ (e :: es) (v :: vs).
 
 
 
