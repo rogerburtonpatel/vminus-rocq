@@ -19,7 +19,6 @@ fi
 *)
 
 From Stdlib Require Import List. 
-From Stdlib Require Import List. 
 From Stdlib Require Import String. 
 Import ListNotations.
 From Stdlib Require Import Datatypes. (* option *)
@@ -34,8 +33,7 @@ Inductive Val : Type :=
 
 
 Inductive Tm : Type :=
-| tvar : name -> Tm                
-| ret : Val -> Tm                  
+| var : name -> Tm                
 | vconapp : vconname -> list Tm -> Tm 
 | iffi : list IffiBranch -> Tm
 (* if 
@@ -104,16 +102,153 @@ Inductive MaybeVal : Type :=
 Definition env := partial_map MaybeVal. 
 
 (***************** EVALUATION AND UNIFICATION *****************)
-Inductive eval : env -> Tm -> Val -> Prop := 
-| E_fail : forall rho v, eval rho (ret v) v
 
-with unify : env -> Tm -> Tm -> Prop :=
-| U_foo : forall rho e1 e2, unify rho e1 e2. 
+(* Helpers *)
+
+Definition not_in_dom (x : name) (ρ : env) := 
+   ρ x = None. 
+
+Notation " x '∉' ρ " := (not_in_dom x ρ) 
+(at level 70, ρ at level 70, no associativity).
+
+Definition unknown_in (x : name) (ρ : env) := 
+   ρ x = Some Bot. 
+
+Notation "ρ x '=' '⊥' " := (unknown_in x ρ) 
+(at level 70, no associativity).
+
+Definition known_in (x : name) (ρ : env) := 
+   exists v, ρ x = Some (V v). 
+
+Notation "ρ x '=' 'known' " := (known_in x ρ) 
+(at level 70, no associativity).
+
+Definition x_is_v_in_rho (x : name) (ρ : env) (v : Val) := 
+   ρ x = Some (V v). 
+
+Notation "ρ x '=' v" := (x_is_v_in_rho x ρ v) 
+(at level 70, no associativity).
+
+Notation "'if_' gs 'fi'" := (iffi gs)
+(at level 0, no associativity).
+
+Definition extend : env -> list name -> env := 
+fun ρ xs => 
+  fold_left (fun ρ x => update ρ x Bot) xs ρ. 
+
+(* ask about levels, best practice *)
+Notation "ρ '<+>' xs" := (extend ρ xs)
+(at level 71, left associativity).
+
+Inductive UnificationResult : Type :=
+| refined : env -> UnificationResult 
+| failed  : UnificationResult. Notation "†" := failed (at level 0).
+
+(* this is probably somewhere... *)
+
+(* semantics *)
+
+Definition unifyval : Val -> Val -> Prop := 
+fun v1 v2 =>    
+match v1, v2 with 
+| vcon K1 vs1, vcon K2 vs2 => K1 = K2 /\ vs1 = vs2
+| fail, _ => False 
+| _, fail => False
+end. 
+
+(* ask about typeclass notation *)
+
+(* RESOLVE NONDETERMINISM *)
+(* picks a guard and returns the rest of the list *)
+Definition pick_a_guard : list Guard -> option Guard * list Guard := 
+   fun gs => 
+   match gs with 
+   | [] => (None, [])
+   | g :: gs => (Some g, gs)
+end. 
+
+Inductive eval : env -> Tm -> Val -> Prop := 
+| e_name ρ x v : ρ x = Some (V v) -> eval ρ (var x) v
+
+| e_vconapp ρ K es vs : 
+
+   eval_all ρ es vs 
+   (*******************) -> 
+   eval ρ (vconapp K es) (vcon K vs)
+
+| e_iffi_fail ρ : eval ρ (if_ [] fi) fail
+
+| e_iffi_first ρ G GS v : 
+
+   eval_iffi_branch ρ G v 
+  (************************) ->
+   eval ρ (if_ G::GS fi) v
+
+| e_iffi_rec ρ G GS v : 
+
+  eval_iffi_branch ρ G fail -> 
+  eval ρ (if_ GS fi) v 
+  (*****************************) ->
+  eval ρ (if_ G::GS fi) v
+
+with eval_iffi_branch : env -> IffiBranch -> Val -> Prop := 
+| ebr_names ρ xs ge v : 
+  
+      eval_gexp (ρ <+> xs) ge v
+    (*******************************) ->
+    eval_iffi_branch ρ (iffibranch xs ge) v 
+
+with eval_gexp : env -> GuardedExp -> Val -> Prop := 
+| eg_gs_fail ρ ρ' gs e v : 
+
+            solve_guards ρ gs failed -> 
+            eval ρ' e v 
+     (************************************) ->
+      eval_gexp ρ' (guardedexp gs e) fail 
+
+
+| eg_gs_succ ρ ρ' gs e v : 
+
+            solve_guards ρ gs (refined ρ') -> 
+            eval ρ' e v 
+     (************************************) ->
+      eval_gexp ρ' (guardedexp gs e) v 
+
+
+with solve_guards : env -> list Guard -> UnificationResult -> Prop := 
+| sgs_empty ρ : solve_guards ρ [] (refined ρ) 
+
+(* adding a rule for None means that 'compiler stuck' failure is 
+expected stepping behavior *)
+| sgs_fail ρ g gs gs' : 
+
+    pick_a_guard gs = (Some g, gs') -> 
+      solve_guard ρ g failed
+   (*********************************) ->
+      solve_guards ρ (g::gs) failed
+with solve_guard : env -> Guard -> UnificationResult -> Prop := 
+| s_gcomp_fail 
+| s_gcomp_succ 
+| s_gcomp_succ 
+
+
+with eval_all : env -> list Tm -> list Val -> Prop := 
+| eall_nil ρ : eval_all ρ [] []
+| eall_cons ρ e es v vs : 
+
+       eval ρ e v -> eval_all ρ es vs 
+      (******************************) ->
+       eval_all ρ (e :: es) (v :: vs). 
+
+(* Inductive unify : Tm -> Tm -> Prop := 
+| u_val : 
+
+| g_comp : Val -> Guard
+| g_eqn : Tm -> Tm -> Guard    (* t1 = t2 *)
+| g_choice : Guard -> list Guard -> Guard -> list Guard -> Guard  *)
+
+
 
 (* reserved notation *)
 
-(* Inductive UnificationResult : Type := *)
 
-
-(* Inductive unify : Guard -> Guard -> Prop := 
-|  *)
