@@ -32,8 +32,11 @@ Inductive Val : Type :=
 | fail : Val.                     (* fail *)
 
 
+
 Inductive Tm : Type :=
-| var : name -> Tm                
+| var : name -> Tm           
+     (* variables as values + env with closed values or
+     variables as terms? *)
 | vconapp : vconname -> list Tm -> Tm 
 | iffi : list IffiBranch -> Tm
 (* if 
@@ -52,6 +55,10 @@ Inductive Tm : Type :=
 
 (***************** IF-FI, GUARDS *****************)
 
+(* invariant: names are unique. but this is hard to maintain. 
+   might want to use de bruijn. *)
+   (* might be worth considering uniqueness of names + uniqueness proof *)
+   (* alternatively de bruijn with permutation *)
 with IffiBranch : Type := 
 | iffibranch : list name -> GuardedExp -> IffiBranch
             (* ∃ x1 x2 ... . g1; g2; ... -> e *)
@@ -101,6 +108,16 @@ Inductive MaybeVal : Type :=
    lookup x env = V v for some v when x ∈ dom env and bound  *)
 Definition env := partial_map MaybeVal. 
 
+(* 
+idea: 
+missing : none 
+bottom  : some none 
+there v : some some (V v)
+
+(* consider if need to reprove things about these types that are iso to option *)
+
+*)
+
 (***************** EVALUATION AND UNIFICATION *****************)
 
 (* Helpers *)
@@ -140,9 +157,11 @@ fun ρ xs =>
 Notation "ρ '<+>' xs" := (extend ρ xs)
 (at level 71, left associativity).
 
+Definition bind x v ρ := update ρ x (V v).
+
 Inductive UnificationResult : Type :=
 | refined : env -> UnificationResult 
-| failed  : UnificationResult. Notation "†" := failed (at level 0).
+| failed : UnificationResult. Notation "†" := failed (at level 0).
 
 (* this is probably somewhere... *)
 
@@ -160,19 +179,30 @@ end.
 
 (* RESOLVE NONDETERMINISM *)
 (* picks a guard and returns the rest of the list *)
-Definition pick_a_guard : list Guard -> option Guard * list Guard := 
+
+(* true nondeterminisim: make pick_a_guard in Prop *)
+(* Definition pick_a_guard : list Guard -> option Guard * list Guard := 
    fun gs => 
    match gs with 
    | [] => (None, [])
    | g :: gs => (Some g, gs)
-end. 
+end.  *)
+
+Inductive pick_a_guard : list Guard -> Guard -> list Guard -> Prop := 
+| pick_head g gs : 
+   pick_a_guard (g::gs) g gs
+| pick_next g g' gs gs' : 
+   pick_a_guard gs g' gs' -> 
+   pick_a_guard (g::gs) g' (g::gs'). 
+
+
 
 Inductive eval : env -> Tm -> Val -> Prop := 
 | e_name ρ x v : ρ x = Some (V v) -> eval ρ (var x) v
 
 | e_vconapp ρ K es vs : 
 
-   eval_all ρ es vs 
+      eval_all ρ es vs 
    (*******************) -> 
    eval ρ (vconapp K es) (vcon K vs)
 
@@ -199,10 +229,9 @@ with eval_iffi_branch : env -> IffiBranch -> Val -> Prop :=
     eval_iffi_branch ρ (iffibranch xs ge) v 
 
 with eval_gexp : env -> GuardedExp -> Val -> Prop := 
-| eg_gs_fail ρ ρ' gs e v : 
+| eg_gs_fail ρ ρ' gs e : 
 
-            solve_guards ρ gs failed -> 
-            eval ρ' e v 
+            solve_guards ρ gs †
      (************************************) ->
       eval_gexp ρ' (guardedexp gs e) fail 
 
@@ -222,16 +251,16 @@ with solve_guards : env -> list Guard -> UnificationResult -> Prop :=
 expected stepping behavior *)
 | sgs_fail ρ g gs gs' : 
 
-    pick_a_guard gs = (Some g, gs') -> 
-      solve_guard ρ g failed
+    pick_a_guard gs g gs' -> 
+      solve_guard ρ g †
    (*********************************) ->
-      solve_guards ρ gs failed
+      solve_guards ρ gs †
 
 | sgs_rec ρ ρ' g gs gs' r : 
 
-    pick_a_guard gs = (Some g, gs') -> 
+      pick_a_guard gs g gs' -> 
       solve_guard ρ g (refined ρ') -> 
-    solve_guards ρ' gs' r 
+      solve_guards ρ' gs' r 
    (*********************************) ->
       solve_guards ρ gs r
 
@@ -248,7 +277,7 @@ with solve_guard : env -> Guard -> UnificationResult -> Prop :=
    solve_guard ρ (comp e) (refined ρ)
 
 | s_eqn ρ e1 e2 r : 
-   unify e1 e2 r -> 
+   unify ρ e1 e2 r -> 
    solve_guard ρ (eqn e1 e2) r
 
 | s_choice_empty1 ρ gs2 : 
@@ -259,12 +288,12 @@ with solve_guard : env -> Guard -> UnificationResult -> Prop :=
 
 (* choice should go either way *)
 | s_choice_fail_l ρ gs1 gs2 r : 
-   solve_guards ρ gs1 failed -> 
+   solve_guards ρ gs1 † -> 
    solve_guards ρ gs2 r -> 
    solve_guard ρ (choice gs1 gs2) r  
 
 | s_choice_fail_r ρ gs1 gs2 r : 
-   solve_guards ρ gs2 failed -> 
+   solve_guards ρ gs2 † -> 
    solve_guards ρ gs1 r -> 
    solve_guard ρ (choice gs1 gs2) r  
 
@@ -277,9 +306,25 @@ with solve_guard : env -> Guard -> UnificationResult -> Prop :=
    solve_guard ρ (choice gs1 gs2) (refined ρ')
 
    
-with unify : Tm -> Tm -> UnificationResult -> Prop := 
+with unify : env -> Tm -> Tm -> UnificationResult -> Prop := 
+(* unification with a failing term fails *)
+| u_fail_l ρ e1 e2 : 
+   eval ρ e1 fail -> 
+   unify ρ e1 e2 †
+
+| u_fail_r ρ e1 e2 : 
+   eval ρ e2 fail -> 
+   unify ρ e1 e2 †
+
+| u_bind_l ρ x e2 v : 
+
+   eval ρ e2 v -> 
+   unify ρ (var x) e2 (refined (bind x v ρ))
+
+(*  *)
 
 
+with unifyall : list Tm -> list Tm -> UnificationResult -> Prop := 
 
 with eval_all : env -> list Tm -> list Val -> Prop := 
 | eall_nil ρ : eval_all ρ [] []
@@ -289,8 +334,28 @@ with eval_all : env -> list Tm -> list Val -> Prop :=
       (******************************) ->
        eval_all ρ (e :: es) (v :: vs).
 
-
+(* our list: 
+unify 
+nice typeclass notation 
+option vs result? 
+inline iffibranch and guardedexp 
+*)
 
 (* reserved notation *)
 
 
+(* future directions/examples:
+if 
+x = 3; y = <failing term> -> x + 1 
+fi 
+
+do we want to optimize out y? currently it's not a sound optimization. 
+we could intersect the rhs (x + 1) with the 
+free variables (x) and get rid of the rest _as a part of the semantics_ . 
+this does make things less predictable. 
+
+*)
+
+(* BIGGEST NEXT STEP: *)
+(* variables are values. we do substitution with variables. unification runs 
+and produces the most general solution. *)
