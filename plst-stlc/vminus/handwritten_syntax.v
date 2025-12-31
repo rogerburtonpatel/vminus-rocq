@@ -163,8 +163,6 @@ Inductive UnificationResult : Type :=
 | refined : env -> UnificationResult 
 | failed : UnificationResult. Notation "†" := failed (at level 0).
 
-(* this is probably somewhere... *)
-
 (* semantics *)
 
 Definition unifyval : Val -> Val -> Prop := 
